@@ -14,18 +14,25 @@ def getSubmissions(root):
 def getSubmitters(root, listing):
 	submitters = []
 	for infile in listing:
+		if infile == ".DS_Store":
+			continue
 		path = root + infile
 		submitters.append(path)
 	return submitters
 
 def getSubmission(path):
+	start = 0
 	sub = os.listdir(path)
-	newPath = path + '/' + sub[0]
+	if sub[0] == ".DS_Store":
+		start = 1
+	newPath = path + '/' + sub[start]
 	submission = ""
 	content = []
 	if os.path.exists(newPath):
 		submission = os.listdir(newPath)
 	for infile in submission:
+		if infile == ".DS_Store":
+			continue
 		content.append(newPath + '/' + infile)
 	return content
 
@@ -92,40 +99,61 @@ class EvaluationParser(HTMLParser.HTMLParser):
 			self.data.append(data)
 
 def FormatSubmissionToJSON(submission):
+
+	data = {}
+
 	# reflection
 	parser = ReflectionParser()
 	f = open(getReflection(submission))
 	p = f.read()
 	parser.feed(p)
-	reflection = parser.data[1]
+	if len(parser.data) < 2:
+		data["reflection"] = ""
+	else:
+		data["reflection"] = parser.data[1]
+
+	# early exit if no evaluations were written
+	if len(submission) < 2:
+		return data
 
 	# evaluation
 	parser = EvaluationParser()
-	f = open(getEvaluations(submission)[1])
-	p = f.read()
-	parser.feed(p)
-	evaluation = parser.data
-
-	print(evaluation)
-
-	data = {
-		"reflection": reflection,
-		"evaluation": {
+	evals = getEvaluations(submission)
+	evalsData = {}
+	count = 0
+	for e in evals:
+		f = open(e)
+		p = f.read()
+		parser.feed(p)
+		evaluation = parser.data
+		evalLength = len(evaluation)
+		if evalLength == 0:
+			break
+		elif evalLength > 7:
+			comments = evaluation[7]
+		else:
+			comments = ""
+		evalsData[count] = {
 			"clarity": evaluation[1],
 			"comprehension": evaluation[3],
 			"reflection": evaluation[5],
-			"comments": evaluation[7]
+			"comments": comments
 		}
-	}
+		count += 1
+
+	data["evaluations"] = evalsData
 	return data
 
 
 submissions = getSubmissions('assessment3/')
 
+data = {}
+
+count = 0
 for s in submissions:
-	data = FormatSubmissionToJSON(s)
+	data[count] = FormatSubmissionToJSON(s)
+	count += 1
 
 with open('submissions.json', 'w') as f:
 	json.dump(data, f)
-
 
