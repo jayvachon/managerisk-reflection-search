@@ -117,11 +117,11 @@ def FormatSubmissionToJSON(submission):
 		return data
 
 	# evaluation
-	parser = EvaluationParser()
 	evals = getEvaluations(submission)
-	evalsData = {}
+	evalsData = []
 	count = 0
 	for e in evals:
+		parser = EvaluationParser()
 		f = open(e)
 		p = f.read()
 		parser.feed(p)
@@ -133,12 +133,12 @@ def FormatSubmissionToJSON(submission):
 			comments = evaluation[7]
 		else:
 			comments = ""
-		evalsData[count] = {
+		evalsData.append ({
 			"clarity": evaluation[1],
 			"comprehension": evaluation[3],
 			"reflection": evaluation[5],
 			"comments": comments
-		}
+		})
 		count += 1
 
 	data["evaluations"] = evalsData
@@ -148,12 +148,13 @@ def FormatSubmissionToJSON(submission):
 submissions = getSubmissions('assessment3/')
 
 data = {}
+arr = []
 
-count = 0
 for s in submissions:
-	data[count] = FormatSubmissionToJSON(s)
-	count += 1
+	arr.append(FormatSubmissionToJSON(s))
+
+data["submissions"] = arr
 
 with open('submissions.json', 'w') as f:
-	json.dump(data, f)
+	json.dump(data, f, ensure_ascii = False, indent = 4)
 
