@@ -116,6 +116,9 @@ def FormatSubmissionToJSON(submission):
 	p = f.read()
 	parser.feed(p)
 	parserDataCount = len(parser.data)
+
+	data["title"] = parser.data[0]
+
 	text = ""
 	if parserDataCount < 2:
 		data["reflection"] = ""
