@@ -28,6 +28,7 @@ def getSubmission(path):
 	newPath = path + '/' + sub[start]
 	submission = ""
 	content = []
+	content.append(newPath) ###
 	if os.path.exists(newPath):
 		submission = os.listdir(newPath)
 	for infile in submission:
@@ -44,10 +45,10 @@ def getReflection(submission):
 def getEvaluations(submission):
 	length = len(submission)
 	# early exit if no evaluations were submitted
-	if length < 2:
+	if length < 3:
 		return []
 	evals = []
-	for f in range(0, length - 1):
+	for f in range(1, length - 1):
 		evalFolder = os.listdir(submission[f])
 		for infile in evalFolder:
 			evals.append(submission[f] + '/' + infile)
@@ -62,16 +63,20 @@ class ReflectionParser(HTMLParser.HTMLParser):
 
 	def handle_starttag(self, tag, attrs):
 		if tag == 'title':
-			self.recording = 1
+ 			self.recording = 1
 		elif tag == 'div':
+			if self.recording > 0:
+				self.recording += 1
 			for name, value in attrs:
 				if value == 'field-value':
 					self.recording = 1
 
 	def handle_endtag(self, tag):
+		if self.recording == False:
+			return
 		if tag == 'title':
 			self.recording -= 1
-		if tag == 'div' and self.recording:
+		if tag == 'div':
 			self.recording -= 1
 
 	def handle_data(self, data):
@@ -102,18 +107,25 @@ def FormatSubmissionToJSON(submission):
 
 	data = {}
 
+	# file path to submission
+	data["path"] = submission[0]
+
 	# reflection
 	parser = ReflectionParser()
 	f = open(getReflection(submission))
 	p = f.read()
 	parser.feed(p)
-	if len(parser.data) < 2:
+	parserDataCount = len(parser.data)
+	text = ""
+	if parserDataCount < 2:
 		data["reflection"] = ""
 	else:
-		data["reflection"] = parser.data[1]
+		for i in range(1, parserDataCount):
+			text += parser.data[i]
+	data["reflection"] = text
 
 	# early exit if no evaluations were written
-	if len(submission) < 2:
+	if len(submission) < 3:
 		return data
 
 	# evaluation

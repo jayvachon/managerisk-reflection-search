@@ -28,10 +28,37 @@
 	"buffers":
 	[
 		{
+			"contents": "import os\nimport HTMLParser\nimport json\n\n# These functions navigate the directory to find the submissions and evaluations\ndef getSubmissions(root):\n	listing = os.listdir(root)\n	submitters = getSubmitters(root, listing)\n	submissions = []\n	for s in submitters:\n		submissions.append(getSubmission(s))\n	return submissions\n\ndef getSubmitters(root, listing):\n	submitters = []\n	for infile in listing:\n		if infile == \".DS_Store\":\n			continue\n		path = root + infile\n		submitters.append(path)\n	return submitters\n\ndef getSubmission(path):\n	start = 0\n	sub = os.listdir(path)\n	if sub[0] == \".DS_Store\":\n		start = 1\n	newPath = path + '/' + sub[start]\n	submission = \"\"\n	content = []\n	content.append(newPath) ###\n	if os.path.exists(newPath):\n		submission = os.listdir(newPath)\n	for infile in submission:\n		if infile == \".DS_Store\":\n			continue\n		content.append(newPath + '/' + infile)\n	return content\n\n# Grab the content from the submissions for parsing\ndef getReflection(submission):\n	length = len(submission)\n	return submission[length - 1]\n\ndef getEvaluations(submission):\n	length = len(submission)\n	# early exit if no evaluations were submitted\n	if length < 3:\n		return []\n	evals = []\n	for f in range(1, length - 1):\n		evalFolder = os.listdir(submission[f])\n		for infile in evalFolder:\n			evals.append(submission[f] + '/' + infile)\n	return evals\n\n# Parse the content\nclass ReflectionParser(HTMLParser.HTMLParser):\n	def __init__(self):\n		HTMLParser.HTMLParser.__init__(self)\n		self.recording = 0\n		self.data = []\n\n	def handle_starttag(self, tag, attrs):\n		if tag == 'title':\n 			self.recording = 1\n		elif tag == 'div':\n			for name, value in attrs:\n				if value == 'field-value':\n					self.recording = 1\n\n	def handle_endtag(self, tag):\n		if tag == 'title':\n			self.recording -= 1\n		if tag == 'div' and self.recording:\n			self.recording -= 1\n\n	def handle_data(self, data):\n		if self.recording:\n			self.data.append(data)\n\nclass EvaluationParser(HTMLParser.HTMLParser):\n	def __init__(self):\n		HTMLParser.HTMLParser.__init__(self)\n		self.recording = 0\n		self.data = []\n\n	def handle_starttag(self, tag, attrs):\n		if tag != 'div':\n			return\n		for name, value in attrs:\n			self.recording = 1\n\n	def handle_endtag(self, tag):\n		if tag == 'div' and self.recording:\n			self.recording -= 1\n\n	def handle_data(self, data):\n		if self.recording:\n			self.data.append(data)\n\ndef FormatSubmissionToJSON(submission):\n\n	data = {}\n\n	# file path to submission\n	data[\"path\"] = submission[0]\n\n	# reflection\n	parser = ReflectionParser()\n	f = open(getReflection(submission))\n	p = f.read()\n	parser.feed(p)\n	if len(parser.data) < 2:\n		data[\"reflection\"] = \"\"\n	else:\n		data[\"reflection\"] = parser.data[1]\n\n	# early exit if no evaluations were written\n	if len(submission) < 3:\n		return data\n\n	# evaluation\n	evals = getEvaluations(submission)\n	evalsData = []\n	count = 0\n	for e in evals:\n		parser = EvaluationParser()\n		f = open(e)\n		p = f.read()\n		parser.feed(p)\n		evaluation = parser.data\n		evalLength = len(evaluation)\n		if evalLength == 0:\n			break\n		elif evalLength > 7:\n			comments = evaluation[7]\n		else:\n			comments = \"\"\n		evalsData.append ({\n			\"clarity\": evaluation[1],\n			\"comprehension\": evaluation[3],\n			\"reflection\": evaluation[5],\n			\"comments\": comments\n		})\n		count += 1\n\n	data[\"evaluations\"] = evalsData\n	return data\n\n\nsubmissions = getSubmissions('assessment3/')\n\ndata = {}\narr = []\n\nfor s in submissions:\n	arr.append(FormatSubmissionToJSON(s))\n\ndata[\"submissions\"] = arr\n\nwith open('submissions.json', 'w') as f:\n	json.dump(data, f, ensure_ascii = False, indent = 4)\n\n",
 			"file": "managerisk-reflection.py",
+			"file_size": 3540,
+			"file_write_time": 1411678234000000,
 			"settings":
 			{
-				"buffer_size": 2888,
+				"buffer_size": 3541,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/jamesvachon/Dropbox2/Dropbox/World Bank/Data/managerisk-001 game reflection/assessment3/submitter1019724/submission478/fields.html",
+			"settings":
+			{
+				"buffer_size": 4028,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assessment3/submitter16926/submission559/fields.html",
+			"settings":
+			{
+				"buffer_size": 1879,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "text-search.py",
+			"settings":
+			{
+				"buffer_size": 88,
 				"line_ending": "Unix"
 			}
 		},
@@ -39,7 +66,7 @@
 			"file": "submissions.json",
 			"settings":
 			{
-				"buffer_size": 2076,
+				"buffer_size": 3590522,
 				"line_ending": "Unix"
 			}
 		}
@@ -116,6 +143,7 @@
 	},
 	"file_history":
 	[
+		"/Users/jamesvachon/Developer/git-repositories/managerisk-reflection-search/submissions.json",
 		"/Users/jamesvachon/Documents/Unity Projects/Astro Assembly/DNA/DNA/Assets/Scripts/Step.cs",
 		"/Users/jamesvachon/Documents/Web/EGL/managerisk-reflection/managerisk-reflection.sublime-project",
 		"/Users/jamesvachon/Documents/Web/EGL/managerisk-reflection/managerisk-reflection.py",
@@ -188,6 +216,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"infile",
+			"ds_store",
+			"getsubmission",
+			"getevaluations`",
+			"getevaluations",
 			"submissions",
 			"evals",
 			"evaluation",
@@ -310,12 +343,7 @@
 			"sleep",
 			"setuppeople",
 			"loaddata",
-			"height_buffer",
-			"hitlist",
-			"stopmove",
-			"preventmovement",
-			"500",
-			"_bindevents"
+			"height_buffer"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -333,7 +361,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -341,15 +369,15 @@
 					"file": "managerisk-reflection.py",
 					"settings":
 					{
-						"buffer_size": 2888,
+						"buffer_size": 3541,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								1539,
+								1539
 							]
 						],
 						"settings":
@@ -447,25 +475,375 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 704.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "submissions.json",
+					"file": "/Users/jamesvachon/Dropbox2/Dropbox/World Bank/Data/managerisk-001 game reflection/assessment3/submitter1019724/submission478/fields.html",
 					"settings":
 					{
-						"buffer_size": 2076,
+						"buffer_size": 4028,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								676,
+								626
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 78.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "assessment3/submitter16926/submission559/fields.html",
+					"settings":
+					{
+						"buffer_size": 1879,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1245,
+								1245
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "text-search.py",
+					"settings":
+					{
+						"buffer_size": 88,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								88,
+								88
+							]
+						],
+						"settings":
+						{
+							"_anf_new": "",
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "submissions.json",
+					"settings":
+					{
+						"buffer_size": 3590522,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5628,
+								5628
 							]
 						],
 						"settings":
@@ -562,7 +940,7 @@
 							"syntax": "Packages/JavaScript/JSON.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 554.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -603,7 +981,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 240.0
+		"height": 239.0
 	},
 	"replace":
 	{
@@ -625,7 +1003,7 @@
 		[
 			[
 				"",
-				"/Users/jamesvachon/Developer/git-repositories/egl-homepage/egl-homepage.sublime-project"
+				"/Users/jamesvachon/Documents/Unity Projects/Astro Assembly/DNA/DNA/Assets/Scripts/dna.sublime-project"
 			]
 		],
 		"width": 380.0
@@ -633,7 +1011,7 @@
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": false,
+	"side_bar_visible": true,
 	"side_bar_width": 247.0,
 	"status_bar_visible": true
 }
