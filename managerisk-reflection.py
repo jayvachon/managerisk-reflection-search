@@ -1,8 +1,13 @@
+# 
+# This script goes through the assessment3/ directory, grabs all the evaluations 
+# and reflections and organizes them into a JSON file
+# 
+
 import os
 import HTMLParser
 import json
 
-# These functions navigate the directory to find the submissions and evaluations
+# Navigate the directory to find the submissions and evaluations
 def getSubmissions(root):
 	listing = os.listdir(root)
 	submitters = getSubmitters(root, listing)
@@ -159,15 +164,12 @@ def FormatSubmissionToJSON(submission):
 	data["evaluations"] = evalsData
 	return data
 
-
-submissions = getSubmissions('assessment3/')
-
-data = {}
 arr = []
-
+submissions = getSubmissions('assessment3/')
 for s in submissions:
 	arr.append(FormatSubmissionToJSON(s))
 
+data = {}
 data["submissions"] = arr
 
 with open('submissions.json', 'w') as f:
