@@ -1,2 +1,3 @@
 *.json
 !submissions.json
+!locations.json
