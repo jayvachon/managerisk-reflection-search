@@ -1,1 +1,2 @@
-
+*.json
+!submissions.json
