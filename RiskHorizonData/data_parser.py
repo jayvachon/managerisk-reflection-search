@@ -1,23 +1,8 @@
+
+# grabs the ip addresses from the data and finds the locations of the players, then writes the locations to a json file
+
 import json
 from urllib2 import Request, urlopen, URLError
-
-"""
-
-data to get:
--winning strategies?
--where people played
--how well people did depending on where they played
--how people played depending on where they played
--average sessions count
--how long people played for (time)
-
-break data up into thirds
-1. bottom 3rd
-2. middle 3rd
-3. upper 3rd
-look at: geography, strategy
-
-"""
 
 LOCAL = 0
 AMAZON = 1
@@ -58,7 +43,6 @@ def getLocation(index):
 
 def getLocations():
 	locations = []
-	# for i in range(len(data)):
 	length = len(data)
 	strlength = str(length)
 	for i in range(length):
