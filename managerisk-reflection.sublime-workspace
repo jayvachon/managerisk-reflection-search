@@ -104,9 +104,14 @@
 	},
 	"file_history":
 	[
-		"/Users/jamesvachon/Developer/git-repositories/managerisk-reflection-search/managerisk-reflection.py",
-		"/Users/jamesvachon/Developer/git-repositories/managerisk-reflection-search/text-search.py",
 		"/Users/jamesvachon/Developer/git-repositories/managerisk-reflection-search/submissions.json",
+		"/Users/jamesvachon/Developer/git-repositories/managerisk-reflection-search/text-search.py",
+		"/Users/jamesvachon/Developer/git-repositories/egl-homepage/egl-homepage.sublime-project",
+		"/Users/jamesvachon/Developer/git-repositories/egl-homepage/head.php",
+		"/Users/jamesvachon/Developer/git-repositories/egl-homepage/blog/index.php",
+		"/Users/jamesvachon/Developer/git-repositories/managerisk-reflection-search/guitest.py",
+		"/Users/jamesvachon/Developer/git-repositories/managerisk-reflection-search/managerisk-reflection.sublime-project",
+		"/Users/jamesvachon/Developer/git-repositories/managerisk-reflection-search/managerisk-reflection.py",
 		"/Users/jamesvachon/Documents/Unity Projects/Astro Assembly/DNA/DNA/Assets/Scripts/StepCreator.cs",
 		"/Users/jamesvachon/Downloads/tkinterEntryWidget.py",
 		"/Users/jamesvachon/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
@@ -123,7 +128,6 @@
 		"/Users/jamesvachon/Developer/git-repositories/egl-homepage/css/custom-boostrap.css",
 		"/Users/jamesvachon/Developer/git-repositories/egl-homepage/css/discrepancies-test/custom-boostrap.css",
 		"/Users/jamesvachon/Downloads/Website/css/custom-boostrap.css",
-		"/Users/jamesvachon/Developer/git-repositories/egl-homepage/head.php",
 		"/Users/jamesvachon/Developer/git-repositories/egl-homepage/index.php",
 		"/Users/jamesvachon/Developer/git-repositories/egl-homepage/nav.php",
 		"/Users/jamesvachon/Developer/git-repositories/egl-homepage/css/email-signup.css",
@@ -131,7 +135,6 @@
 		"/Users/jamesvachon/developer/git-repositories/egl-homepage/email-signup.php",
 		"/Users/jamesvachon/documents/web/egl/modules/signup-form.html",
 		"/Users/jamesvachon/Developer/git-repositories/egl-homepage/email-signup.css",
-		"/Users/jamesvachon/Developer/git-repositories/egl-homepage/egl-homepage.sublime-project",
 		"/Users/jamesvachon/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
 		"/Users/jamesvachon/Documents/Web/EGL/summit-proposal/index.html",
 		"/Users/jamesvachon/Library/Application Support/Sublime Text 2/Packages/User/Fetch.sublime-settings",
@@ -150,7 +153,6 @@
 		"/Users/jamesvachon/Documents/Unity Projects/EGL/Bluetooth test/BluetoothTest2/Assets/Plugins/iOS/UnityBluetoothLE.mm",
 		"/Users/jamesvachon/Documents/Unity Projects/EGL/Bluetooth test/BluetoothTest2/Assets/Plugins/BluetoothHardwareInterface.cs",
 		"/Users/jamesvachon/Documents/Unity Projects/EGL/Bluetooth test/BluetoothTest2/Assets/Example/Test/TestScript.cs",
-		"/Users/jamesvachon/Developer/git-repositories/egl-homepage/blog/index.php",
 		"/Users/jamesvachon/Developer/git-repositories/egl-homepage/js/other/blog.js",
 		"/Users/jamesvachon/Documents/Unity Projects/EGL/Bluetooth test/BluetoothTest2/Assets/Plugins/BluetoothDeviceScript.cs",
 		"/Users/jamesvachon/Library/Application Support/Sublime Text 2/Packages/User/Unity C#/public-function.sublime-snippet",
@@ -183,6 +185,13 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"utf-",
+			"utf",
+			"command=",
+			"displaytext",
+			"yscrollcommand",
+			"mainloop",
+			"found",
 			"event",
 			"\n	",
 			"length",
@@ -303,14 +312,7 @@
 			"setup",
 			"items",
 			"ready",
-			"setwalk",
-			"setuppeopl",
-			"animateperson",
-			"person",
-			"sleep",
-			"setuppeople",
-			"init",
-			"updateanimations"
+			"setwalk"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -327,11 +329,6 @@
 	},
 	"groups":
 	[
-		{
-			"sheets":
-			[
-			]
-		},
 		{
 			"sheets":
 			[
@@ -355,18 +352,11 @@
 				0,
 				1,
 				1
-			],
-			[
-				1,
-				0,
-				2,
-				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.5,
 			1.0
 		],
 		"rows":
@@ -378,7 +368,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 239.0
+		"height": 259.0
 	},
 	"replace":
 	{
@@ -409,6 +399,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": false,
-	"side_bar_width": 247.0,
+	"side_bar_width": 284.0,
 	"status_bar_visible": true
 }
