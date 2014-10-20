@@ -168,7 +168,7 @@ class GameDataParser:
 			levels = sessions[i]['levels']
 			for l in levels:
 				time += levelDuration
-			
+ 		
 		timePlayed['time'] = time
 		return timePlayed
 
@@ -222,11 +222,16 @@ def sanitizeGameData():
 	emptySessionCount = 0
 	for i in range(len(game_data)):
 		session = game_data[i]['session']
+		
 		# removes players who were not able to play the game
-		if len(session[0]['levels']) > 0:
-			g.append(game_data[i])
-		else:
-			emptySessionCount += 1
+		sessionCount = len(session)
+		for l in range(sessionCount):
+			if len(session[l]['levels']) > 0:
+				g.append(game_data[i])
+				break
+			elif l == sessionCount - 1:
+				emptySessionCount += 1
+		
 	print str(emptySessionCount) + " empty sessions"
 	return g
 
