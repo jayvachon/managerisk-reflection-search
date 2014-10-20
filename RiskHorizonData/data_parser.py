@@ -5,21 +5,16 @@ import operator
 
 class CountryDataParser:
 
-	def __init__(self, locations_data, countries_data):
+	def __init__(self, locations_data):
 		self.locations_data = locations_data
-		self.countries_data = countries_data
 		self.countries = self.getCountries()
-		# self.getCountryByIP('174.62.142.37, 205.251.250.127')
+		# self.listCountriesByPlays()
 
 	def getCountry(self, index):
-		location = ""
-		if 'location' in self.locations_data['locations'][index]:
-			location = self.locations_data['locations'][index]['location']
-			if 'country' in location:
-				if self.isEmersonIP(index):
-					return 'null'
-				return self.locations_data['locations'][index]['location']['country']
-		return 'null'
+		location = self.locations_data['locations'][index]['location']
+		if self.isEmersonIP(index):
+			return 'null'
+		return location['country_name']
 
 	def getCountries(self):
 		countries = {}
@@ -38,12 +33,9 @@ class CountryDataParser:
 		locations = locations_data['locations']
 		for i in range(len(locations)):
 			location = locations[i]
-			if 'ipv4' in location:
-				if location['ipv4'] == ip:
-					l = location['location']
-					if 'country' in l:
-						return l['country']
-
+			if location['ipv4'] == ip:
+				return location['location']['country_name']
+				
 	def getCountryPlayerCount(self, country):
 		return self.countries[country]
 
@@ -59,19 +51,13 @@ class CountryDataParser:
 		s = sorted(countries.items(), key=operator.itemgetter(1))
 		return s[::-1]
 
-	def isoToCountryName(self, iso):
-		for c in self.countries_data:
-			if iso in c.values():
-				return c['name']
-		return "couldn't find \"" + iso + "\""
-
 	# Returns a list of countries organized by number of players
 	def listCountriesByPlays(self):
 		sortedCountries = self.sortCountries(self.getCountries())
 		countryCount = len(sortedCountries)
 		print str(countryCount) + ' countries'
 		for c in sortedCountries:
-			name = self.isoToCountryName(c[0])
+			name = c[0]
 			players = c[1]
 			print name + ": " + str(players)
 
@@ -124,21 +110,20 @@ class GameDataParser:
 			else:
 				self.countriesLevels[country] = level
 		
+		# average the total^ with the number of players per country
 		self.avgLevels = {}
 		for c in countries:
 			playerCount = self.countryDataParser.getCountryPlayerCount(c)
 			if playerCount < minPlayerCount:
 				continue
 			avgLevel = self.countriesLevels[c] / playerCount
-			self.avgLevels[self.countryDataParser.isoToCountryName(c)] = avgLevel
-			# print self.countryDataParser.isoToCountryName(c) + ": " + str(avgLevel)
-		 
+			self.avgLevels[c] = avgLevel
+
 		self.avgLevels = sorted(self.avgLevels.items(), key=operator.itemgetter(1))
 		self.avgLevels = self.avgLevels[::-1]
 		for a in self.avgLevels:
 			print str(a[0]) + ": " + str(a[1])
 			
-
 
 def getJSONData(path):
 	print 'loading ' + path + '...'
@@ -147,11 +132,22 @@ def getJSONData(path):
 	print path + ' loaded'
 	return d
 
+def sanitizeLocations():
+	d = {}
+	d['locations'] = []
+	locations = locations_data['locations']
+	for location in locations:
+		if 'ipv4' in location:
+			if 'location' in location:
+				if 'city' in location['location']:
+					d['locations'].append(location)
+	return d
 
 locations_data = getJSONData('locations.json')
-countries_data = getJSONData('countries.json')
+locations_data = sanitizeLocations()
+
 game_data = getJSONData('json_parser/data/risk_horizon.json')
 
-cdp = CountryDataParser(locations_data, countries_data)
+cdp = CountryDataParser(locations_data)
 gdp = GameDataParser(game_data, cdp)
 

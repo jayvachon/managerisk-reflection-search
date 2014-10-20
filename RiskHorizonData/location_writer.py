@@ -7,10 +7,12 @@ from urllib2 import Request, urlopen, URLError
 LOCAL = 0
 AMAZON = 1
 
-def getJSONData():
-	json_data = open('json_parser/data/risk_horizon.json')
-	data = json.load(json_data)
-	return data
+def getJSONData(path):
+	print 'loading ' + path + '...'
+	json_data = open(path)
+	d = json.load(json_data)
+	print path + ' loaded'
+	return d
 
 def getLocation(index):
 
@@ -32,6 +34,9 @@ def getLocation(index):
 		if 'org' in location_data:
 			if location_data['org']:
 				location_data['org'] = location_data['org'].encode('utf-8')
+		if 'country' in location_data:
+			iso = location_data['country'].encode('utf-8')
+			location_data['country_name'] = isoToCountryName(iso)
 		
 		# create an object with the full ip and location data
 		d = {}
@@ -56,7 +61,13 @@ def writeLocationData(locations):
 	with open('locations.json', 'w') as f:
 		json.dump(location_data, f, ensure_ascii = False, indent = 4)
 
-print 'loading json data...'
-data = getJSONData()
-print 'data loaded'
+def isoToCountryName(iso):
+	for c in countries:
+		if iso in c.values():
+			return c['name']
+	return "couldn't find \"" + iso + "\""
+
+data = getJSONData('json_parser/data/risk_horizon.json')
+countries = getJSONData('countries.json')
+
 writeLocationData(getLocations())
