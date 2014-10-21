@@ -4,6 +4,26 @@
 		"selected_items":
 		[
 			[
+				"sani",
+				"sanitizeGameData"
+			],
+			[
+				"find",
+				"findPlayerHighestLevel"
+			],
+			[
+				"getH",
+				"getHighestAverageLevelByCountry"
+			],
+			[
+				"getCountry",
+				"getCountryByIp"
+			],
+			[
+				"getHih",
+				"getHighestLevelByIP"
+			],
+			[
 				"getRef",
 				"getReflectionSummary"
 			],
@@ -31,11 +51,27 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "RiskHorizonData/data_parser.py",
+			"settings":
+			{
+				"buffer_size": 6928,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "RiskHorizonData/json_parser/data/risk_horizon.json",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "Packages/Python/Python.sublime-build",
 	"command_palette":
 	{
-		"height": 367.0,
+		"height": 392.0,
 		"selected_items":
 		[
 			[
@@ -104,6 +140,19 @@
 	},
 	"file_history":
 	[
+		"/Users/jamesvachon/Developer/git-repositories/managerisk-reflection-search/RiskHorizonData/location_writer.py",
+		"/Users/jamesvachon/Developer/git-repositories/managerisk-reflection-search/RiskHorizonData/locations.json",
+		"/Users/jamesvachon/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/jamesvachon/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/jamesvachon/Developer/git-repositories/managerisk-reflection-search/RiskHorizonData/countries.json",
+		"/Users/jamesvachon/Developer/git-repositories/managerisk-reflection-search/RiskHorizonData/data_parser.py",
+		"/Users/jamesvachon/Developer/git-repositories/managerisk-reflection-search/RiskHorizonData/json_parser/data/risk_horizon.json",
+		"/Users/jamesvachon/Developer/git-repositories/managerisk-reflection-search/RiskHorizonReflections/managerisk-reflection.py",
+		"/Users/jamesvachon/Developer/git-repositories/managerisk-reflection-search/RiskHorizonReflections/submissions.json",
+		"/Users/jamesvachon/Developer/git-repositories/managerisk-reflection-search/RiskHorizonReflections/text-search.py",
+		"/Users/jamesvachon/Developer/git-repositories/managerisk-reflection-search/.gitignore",
+		"/Users/jamesvachon/Developer/git-repositories/managerisk-reflection-search/RiskHorizonData/rh_data/data/risk_horizon.json",
+		"/Users/jamesvachon/Developer/git-repositories/managerisk-reflection-search/RiskHorizonData/rh_data/data/risk_horizon2.json",
 		"/Users/jamesvachon/Developer/git-repositories/managerisk-reflection-search/submissions.json",
 		"/Users/jamesvachon/Developer/git-repositories/managerisk-reflection-search/text-search.py",
 		"/Users/jamesvachon/Developer/git-repositories/egl-homepage/egl-homepage.sublime-project",
@@ -114,7 +163,6 @@
 		"/Users/jamesvachon/Developer/git-repositories/managerisk-reflection-search/managerisk-reflection.py",
 		"/Users/jamesvachon/Documents/Unity Projects/Astro Assembly/DNA/DNA/Assets/Scripts/StepCreator.cs",
 		"/Users/jamesvachon/Downloads/tkinterEntryWidget.py",
-		"/Users/jamesvachon/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 		"/Users/jamesvachon/Dropbox2/Dropbox/World Bank/Data/managerisk-001 game reflection/assessment3/submitter1019724/submission478/fields.html",
 		"/Users/jamesvachon/Developer/git-repositories/managerisk-reflection-search/assessment3/submitter16926/submission559/fields.html",
 		"/Users/jamesvachon/Documents/Unity Projects/Astro Assembly/DNA/DNA/Assets/Scripts/Step.cs",
@@ -135,7 +183,6 @@
 		"/Users/jamesvachon/developer/git-repositories/egl-homepage/email-signup.php",
 		"/Users/jamesvachon/documents/web/egl/modules/signup-form.html",
 		"/Users/jamesvachon/Developer/git-repositories/egl-homepage/email-signup.css",
-		"/Users/jamesvachon/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
 		"/Users/jamesvachon/Documents/Web/EGL/summit-proposal/index.html",
 		"/Users/jamesvachon/Library/Application Support/Sublime Text 2/Packages/User/Fetch.sublime-settings",
 		"/Users/jamesvachon/Developer/git-repositories/summit-proposal/src/css/main.css",
@@ -185,6 +232,33 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"2.219.235.104, 54.240.147.13",
+			"game_data",
+			"groupPlayersBySuccess",
+			"timePlayed",
+			"playersHighestLevels",
+			"highestLevels",
+			"getHighestLevelsByIP",
+			"getHighestLevelByIP",
+			"game_data",
+			"gettimeplayedbyip",
+			"\"level\": 6",
+			"highestlevels",
+			"1",
+			"game_data",
+			"countrieslevels",
+			"isotocountryname",
+			"countries_data",
+			"listcountriesbyplays",
+			"getcountries",
+			"sortcountries",
+			"isotocountryname",
+			"location_data",
+			"countries",
+			"emerson",
+			"data",
+			"utf",
+			"os",
 			"utf-",
 			"utf",
 			"command=",
@@ -285,34 +359,7 @@
 			"speed",
 			"_slidescreen",
 			"longest",
-			"pageyoffset",
-			"pageXOffset",
-			"oageXOffset",
-			"pagexoffset",
-			"player.x",
-			"_tick",
-			"player.y",
-			"input",
-			"idle",
-			"coffeemak",
-			"setuppeople",
-			"occx",
-			"bottom",
-			"russell",
-			"getting cold",
-			"hi i am",
-			"rob",
-			".animating",
-			"zindex",
-			"stopmove",
-			"intransit",
-			"animatewalk",
-			"slidescreen",
-			"setzindex",
-			"setup",
-			"items",
-			"ready",
-			"setwalk"
+			"pageyoffset"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -330,8 +377,243 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "RiskHorizonData/data_parser.py",
+					"settings":
+					{
+						"buffer_size": 6928,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5819,
+								5819
+							]
+						],
+						"settings":
+						{
+							"_anf_new": "",
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 3310.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "RiskHorizonData/json_parser/data/risk_horizon.json",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -368,7 +650,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 259.0
+		"height": 286.0
 	},
 	"replace":
 	{

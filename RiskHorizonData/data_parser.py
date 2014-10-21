@@ -67,10 +67,18 @@ class GameDataParser:
 		self.game_data = game_data
 		self.countryDataParser = countryDataParser
 		self.playersHighestLevels = self.getPlayersHighestLevel()
+		self.tierCounts = self.getTierCounts()
 		# self.getHighestAverageLevelByCountry()
 		# print self.getTimePlayedByIP(0)
 		# print self.getPlayersHighestLevel()
-		self.getTimesPlayedByTier()
+		# self.getTimesPlayedByTier()
+		self.getGameCountByTier()
+
+	def getIPAtIndex(self, index):
+		return game_data[index]['ipv4']
+
+	def getSessionsAtIndex(self, index):
+		return game_data[index]['session']
 
 	def getFinalLevels(self):
 		# returns an array of players' last levels
@@ -98,9 +106,9 @@ class GameDataParser:
 			return 3
 
 	def getPlayerHighestLevel(self, index):
-		sessions = game_data[index]['session']
+		sessions = self.getSessionsAtIndex(index)
 		highestLevel = {}
-		highestLevel['ip'] = game_data[index]['ipv4']
+		highestLevel['ip'] = self.getIPAtIndex(index)
 		highestLevel['level'] = 0
 		for i in range(len(sessions)):
 			levels = sessions[i]['levels']
@@ -159,9 +167,9 @@ class GameDataParser:
 
 	def getTimePlayedByIP(self, index):
 		# gets the total amount of time, in minutes, that a player played the game
-		sessions = game_data[index]['session']
+		sessions = self.getSessionsAtIndex(index)
 		timePlayed = {}
-		timePlayed['ip'] = game_data[index]['ipv4']
+		timePlayed['ip'] = self.getIPAtIndex(index)
 		time = 0
 		levelDuration = 3 # minutes
 		for i in range(len(sessions)):
@@ -175,13 +183,14 @@ class GameDataParser:
 	def getTimesPlayedByTier(self):
 		plays = []
 
-		# makes an array with entries containing ip, tier, and total time played
+		# make an array with entries containing ip, tier, and total time played
 		for i in range(len(game_data)):
 			play = self.getTimePlayedByIP(i)
 			level = self.findPlayerHighestLevel(play['ip'])
 			play['tier'] = self.getTier(level)
 			plays.append(play)
 
+		# get the total time played by all players, per tier
 		totalTierTime = [0, 0, 0]
 		for p in plays:
 			tier = p['tier']
@@ -189,13 +198,58 @@ class GameDataParser:
 			if p['time'] < 3:
 				print p['time']
 
-		tierCounts = self.getTierCounts();
+		# average out the total time over all players
+		# tierCounts = self.tierCounts
 		avgTimePlayedPerTier = []
 		for i in range(3):
-			avgTimePlayedPerTier.append(totalTierTime[i] / tierCounts[i])
+			avgTimePlayedPerTier.append(totalTierTime[i] / self.tierCounts[i])
 
 		print avgTimePlayedPerTier
 
+	def getGameCountByIP(self, index):
+		sessions = self.getSessionsAtIndex(index)
+		gamesPlayed = {}
+		gamesPlayed['ip'] = self.getIPAtIndex(index)
+		gameCount = 0
+		for i in range(len(sessions)):
+			levels = sessions[i]['levels']
+			for l in levels:
+				if l['level'] == 1:
+					gameCount += 1
+
+		# in case data from level 1s wasn't collected, count level 2s played
+		if gameCount == 0:
+			for i in range(len(sessions)):
+				levels = sessions[i]['levels']
+				for l in levels:
+					if l['level'] == 2:
+						gameCount += 1
+		
+		gamesPlayed['games'] = gameCount
+		return gamesPlayed
+
+
+	def getGameCountByTier(self):
+		gameCounts = []
+
+		for i in range(len(game_data)):
+			gameCount = self.getGameCountByIP(i)
+			level = self.findPlayerHighestLevel(gameCount['ip'])
+			gameCount['tier'] = self.getTier(level)
+			gameCounts.append(gameCount)
+
+		totalGameCounts = [0, 0, 0]
+		for gc in gameCounts:
+			tier = gc['tier']
+			totalGameCounts[tier - 1] += gc['games']
+			if gc['games'] == 0:
+				print gc['ip'] + " " + str(gc['games'])
+
+		avgGameCountPerTier = []
+		for i in range(3):
+			avgGameCountPerTier.append(totalGameCounts[i] / self.tierCounts[i])
+
+		print avgGameCountPerTier
 
 
 
@@ -224,12 +278,21 @@ def sanitizeGameData():
 		session = game_data[i]['session']
 		
 		# removes players who were not able to play the game
+		# or where data was not collected
 		sessionCount = len(session)
-		for l in range(sessionCount):
-			if len(session[l]['levels']) > 0:
-				g.append(game_data[i])
+		for s in range(sessionCount):
+			levels = session[s]['levels']
+			if len(levels) > 0:
+				hasLevel1 = False
+				for l in levels:
+					if l['level'] == 1:
+						g.append(game_data[i])
+						hasLevel1 = True
+						break
+				if hasLevel1 == False:
+					emptySessionCount += 1	
 				break
-			elif l == sessionCount - 1:
+			elif s == sessionCount - 1:
 				emptySessionCount += 1
 		
 	print str(emptySessionCount) + " empty sessions"
