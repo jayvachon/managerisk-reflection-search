@@ -1,0 +1,393 @@
+{
+    "status": "OK", 
+    "totalTransactions": "2", 
+    "language": "english", 
+    "url": "", 
+    "keywords": [
+        {
+            "relevance": "0.901128", 
+            "text": "risk management", 
+            "sentiment": {
+                "score": "-0.518475", 
+                "type": "negative"
+            }
+        }, 
+        {
+            "relevance": "0.751383", 
+            "text": "time", 
+            "sentiment": {
+                "mixed": "1", 
+                "score": "0.228783", 
+                "type": "positive"
+            }
+        }, 
+        {
+            "relevance": "0.68279", 
+            "text": "community connections", 
+            "sentiment": {
+                "score": "-0.292997", 
+                "type": "negative"
+            }
+        }, 
+        {
+            "relevance": "0.681303", 
+            "text": "smaller comets", 
+            "sentiment": {
+                "score": "-0.397362", 
+                "type": "negative"
+            }
+        }, 
+        {
+            "relevance": "0.667888", 
+            "text": "risk management activities", 
+            "sentiment": {
+                "type": "neutral"
+            }
+        }, 
+        {
+            "relevance": "0.664026", 
+            "text": "higher levels", 
+            "sentiment": {
+                "type": "neutral"
+            }
+        }, 
+        {
+            "relevance": "0.659806", 
+            "text": "development", 
+            "sentiment": {
+                "score": "0.423357", 
+                "type": "positive"
+            }
+        }, 
+        {
+            "relevance": "0.659727", 
+            "text": "leisurely constructing buildings", 
+            "sentiment": {
+                "type": "neutral"
+            }
+        }, 
+        {
+            "relevance": "0.659671", 
+            "text": "steep learning curve", 
+            "sentiment": {
+                "score": "-0.428019", 
+                "type": "negative"
+            }
+        }, 
+        {
+            "relevance": "0.647309", 
+            "text": "efficient community connections", 
+            "sentiment": {
+                "score": "-0.266149", 
+                "type": "negative"
+            }
+        }, 
+        {
+            "relevance": "0.596532", 
+            "text": "incoming comets", 
+            "sentiment": {
+                "score": "0.446334", 
+                "type": "positive"
+            }
+        }, 
+        {
+            "relevance": "0.577989", 
+            "text": "multiple comets", 
+            "sentiment": {
+                "type": "neutral"
+            }
+        }, 
+        {
+            "relevance": "0.572171", 
+            "text": "internal obstacles", 
+            "sentiment": {
+                "score": "-0.642638", 
+                "type": "negative"
+            }
+        }, 
+        {
+            "relevance": "0.569486", 
+            "text": "small island", 
+            "sentiment": {
+                "type": "neutral"
+            }
+        }, 
+        {
+            "relevance": "0.56242", 
+            "text": "external challenges", 
+            "sentiment": {
+                "score": "-0.622574", 
+                "type": "negative"
+            }
+        }, 
+        {
+            "relevance": "0.558074", 
+            "text": "valuable time", 
+            "sentiment": {
+                "score": "0.559107", 
+                "type": "positive"
+            }
+        }, 
+        {
+            "relevance": "0.55801", 
+            "text": "incremental rate", 
+            "sentiment": {
+                "type": "neutral"
+            }
+        }, 
+        {
+            "relevance": "0.556327", 
+            "text": "idle time", 
+            "sentiment": {
+                "score": "-0.318105", 
+                "type": "negative"
+            }
+        }, 
+        {
+            "relevance": "0.551391", 
+            "text": "extra resources", 
+            "sentiment": {
+                "score": "0.774769", 
+                "type": "positive"
+            }
+        }, 
+        {
+            "relevance": "0.551214", 
+            "text": "particular upgrade", 
+            "sentiment": {
+                "score": "0.266118", 
+                "type": "positive"
+            }
+        }, 
+        {
+            "relevance": "0.544796", 
+            "text": "early levels", 
+            "sentiment": {
+                "score": "0.576762", 
+                "type": "positive"
+            }
+        }, 
+        {
+            "relevance": "0.54393", 
+            "text": "high severity", 
+            "sentiment": {
+                "score": "-0.592851", 
+                "type": "negative"
+            }
+        }, 
+        {
+            "relevance": "0.543008", 
+            "text": "high likelihood", 
+            "sentiment": {
+                "score": "-0.592851", 
+                "type": "negative"
+            }
+        }, 
+        {
+            "relevance": "0.539353", 
+            "text": "sufficient levels", 
+            "sentiment": {
+                "score": "0.269953", 
+                "type": "positive"
+            }
+        }, 
+        {
+            "relevance": "0.539241", 
+            "text": "new constructions", 
+            "sentiment": {
+                "type": "neutral"
+            }
+        }, 
+        {
+            "relevance": "0.539063", 
+            "text": "research feature", 
+            "sentiment": {
+                "score": "0.217421", 
+                "type": "positive"
+            }
+        }, 
+        {
+            "relevance": "0.538924", 
+            "text": "timely fashion", 
+            "sentiment": {
+                "type": "neutral"
+            }
+        }, 
+        {
+            "relevance": "0.538284", 
+            "text": "real life", 
+            "sentiment": {
+                "score": "-0.253952", 
+                "type": "negative"
+            }
+        }, 
+        {
+            "relevance": "0.53162", 
+            "text": "risk preparation", 
+            "sentiment": {
+                "score": "-0.281641", 
+                "type": "negative"
+            }
+        }, 
+        {
+            "relevance": "0.528391", 
+            "text": "high enough level", 
+            "sentiment": {
+                "score": "0.386591", 
+                "type": "positive"
+            }
+        }, 
+        {
+            "relevance": "0.526214", 
+            "text": "development levels", 
+            "sentiment": {
+                "type": "neutral"
+            }
+        }, 
+        {
+            "relevance": "0.463466", 
+            "text": "strike", 
+            "sentiment": {
+                "score": "-0.424211", 
+                "type": "negative"
+            }
+        }, 
+        {
+            "relevance": "0.460672", 
+            "text": "protection", 
+            "sentiment": {
+                "score": "0.57594", 
+                "type": "positive"
+            }
+        }, 
+        {
+            "relevance": "0.457857", 
+            "text": "damage", 
+            "sentiment": {
+                "score": "-0.292997", 
+                "type": "negative"
+            }
+        }, 
+        {
+            "relevance": "0.449051", 
+            "text": "option", 
+            "sentiment": {
+                "score": "0.525622", 
+                "type": "positive"
+            }
+        }, 
+        {
+            "relevance": "0.438716", 
+            "text": "simplification", 
+            "sentiment": {
+                "score": "-0.642638", 
+                "type": "negative"
+            }
+        }, 
+        {
+            "relevance": "0.436348", 
+            "text": "shocks", 
+            "sentiment": {
+                "type": "neutral"
+            }
+        }, 
+        {
+            "relevance": "0.435333", 
+            "text": "leftover", 
+            "sentiment": {
+                "type": "neutral"
+            }
+        }, 
+        {
+            "relevance": "0.433394", 
+            "text": "pods", 
+            "sentiment": {
+                "type": "neutral"
+            }
+        }, 
+        {
+            "relevance": "0.432884", 
+            "text": "inception", 
+            "sentiment": {
+                "type": "neutral"
+            }
+        }, 
+        {
+            "relevance": "0.431074", 
+            "text": "threat", 
+            "sentiment": {
+                "score": "-0.622574", 
+                "type": "negative"
+            }
+        }, 
+        {
+            "relevance": "0.430944", 
+            "text": "plateau", 
+            "sentiment": {
+                "score": "-0.669574", 
+                "type": "negative"
+            }
+        }, 
+        {
+            "relevance": "0.429682", 
+            "text": "completion", 
+            "sentiment": {
+                "type": "neutral"
+            }
+        }, 
+        {
+            "relevance": "0.429413", 
+            "text": "number", 
+            "sentiment": {
+                "type": "neutral"
+            }
+        }, 
+        {
+            "relevance": "0.429092", 
+            "text": "study", 
+            "sentiment": {
+                "score": "-0.318105", 
+                "type": "negative"
+            }
+        }, 
+        {
+            "relevance": "0.428707", 
+            "text": "game", 
+            "sentiment": {
+                "score": "-0.453519", 
+                "type": "negative"
+            }
+        }, 
+        {
+            "relevance": "0.42832", 
+            "text": "Insurance", 
+            "sentiment": {
+                "type": "neutral"
+            }
+        }, 
+        {
+            "relevance": "0.427969", 
+            "text": "price", 
+            "sentiment": {
+                "score": "-0.518475", 
+                "type": "negative"
+            }
+        }, 
+        {
+            "relevance": "0.427913", 
+            "text": "areas", 
+            "sentiment": {
+                "score": "-0.518475", 
+                "type": "negative"
+            }
+        }, 
+        {
+            "relevance": "0.427558", 
+            "text": "achievement", 
+            "sentiment": {
+                "type": "neutral"
+            }
+        }
+    ], 
+    "usage": "By accessing AlchemyAPI or using information generated by AlchemyAPI, you are agreeing to be bound by the AlchemyAPI Terms of Use: http://www.alchemyapi.com/company/terms.html"
+}
