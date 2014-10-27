@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"submi",
+				"submissionsCount"
+			],
+			[
+				"cat",
+				"categories"
+			],
+			[
+				"bag_of",
+				"bag_of_non_stopwords"
+			],
+			[
+				"bag",
+				"bag_of_non_stopwords"
+			],
+			[
 				"print",
 				"printReflectionData"
 			],
@@ -60,29 +76,42 @@
 	"buffers":
 	[
 		{
+			"file": "RiskHorizonReflections/NLTK/effective_neg.txt",
+			"settings":
+			{
+				"buffer_size": 2642,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "RiskHorizonReflections/NLTK/effective_neutral.txt",
+			"settings":
+			{
+				"buffer_size": 8886,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "RiskHorizonReflections/NLTK/effective_pos.txt",
+			"settings":
+			{
+				"buffer_size": 3144,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "RiskHorizonReflections/NLTK/improvements_search.py",
+			"settings":
+			{
+				"buffer_size": 326281,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "RiskHorizonReflections/submissions.json",
 			"settings":
 			{
-				"buffer_size": 8706270,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "\nimport json\nfrom alchemyapi import AlchemyAPI\nalchemyapi = AlchemyAPI()\n\nmyText = \"Risk management is key for attaining the desired levels of development.  The small island is under constant (though foreseeable) threat from external challenges (internal obstacles seem to have been edited out for simplification).  Risk management allowed us to prepare for shocks while continuing development at a steady, incremental rate. Researching the incoming comets was incredibly useful, but took up valuable time.  This was mitigated was starting development on a number of pods and then using the intervening time from inception to completion for risk management activities.  Otherwise idle time was used for study, and for some time dedicated to protection.  The amount of time dedicated to protection was limited by both time and the extra resources available.  After accumulating enough cash for a particular upgrade, any leftover could be dedicated to flood preparation. Insurance was particularly challenging, being reasonably inexpensive at the early levels of development, but more and more expensive as higher levels of development were achieved.  This price was often foregone to focus on other areas of risk management, honing in particularly on comets with a high severity and high likelihood of striking.  Smaller comets were often deemed worth the risk of strike, particularly at higher levels of achievement of when multiple comets were threatening.   The damage from these smaller comets was easy to minimize by utilizing efficient community connections.  In fact, community connections were incredibly useful for minimizing damage after a strike they became a key (and relied upon) component of risk preparation. I played through the game twice.  The first had a steep learning curve, where I greatly underestimated the amount of time necessary to achieve sufficient levels of development.  I spent too much time on preparing for risks, leisurely constructing buildings before I realized that they were not going to be completed in a timely fashion.  The second time, speed became key, and the first several levels went much more smoothly.  However, at a high enough level, it was quite difficult to reach the appointed development levels, no such much from dealing with risk, but because upgrading was so very expensive. This plateau is not something I had expected. I would offer two suggestions to help with this challenge: an option to dedicate time to speed up construction (similar to the research feature) and/or an option to take loans out at interest to pay for new constructions, more closely mirroring real life.\"\n\nop = {\"sentiment\": 1}\nresponse = alchemyapi.keywords(\"text\", myText, op)\nwith open('aasentiment.json', 'w') as f:\n	json.dump(response, f, ensure_ascii = False, indent = 4)\n\n# response = alchemyapi.sentiment_targeted(\"text\", myText, \"comets\")\n# print \"Sentiment: \", response[\"docSentiment\"][\"type\"]\n# print response\n\n",
-			"file": "RiskHorizonReflections/AlchemyAPI/semantic_analysis_test.py",
-			"file_size": 3073,
-			"file_write_time": 1414078987000000,
-			"settings":
-			{
-				"buffer_size": 2952,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "RiskHorizonReflections/AlchemyAPI/alchemyapi.py",
-			"settings":
-			{
-				"buffer_size": 33818,
+				"buffer_size": 8709228,
 				"line_ending": "Unix"
 			}
 		}
@@ -98,15 +127,15 @@
 				"ANF: Rename File"
 			],
 			[
+				"rename",
+				"ANF: Rename File"
+			],
+			[
 				"",
 				"ANF: Rename File"
 			],
 			[
 				"ren",
-				"ANF: Rename File"
-			],
-			[
-				"rename",
 				"ANF: Rename File"
 			],
 			[
@@ -162,18 +191,23 @@
 		"show_minimap": false,
 		"show_open_files": false,
 		"show_tabs": false,
-		"side_bar_visible": false,
+		"side_bar_visible": true,
 		"status_bar_visible": false
 	},
 	"file_history":
 	[
+		"/Users/jamesvachon/Developer/git-repositories/managerisk-reflection-search/RiskHorizonReflections/NLTK/readme.md",
+		"/Users/jamesvachon/Developer/git-repositories/managerisk-reflection-search/RiskHorizonReflections/text-search.py",
+		"/Users/jamesvachon/Developer/git-repositories/managerisk-reflection-search/RiskHorizonReflections/NLTK/effective-pos.txt",
+		"/Users/jamesvachon/Developer/git-repositories/managerisk-reflection-search/RiskHorizonReflections/NLTK/effective-neg.txt",
+		"/Users/jamesvachon/Developer/git-repositories/managerisk-reflection-search/RiskHorizonReflections/AlchemyAPI/alchemyapi.py",
+		"/Users/jamesvachon/Developer/git-repositories/managerisk-reflection-search/RiskHorizonReflections/AlchemyAPI/semantic_analysis_test.py",
 		"/Users/jamesvachon/Developer/git-repositories/managerisk-reflection-search/RiskHorizonReflections/AlchemyAPI/aasentiment.json",
 		"/Users/jamesvachon/Developer/git-repositories/managerisk-reflection-search/RiskHorizonData/location_writer.py",
 		"/Users/jamesvachon/Developer/git-repositories/managerisk-reflection-search/RiskHorizonReflections/Semantria/sentiment-analysis.py",
 		"/Users/jamesvachon/Developer/git-repositories/managerisk-reflection-search/RiskHorizonReflections/Semantria/discovery_test_app.py",
 		"/Users/jamesvachon/Developer/git-repositories/managerisk-reflection-search/RiskHorizonReflections/Semantria/source.txt",
 		"/Users/jamesvachon/Desktop/address.txt",
-		"/Users/jamesvachon/Developer/git-repositories/managerisk-reflection-search/RiskHorizonReflections/AlchemyAPI/alchemyapi.py",
 		"/Users/jamesvachon/Developer/git-repositories/managerisk-reflection-search/RiskHorizonReflections/AlchemyAPI/api_key.txt",
 		"/Users/jamesvachon/Developer/git-repositories/managerisk-reflection-search/RiskHorizonReflections/Semantria/detailed_test_app.py",
 		"/Users/jamesvachon/Developer/git-repositories/managerisk-reflection-search/RiskHorizonReflections/detailed_test_app.py",
@@ -182,7 +216,6 @@
 		"/Users/jamesvachon/Developer/git-repositories/managerisk-reflection-search/RiskHorizonReflections/source.txt",
 		"/Users/jamesvachon/Developer/git-repositories/managerisk-reflection-search/RiskHorizonReflections/Semantria",
 		"/Users/jamesvachon/Developer/git-repositories/managerisk-reflection-search/RiskHorizonData/data_parser.py",
-		"/Users/jamesvachon/Developer/git-repositories/managerisk-reflection-search/RiskHorizonReflections/text-search.py",
 		"/Users/jamesvachon/Developer/git-repositories/managerisk-reflection-search/RiskHorizonData/json_parser/data/risk_horizon.json",
 		"/Users/jamesvachon/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 		"/Users/jamesvachon/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
@@ -272,6 +305,37 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"\\n",
+			"139256",
+			"1357711",
+			"\\n",
+			".",
+			"\\n",
+			"1629203",
+			"1235519",
+			"1170508",
+			"1007887",
+			"1006993",
+			"2322870",
+			"1111980",
+			"1103761",
+			"1075259",
+			"1028224",
+			"1023902",
+			"\\n",
+			"75 %",
+			"Reflections about the Game\\n\\nRisk\\nmanagement plays a crucial role in this game.",
+			"\\n",
+			"\"\"\"",
+			"8273020",
+			"pos",
+			"\\n",
+			"hate ",
+			"hate",
+			"terrible",
+			"frustra",
+			"\\n",
+			"7683914",
 			"risk management",
 			"simplification",
 			"options",
@@ -368,38 +432,7 @@
 			"arrow",
 			"@media",
 			"message",
-			"button",
-			"discoball",
-			"disco",
-			"onscreen",
-			"disco",
-			"checkscreen",
-			"onscreen",
-			"disco",
-			"reallystarted",
-			"cover",
-			"reallystarted",
-			"lib",
-			"cover",
-			"shit",
-			"fadecov",
-			"cover",
-			"righthalf",
-			"0.4",
-			"0.3",
-			"animate",
-			"storage",
-			"clear",
-			"reset",
-			"clear",
-			"fullname",
-			"nothanks",
-			"data-key",
-			"play now",
-			"sessionstorage",
-			"localstore",
-			"sam",
-			"what appr"
+			"button"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -417,23 +450,507 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "RiskHorizonReflections/submissions.json",
+					"file": "RiskHorizonReflections/NLTK/effective_neg.txt",
 					"settings":
 					{
-						"buffer_size": 8706270,
+						"buffer_size": 2642,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5779333,
-								5782763
+								2642,
+								2642
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 278.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "RiskHorizonReflections/NLTK/effective_neutral.txt",
+					"settings":
+					{
+						"buffer_size": 8886,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8417,
+								8417
+							],
+							[
+								8524,
+								8524
+							],
+							[
+								8606,
+								8606
+							],
+							[
+								8681,
+								8681
+							],
+							[
+								8759,
+								8759
+							],
+							[
+								8858,
+								8858
+							]
+						],
+						"settings":
+						{
+							"_anf_new": "",
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 3196.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "RiskHorizonReflections/NLTK/effective_pos.txt",
+					"settings":
+					{
+						"buffer_size": 3144,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3032,
+								3032
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1007.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "RiskHorizonReflections/NLTK/improvements_search.py",
+					"settings":
+					{
+						"buffer_size": 326281,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								326277,
+								326277
+							]
+						],
+						"settings":
+						{
+							"_anf_new": "",
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 6,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 598.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "RiskHorizonReflections/submissions.json",
+					"settings":
+					{
+						"buffer_size": 8709228,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2329882,
+								2329889
 							]
 						],
 						"settings":
@@ -532,240 +1049,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1970546.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "RiskHorizonReflections/AlchemyAPI/semantic_analysis_test.py",
-					"settings":
-					{
-						"buffer_size": 2952,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1522,
-								1522
-							]
-						],
-						"settings":
-						{
-							"_anf_new": "",
-							"annotations":
-							[
-								"TODO",
-								"README",
-								"FIXME"
-							],
-							"csslint_options":
-							{
-								"adjoining-classes": "warning",
-								"box-model": true,
-								"box-sizing": "warning",
-								"compatible-vendor-prefixes": "warning",
-								"display-property-grouping": true,
-								"duplicate-background-images": "warning",
-								"duplicate-properties": true,
-								"empty-rules": true,
-								"errors": true,
-								"fallback-colors": "warning",
-								"floats": "warning",
-								"font-faces": "warning",
-								"font-sizes": "warning",
-								"gradients": "warning",
-								"ids": "warning",
-								"import": "warning",
-								"important": "warning",
-								"known-properties": true,
-								"outline-none": "warning",
-								"overqualified-elements": "warning",
-								"qualified-headings": "warning",
-								"regex-selectors": "warning",
-								"rules-count": "warning",
-								"shorthand": "warning",
-								"star-property-hack": "warning",
-								"text-indent": "warning",
-								"underscore-property-hack": "warning",
-								"unique-headings": "warning",
-								"universal-selector": "warning",
-								"vendor-prefix": true,
-								"zero-units": "warning"
-							},
-							"gjslint_ignore":
-							[
-								110.0
-							],
-							"gjslint_options":
-							[
-							],
-							"javascript_linter": "jshint",
-							"jshint_options":
-							{
-								"browser": true,
-								"evil": true,
-								"regexdash": true,
-								"sub": true,
-								"trailing": true,
-								"wsh": true
-							},
-							"pep8": true,
-							"pep8_ignore":
-							[
-								"E501"
-							],
-							"perl_linter": "perlcritic",
-							"pyflakes_ignore":
-							[
-							],
-							"pyflakes_ignore_import_*": true,
-							"sublimelinter": true,
-							"sublimelinter_delay": 2.0,
-							"sublimelinter_disable":
-							[
-							],
-							"sublimelinter_executable_map":
-							{
-							},
-							"sublimelinter_fill_outlines": false,
-							"sublimelinter_gutter_marks": true,
-							"sublimelinter_gutter_marks_theme": "simple",
-							"sublimelinter_mark_style": "none",
-							"sublimelinter_notes": false,
-							"sublimelinter_objj_check_ascii": false,
-							"sublimelinter_popup_errors_on_save": false,
-							"sublimelinter_syntax_map":
-							{
-								"C++": "c",
-								"Python Django": "python",
-								"Ruby on Rails": "ruby"
-							},
-							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/Python/Python.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "RiskHorizonReflections/AlchemyAPI/alchemyapi.py",
-					"settings":
-					{
-						"buffer_size": 33818,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								10111,
-								10111
-							]
-						],
-						"settings":
-						{
-							"annotations":
-							[
-								"TODO",
-								"README",
-								"FIXME"
-							],
-							"csslint_options":
-							{
-								"adjoining-classes": "warning",
-								"box-model": true,
-								"box-sizing": "warning",
-								"compatible-vendor-prefixes": "warning",
-								"display-property-grouping": true,
-								"duplicate-background-images": "warning",
-								"duplicate-properties": true,
-								"empty-rules": true,
-								"errors": true,
-								"fallback-colors": "warning",
-								"floats": "warning",
-								"font-faces": "warning",
-								"font-sizes": "warning",
-								"gradients": "warning",
-								"ids": "warning",
-								"import": "warning",
-								"important": "warning",
-								"known-properties": true,
-								"outline-none": "warning",
-								"overqualified-elements": "warning",
-								"qualified-headings": "warning",
-								"regex-selectors": "warning",
-								"rules-count": "warning",
-								"shorthand": "warning",
-								"star-property-hack": "warning",
-								"text-indent": "warning",
-								"underscore-property-hack": "warning",
-								"unique-headings": "warning",
-								"universal-selector": "warning",
-								"vendor-prefix": true,
-								"zero-units": "warning"
-							},
-							"gjslint_ignore":
-							[
-								110.0
-							],
-							"gjslint_options":
-							[
-							],
-							"javascript_linter": "jshint",
-							"jshint_options":
-							{
-								"browser": true,
-								"evil": true,
-								"regexdash": true,
-								"sub": true,
-								"trailing": true,
-								"wsh": true
-							},
-							"pep8": true,
-							"pep8_ignore":
-							[
-								"E501"
-							],
-							"perl_linter": "perlcritic",
-							"pyflakes_ignore":
-							[
-							],
-							"pyflakes_ignore_import_*": true,
-							"sublimelinter": true,
-							"sublimelinter_delay": 2.0,
-							"sublimelinter_disable":
-							[
-							],
-							"sublimelinter_executable_map":
-							{
-							},
-							"sublimelinter_fill_outlines": false,
-							"sublimelinter_gutter_marks": true,
-							"sublimelinter_gutter_marks_theme": "simple",
-							"sublimelinter_mark_style": "none",
-							"sublimelinter_notes": false,
-							"sublimelinter_objj_check_ascii": false,
-							"sublimelinter_popup_errors_on_save": false,
-							"sublimelinter_syntax_map":
-							{
-								"C++": "c",
-								"Python Django": "python",
-								"Ruby on Rails": "ruby"
-							},
-							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 4143.0,
+						"translation.y": 797689.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -806,7 +1090,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 286.0
+		"height": 287.0
 	},
 	"replace":
 	{
@@ -836,7 +1120,7 @@
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": false,
+	"side_bar_visible": true,
 	"side_bar_width": 284.0,
 	"status_bar_visible": true
 }
