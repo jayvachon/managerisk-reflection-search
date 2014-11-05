@@ -72,7 +72,50 @@ class GameDataParser:
 		# print self.getTimePlayedByIP(0)
 		# print self.getPlayersHighestLevel()
 		# self.getTimesPlayedByTier()
-		self.getGameCountByTier()
+		# self.getGameCountByTier()
+		# self.getSessionsCount ()
+		self.getDataPointsCount();
+
+	def getDataPointsCount(self):
+		dataPointsCount = 0
+		for index in game_data:
+			if 'ipv4' in index:
+				dataPointsCount += 1
+
+			if 'session' in index:
+				sessions = index['session']
+				
+				if 'uuid' in sessions:
+					dataPointsCount += 1
+				if 'datetime' in sessions:
+					dataPointsCount += 1
+				
+				for s in sessions:
+					if 'levels' in s:
+						levels = s['levels']
+						for l in levels:
+							if 'insurances' in l:
+								dataPointsCount += 3;
+							if 'growers' in l:
+								dataPointsCount += 9;
+							if 'development end percent' in l:
+								dataPointsCount += 1
+							if 'level' in l:
+								dataPointsCount += 1
+							if 'protection end percent' in l:
+								dataPointsCount += 1
+							if 'shocks' in l:
+								dataPointsCount += len(l['shocks']) * 6
+		
+		print dataPointsCount
+
+
+
+	def getSessionsCount(self):
+		sessionCount = 0
+		for index in game_data:
+			sessionCount += len(index['session'])
+		print sessionCount
 
 	def getIPAtIndex(self, index):
 		return game_data[index]['ipv4']
