@@ -76,7 +76,7 @@
 	"buffers":
 	[
 		{
-			"file": "RiskHorizonReflections/NLTK/effective_neg.txt",
+			"file": "effective_neg.txt",
 			"settings":
 			{
 				"buffer_size": 2642,
@@ -84,7 +84,15 @@
 			}
 		},
 		{
-			"file": "RiskHorizonReflections/NLTK/effective_neutral.txt",
+			"file": "/Users/egl_admin/Developer/git-repositories/managerisk-reflection-search/managerisk-reflection.sublime-project",
+			"settings":
+			{
+				"buffer_size": 117,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "effective_neutral.txt",
 			"settings":
 			{
 				"buffer_size": 8886,
@@ -92,26 +100,34 @@
 			}
 		},
 		{
-			"file": "RiskHorizonReflections/NLTK/effective_pos.txt",
+			"file": "/Users/egl_admin/Developer/git-repositories/managerisk-reflection-search/managerisk-reflection.sublime-workspace",
 			"settings":
 			{
-				"buffer_size": 3144,
+				"buffer_size": 30221,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "RiskHorizonReflections/NLTK/improvements_search.py",
+			"file": "effective_pos.txt",
 			"settings":
 			{
-				"buffer_size": 326281,
+				"buffer_size": 3294,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "RiskHorizonReflections/submissions.json",
+			"file": "improvements_search.py",
 			"settings":
 			{
-				"buffer_size": 8709228,
+				"buffer_size": 327861,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/egl_admin/Developer/git-repositories/managerisk-reflection-search/RiskHorizonReflections/submissions.json",
+			"settings":
+			{
+				"buffer_size": 8709215,
 				"line_ending": "Unix"
 			}
 		}
@@ -196,98 +212,98 @@
 	},
 	"file_history":
 	[
-		"/Users/egl_admin/Developer/git-repositories/managerisk-reflection-search/RiskHorizonReflections/NLTK/readme.md",
-		"/Users/egl_admin/Developer/git-repositories/managerisk-reflection-search/RiskHorizonReflections/text-search.py",
-		"/Users/egl_admin/Developer/git-repositories/managerisk-reflection-search/RiskHorizonReflections/NLTK/effective-pos.txt",
-		"/Users/egl_admin/Developer/git-repositories/managerisk-reflection-search/RiskHorizonReflections/NLTK/effective-neg.txt",
-		"/Users/egl_admin/Developer/git-repositories/managerisk-reflection-search/RiskHorizonReflections/AlchemyAPI/alchemyapi.py",
-		"/Users/egl_admin/Developer/git-repositories/managerisk-reflection-search/RiskHorizonReflections/AlchemyAPI/semantic_analysis_test.py",
-		"/Users/egl_admin/Developer/git-repositories/managerisk-reflection-search/RiskHorizonReflections/AlchemyAPI/aasentiment.json",
-		"/Users/egl_admin/Developer/git-repositories/managerisk-reflection-search/RiskHorizonData/location_writer.py",
-		"/Users/egl_admin/Developer/git-repositories/managerisk-reflection-search/RiskHorizonReflections/Semantria/sentiment-analysis.py",
-		"/Users/egl_admin/Developer/git-repositories/managerisk-reflection-search/RiskHorizonReflections/Semantria/discovery_test_app.py",
-		"/Users/egl_admin/Developer/git-repositories/managerisk-reflection-search/RiskHorizonReflections/Semantria/source.txt",
-		"/Users/egl_admin/Desktop/address.txt",
-		"/Users/egl_admin/Developer/git-repositories/managerisk-reflection-search/RiskHorizonReflections/AlchemyAPI/api_key.txt",
-		"/Users/egl_admin/Developer/git-repositories/managerisk-reflection-search/RiskHorizonReflections/Semantria/detailed_test_app.py",
-		"/Users/egl_admin/Developer/git-repositories/managerisk-reflection-search/RiskHorizonReflections/detailed_test_app.py",
-		"/Users/egl_admin/Developer/git-repositories/managerisk-reflection-search/RiskHorizonReflections/discovery_test_app.py",
-		"/Users/egl_admin/Developer/git-repositories/managerisk-reflection-search/RiskHorizonReflections/sentiment-analysis.py",
-		"/Users/egl_admin/Developer/git-repositories/managerisk-reflection-search/RiskHorizonReflections/source.txt",
-		"/Users/egl_admin/Developer/git-repositories/managerisk-reflection-search/RiskHorizonReflections/Semantria",
-		"/Users/egl_admin/Developer/git-repositories/managerisk-reflection-search/RiskHorizonData/data_parser.py",
-		"/Users/egl_admin/Developer/git-repositories/managerisk-reflection-search/RiskHorizonData/json_parser/data/risk_horizon.json",
-		"/Users/egl_admin/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
-		"/Users/egl_admin/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
-		"/Users/egl_admin/Developer/git-repositories/managerisk-reflection-search/RiskHorizonData/locations.json",
-		"/Users/egl_admin/Developer/git-repositories/managerisk-reflection-search/RiskHorizonData/countries.json",
-		"/Users/egl_admin/Developer/git-repositories/managerisk-reflection-search/RiskHorizonReflections/managerisk-reflection.py",
-		"/Users/egl_admin/Developer/git-repositories/managerisk-reflection-search/RiskHorizonReflections/submissions.json",
-		"/Users/egl_admin/Developer/git-repositories/managerisk-reflection-search/.gitignore",
-		"/Users/egl_admin/Developer/git-repositories/managerisk-reflection-search/RiskHorizonData/rh_data/data/risk_horizon.json",
-		"/Users/egl_admin/Developer/git-repositories/managerisk-reflection-search/RiskHorizonData/rh_data/data/risk_horizon2.json",
-		"/Users/egl_admin/Developer/git-repositories/managerisk-reflection-search/submissions.json",
-		"/Users/egl_admin/Developer/git-repositories/managerisk-reflection-search/text-search.py",
-		"/Users/egl_admin/Developer/git-repositories/egl-homepage/egl-homepage.sublime-project",
-		"/Users/egl_admin/Developer/git-repositories/egl-homepage/head.php",
-		"/Users/egl_admin/Developer/git-repositories/egl-homepage/blog/index.php",
-		"/Users/egl_admin/Developer/git-repositories/managerisk-reflection-search/guitest.py",
-		"/Users/egl_admin/Developer/git-repositories/managerisk-reflection-search/managerisk-reflection.sublime-project",
-		"/Users/egl_admin/Developer/git-repositories/managerisk-reflection-search/managerisk-reflection.py",
-		"/Users/egl_admin/Documents/Unity Projects/Astro Assembly/DNA/DNA/Assets/Scripts/StepCreator.cs",
-		"/Users/egl_admin/Downloads/tkinterEntryWidget.py",
-		"/Users/egl_admin/Dropbox2/Dropbox/World Bank/Data/managerisk-001 game reflection/assessment3/submitter1019724/submission478/fields.html",
-		"/Users/egl_admin/Developer/git-repositories/managerisk-reflection-search/assessment3/submitter16926/submission559/fields.html",
-		"/Users/egl_admin/Documents/Unity Projects/Astro Assembly/DNA/DNA/Assets/Scripts/Step.cs",
-		"/Users/egl_admin/Documents/Web/EGL/managerisk-reflection/managerisk-reflection.sublime-project",
-		"/Users/egl_admin/Documents/Web/EGL/managerisk-reflection/managerisk-reflection.py",
-		"/Users/egl_admin/Documents/Web/EGL/managerisk-001 game reflection/assesment-search.sublime-project",
-		"/Users/egl_admin/Documents/Web/EGL/managerisk-001 game reflection/assesment-search.py",
-		"/Users/egl_admin/Developer/git-repositories/summit-proposal/summit-proposal.sublime-project",
-		"/Users/egl_admin/Developer/git-repositories/egl-homepage/css/responsive-nav.css",
-		"/Users/egl_admin/Developer/git-repositories/egl-homepage/css/discrepancies-test/responsive-nav.css",
-		"/Users/egl_admin/Developer/git-repositories/egl-homepage/css/custom-boostrap.css",
-		"/Users/egl_admin/Developer/git-repositories/egl-homepage/css/discrepancies-test/custom-boostrap.css",
-		"/Users/egl_admin/Downloads/Website/css/custom-boostrap.css",
-		"/Users/egl_admin/Developer/git-repositories/egl-homepage/index.php",
-		"/Users/egl_admin/Developer/git-repositories/egl-homepage/nav.php",
-		"/Users/egl_admin/Developer/git-repositories/egl-homepage/css/email-signup.css",
-		"/Users/egl_admin/Developer/git-repositories/egl-homepage/css/custom-game.css",
-		"/Users/egl_admin/developer/git-repositories/egl-homepage/email-signup.php",
-		"/Users/egl_admin/documents/web/egl/modules/signup-form.html",
-		"/Users/egl_admin/Developer/git-repositories/egl-homepage/email-signup.css",
-		"/Users/egl_admin/Documents/Web/EGL/summit-proposal/index.html",
-		"/Users/egl_admin/Library/Application Support/Sublime Text 2/Packages/User/Fetch.sublime-settings",
-		"/Users/egl_admin/Developer/git-repositories/summit-proposal/src/css/main.css",
-		"/Users/egl_admin/Developer/git-repositories/summit-proposal/src/css/custom-style.css",
-		"/Users/egl_admin/Developer/git-repositories/summit-proposal/src/index.html",
-		"/Users/egl_admin/Developer/git-repositories/summit-proposal/test/tests.js",
-		"/Users/egl_admin/Developer/git-repositories/summit-proposal/src/css/style.css",
-		"/Users/egl_admin/Developer/git-repositories/summit-proposal/dist/index.html",
-		"/Users/egl_admin/Developer/git-repositories/summit-proposal/dist/robots.txt",
-		"/Users/egl_admin/Developer/git-repositories/summit-proposal/index.html",
-		"/Users/egl_admin/Developer/git-repositories/summit-proposal/src/favicon.ico",
-		"/Users/egl_admin/Developer/git-repositories/summit-proposal/src/robots.txt",
-		"/Users/egl_admin/Developer/git-repositories/summit-proposal/src/404.html",
-		"/Users/egl_admin/Developer/git-repositories/summit-proposal/README.md",
-		"/Users/egl_admin/Documents/Unity Projects/EGL/Bluetooth test/BluetoothTest2/Assets/Plugins/iOS/UnityBluetoothLE.mm",
-		"/Users/egl_admin/Documents/Unity Projects/EGL/Bluetooth test/BluetoothTest2/Assets/Plugins/BluetoothHardwareInterface.cs",
-		"/Users/egl_admin/Documents/Unity Projects/EGL/Bluetooth test/BluetoothTest2/Assets/Example/Test/TestScript.cs",
-		"/Users/egl_admin/Developer/git-repositories/egl-homepage/js/other/blog.js",
-		"/Users/egl_admin/Documents/Unity Projects/EGL/Bluetooth test/BluetoothTest2/Assets/Plugins/BluetoothDeviceScript.cs",
-		"/Users/egl_admin/Library/Application Support/Sublime Text 2/Packages/User/Unity C#/public-function.sublime-snippet",
-		"/Users/egl_admin/Documents/Unity Projects/EGL/Bluetooth test/BluetoothTest2/BluetoothTest2.sublime-project",
-		"/Users/egl_admin/Library/Application Support/Sublime Text 2/Packages/User/Unity C#/private-function.sublime-snippet",
-		"/Users/egl_admin/Library/Application Support/Sublime Text 2/Packages/User/Unity C#/for.sublime-snippet",
-		"/Users/egl_admin/Library/Application Support/Sublime Text 2/Packages/User/Unity C#/for-down.sublime-snippet",
+		"/Users/jamesvachon/Developer/git-repositories/managerisk-reflection-search/RiskHorizonReflections/NLTK/readme.md",
+		"/Users/jamesvachon/Developer/git-repositories/managerisk-reflection-search/RiskHorizonReflections/text-search.py",
+		"/Users/jamesvachon/Developer/git-repositories/managerisk-reflection-search/RiskHorizonReflections/NLTK/effective-pos.txt",
+		"/Users/jamesvachon/Developer/git-repositories/managerisk-reflection-search/RiskHorizonReflections/NLTK/effective-neg.txt",
+		"/Users/jamesvachon/Developer/git-repositories/managerisk-reflection-search/RiskHorizonReflections/AlchemyAPI/alchemyapi.py",
+		"/Users/jamesvachon/Developer/git-repositories/managerisk-reflection-search/RiskHorizonReflections/AlchemyAPI/semantic_analysis_test.py",
+		"/Users/jamesvachon/Developer/git-repositories/managerisk-reflection-search/RiskHorizonReflections/AlchemyAPI/aasentiment.json",
+		"/Users/jamesvachon/Developer/git-repositories/managerisk-reflection-search/RiskHorizonData/location_writer.py",
+		"/Users/jamesvachon/Developer/git-repositories/managerisk-reflection-search/RiskHorizonReflections/Semantria/sentiment-analysis.py",
+		"/Users/jamesvachon/Developer/git-repositories/managerisk-reflection-search/RiskHorizonReflections/Semantria/discovery_test_app.py",
+		"/Users/jamesvachon/Developer/git-repositories/managerisk-reflection-search/RiskHorizonReflections/Semantria/source.txt",
+		"/Users/jamesvachon/Desktop/address.txt",
+		"/Users/jamesvachon/Developer/git-repositories/managerisk-reflection-search/RiskHorizonReflections/AlchemyAPI/api_key.txt",
+		"/Users/jamesvachon/Developer/git-repositories/managerisk-reflection-search/RiskHorizonReflections/Semantria/detailed_test_app.py",
+		"/Users/jamesvachon/Developer/git-repositories/managerisk-reflection-search/RiskHorizonReflections/detailed_test_app.py",
+		"/Users/jamesvachon/Developer/git-repositories/managerisk-reflection-search/RiskHorizonReflections/discovery_test_app.py",
+		"/Users/jamesvachon/Developer/git-repositories/managerisk-reflection-search/RiskHorizonReflections/sentiment-analysis.py",
+		"/Users/jamesvachon/Developer/git-repositories/managerisk-reflection-search/RiskHorizonReflections/source.txt",
+		"/Users/jamesvachon/Developer/git-repositories/managerisk-reflection-search/RiskHorizonReflections/Semantria",
+		"/Users/jamesvachon/Developer/git-repositories/managerisk-reflection-search/RiskHorizonData/data_parser.py",
+		"/Users/jamesvachon/Developer/git-repositories/managerisk-reflection-search/RiskHorizonData/json_parser/data/risk_horizon.json",
+		"/Users/jamesvachon/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/jamesvachon/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/jamesvachon/Developer/git-repositories/managerisk-reflection-search/RiskHorizonData/locations.json",
+		"/Users/jamesvachon/Developer/git-repositories/managerisk-reflection-search/RiskHorizonData/countries.json",
+		"/Users/jamesvachon/Developer/git-repositories/managerisk-reflection-search/RiskHorizonReflections/managerisk-reflection.py",
+		"/Users/jamesvachon/Developer/git-repositories/managerisk-reflection-search/RiskHorizonReflections/submissions.json",
+		"/Users/jamesvachon/Developer/git-repositories/managerisk-reflection-search/.gitignore",
+		"/Users/jamesvachon/Developer/git-repositories/managerisk-reflection-search/RiskHorizonData/rh_data/data/risk_horizon.json",
+		"/Users/jamesvachon/Developer/git-repositories/managerisk-reflection-search/RiskHorizonData/rh_data/data/risk_horizon2.json",
+		"/Users/jamesvachon/Developer/git-repositories/managerisk-reflection-search/submissions.json",
+		"/Users/jamesvachon/Developer/git-repositories/managerisk-reflection-search/text-search.py",
+		"/Users/jamesvachon/Developer/git-repositories/egl-homepage/egl-homepage.sublime-project",
+		"/Users/jamesvachon/Developer/git-repositories/egl-homepage/head.php",
+		"/Users/jamesvachon/Developer/git-repositories/egl-homepage/blog/index.php",
+		"/Users/jamesvachon/Developer/git-repositories/managerisk-reflection-search/guitest.py",
+		"/Users/jamesvachon/Developer/git-repositories/managerisk-reflection-search/managerisk-reflection.sublime-project",
+		"/Users/jamesvachon/Developer/git-repositories/managerisk-reflection-search/managerisk-reflection.py",
+		"/Users/jamesvachon/Documents/Unity Projects/Astro Assembly/DNA/DNA/Assets/Scripts/StepCreator.cs",
+		"/Users/jamesvachon/Downloads/tkinterEntryWidget.py",
+		"/Users/jamesvachon/Dropbox2/Dropbox/World Bank/Data/managerisk-001 game reflection/assessment3/submitter1019724/submission478/fields.html",
+		"/Users/jamesvachon/Developer/git-repositories/managerisk-reflection-search/assessment3/submitter16926/submission559/fields.html",
+		"/Users/jamesvachon/Documents/Unity Projects/Astro Assembly/DNA/DNA/Assets/Scripts/Step.cs",
+		"/Users/jamesvachon/Documents/Web/EGL/managerisk-reflection/managerisk-reflection.sublime-project",
+		"/Users/jamesvachon/Documents/Web/EGL/managerisk-reflection/managerisk-reflection.py",
+		"/Users/jamesvachon/Documents/Web/EGL/managerisk-001 game reflection/assesment-search.sublime-project",
+		"/Users/jamesvachon/Documents/Web/EGL/managerisk-001 game reflection/assesment-search.py",
+		"/Users/jamesvachon/Developer/git-repositories/summit-proposal/summit-proposal.sublime-project",
+		"/Users/jamesvachon/Developer/git-repositories/egl-homepage/css/responsive-nav.css",
+		"/Users/jamesvachon/Developer/git-repositories/egl-homepage/css/discrepancies-test/responsive-nav.css",
+		"/Users/jamesvachon/Developer/git-repositories/egl-homepage/css/custom-boostrap.css",
+		"/Users/jamesvachon/Developer/git-repositories/egl-homepage/css/discrepancies-test/custom-boostrap.css",
+		"/Users/jamesvachon/Downloads/Website/css/custom-boostrap.css",
+		"/Users/jamesvachon/Developer/git-repositories/egl-homepage/index.php",
+		"/Users/jamesvachon/Developer/git-repositories/egl-homepage/nav.php",
+		"/Users/jamesvachon/Developer/git-repositories/egl-homepage/css/email-signup.css",
+		"/Users/jamesvachon/Developer/git-repositories/egl-homepage/css/custom-game.css",
+		"/Users/jamesvachon/developer/git-repositories/egl-homepage/email-signup.php",
+		"/Users/jamesvachon/documents/web/egl/modules/signup-form.html",
+		"/Users/jamesvachon/Developer/git-repositories/egl-homepage/email-signup.css",
+		"/Users/jamesvachon/Documents/Web/EGL/summit-proposal/index.html",
+		"/Users/jamesvachon/Library/Application Support/Sublime Text 2/Packages/User/Fetch.sublime-settings",
+		"/Users/jamesvachon/Developer/git-repositories/summit-proposal/src/css/main.css",
+		"/Users/jamesvachon/Developer/git-repositories/summit-proposal/src/css/custom-style.css",
+		"/Users/jamesvachon/Developer/git-repositories/summit-proposal/src/index.html",
+		"/Users/jamesvachon/Developer/git-repositories/summit-proposal/test/tests.js",
+		"/Users/jamesvachon/Developer/git-repositories/summit-proposal/src/css/style.css",
+		"/Users/jamesvachon/Developer/git-repositories/summit-proposal/dist/index.html",
+		"/Users/jamesvachon/Developer/git-repositories/summit-proposal/dist/robots.txt",
+		"/Users/jamesvachon/Developer/git-repositories/summit-proposal/index.html",
+		"/Users/jamesvachon/Developer/git-repositories/summit-proposal/src/favicon.ico",
+		"/Users/jamesvachon/Developer/git-repositories/summit-proposal/src/robots.txt",
+		"/Users/jamesvachon/Developer/git-repositories/summit-proposal/src/404.html",
+		"/Users/jamesvachon/Developer/git-repositories/summit-proposal/README.md",
+		"/Users/jamesvachon/Documents/Unity Projects/EGL/Bluetooth test/BluetoothTest2/Assets/Plugins/iOS/UnityBluetoothLE.mm",
+		"/Users/jamesvachon/Documents/Unity Projects/EGL/Bluetooth test/BluetoothTest2/Assets/Plugins/BluetoothHardwareInterface.cs",
+		"/Users/jamesvachon/Documents/Unity Projects/EGL/Bluetooth test/BluetoothTest2/Assets/Example/Test/TestScript.cs",
+		"/Users/jamesvachon/Developer/git-repositories/egl-homepage/js/other/blog.js",
+		"/Users/jamesvachon/Documents/Unity Projects/EGL/Bluetooth test/BluetoothTest2/Assets/Plugins/BluetoothDeviceScript.cs",
+		"/Users/jamesvachon/Library/Application Support/Sublime Text 2/Packages/User/Unity C#/public-function.sublime-snippet",
+		"/Users/jamesvachon/Documents/Unity Projects/EGL/Bluetooth test/BluetoothTest2/BluetoothTest2.sublime-project",
+		"/Users/jamesvachon/Library/Application Support/Sublime Text 2/Packages/User/Unity C#/private-function.sublime-snippet",
+		"/Users/jamesvachon/Library/Application Support/Sublime Text 2/Packages/User/Unity C#/for.sublime-snippet",
+		"/Users/jamesvachon/Library/Application Support/Sublime Text 2/Packages/User/Unity C#/for-down.sublime-snippet",
 		"/Applications/MAMP/htdocs/egl-homepage/js/libs/pathfinding-browser.min.js",
 		"/Applications/MAMP/htdocs/egl-homepage/js/libs/jquery.easing.1.3.js",
 		"/Applications/MAMP/htdocs/egl-homepage/js/game/codegame.js",
-		"/Users/egl_admin/Documents/Processing/Risk Horizon/rh_data/data/risk_horizon.json",
-		"/Users/egl_admin/Documents/Unity Projects/EGL/Risk Horizon/Risk Horizon Beta/Assets/ActionScript/BrowserCommunicator.as",
-		"/Users/egl_admin/Desktop/EGL World Bank/Hello World/js/kiwi.js",
-		"/Users/egl_admin/Desktop/EGL World Bank/Hello World/helloworld.htm",
-		"/Users/egl_admin/Desktop/EGL World Bank/Hello World 2/helloworld2.html"
+		"/Users/jamesvachon/Documents/Processing/Risk Horizon/rh_data/data/risk_horizon.json",
+		"/Users/jamesvachon/Documents/Unity Projects/EGL/Risk Horizon/Risk Horizon Beta/Assets/ActionScript/BrowserCommunicator.as",
+		"/Users/jamesvachon/Desktop/EGL World Bank/Hello World/js/kiwi.js",
+		"/Users/jamesvachon/Desktop/EGL World Bank/Hello World/helloworld.htm",
+		"/Users/jamesvachon/Desktop/EGL World Bank/Hello World 2/helloworld2.html"
 	],
 	"find":
 	{
@@ -305,6 +321,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"jamesvachon",
 			"\\n",
 			"139256",
 			"1357711",
@@ -431,8 +448,7 @@
 			"displayarrows",
 			"arrow",
 			"@media",
-			"message",
-			"button"
+			"message"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -450,12 +466,12 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "RiskHorizonReflections/NLTK/effective_neg.txt",
+					"file": "effective_neg.txt",
 					"settings":
 					{
 						"buffer_size": 2642,
@@ -465,8 +481,8 @@
 						"selection":
 						[
 							[
-								2642,
-								2642
+								962,
+								962
 							]
 						],
 						"settings":
@@ -563,14 +579,40 @@
 							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 278.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "RiskHorizonReflections/NLTK/effective_neutral.txt",
+					"file": "/Users/egl_admin/Developer/git-repositories/managerisk-reflection-search/managerisk-reflection.sublime-project",
+					"settings":
+					{
+						"buffer_size": 117,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								116,
+								116
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "effective_neutral.txt",
 					"settings":
 					{
 						"buffer_size": 8886,
@@ -580,28 +622,8 @@
 						"selection":
 						[
 							[
-								8417,
-								8417
-							],
-							[
-								8524,
-								8524
-							],
-							[
-								8606,
-								8606
-							],
-							[
-								8681,
-								8681
-							],
-							[
-								8759,
-								8759
-							],
-							[
-								8858,
-								8858
+								858,
+								858
 							]
 						],
 						"settings":
@@ -699,25 +721,52 @@
 							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 3196.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "RiskHorizonReflections/NLTK/effective_pos.txt",
+					"buffer": 3,
+					"file": "/Users/egl_admin/Developer/git-repositories/managerisk-reflection-search/managerisk-reflection.sublime-workspace",
 					"settings":
 					{
-						"buffer_size": 3144,
+						"buffer_size": 30221,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3032,
-								3032
+								29720,
+								29720
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 20703.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "effective_pos.txt",
+					"settings":
+					{
+						"buffer_size": 3294,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
 							]
 						],
 						"settings":
@@ -820,19 +869,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "RiskHorizonReflections/NLTK/improvements_search.py",
+					"buffer": 5,
+					"file": "improvements_search.py",
 					"settings":
 					{
-						"buffer_size": 326281,
+						"buffer_size": 327861,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								326277,
-								326277
+								770,
+								770
 							]
 						],
 						"settings":
@@ -932,25 +981,25 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 598.0,
+						"translation.y": 1.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "RiskHorizonReflections/submissions.json",
+					"buffer": 6,
+					"file": "/Users/egl_admin/Developer/git-repositories/managerisk-reflection-search/RiskHorizonReflections/submissions.json",
 					"settings":
 					{
-						"buffer_size": 8709228,
+						"buffer_size": 8709215,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2329882,
-								2329889
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1090,7 +1139,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 287.0
+		"height": 414.0
 	},
 	"replace":
 	{
@@ -1112,7 +1161,7 @@
 		[
 			[
 				"",
-				"/Users/egl_admin/Documents/Unity Projects/Astro Assembly/DNA/DNA/Assets/Scripts/dna.sublime-project"
+				"/Users/jamesvachon/Documents/Unity Projects/Astro Assembly/DNA/DNA/Assets/Scripts/dna.sublime-project"
 			]
 		],
 		"width": 380.0
@@ -1120,7 +1169,7 @@
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 284.0,
 	"status_bar_visible": true
 }

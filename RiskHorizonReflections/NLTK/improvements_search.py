@@ -1,4 +1,6 @@
 
+# take 1
+
 import nltk, collections
 from nltk.tokenize import sent_tokenize, word_tokenize
 from nltk.corpus import stopwords
@@ -17,14 +19,17 @@ def getJSONData():
 
 def getAllWords(submissions):
       words = []
+      print "getting words..."
       for s in submissions:
             text = s['reflection'].encode("ascii", "ignore")
             words_temp = splitWordsWithStops(text)
             for word in words_temp:
                   words.append(word)
+      print "words done"
       return words
 
 def getBigrams(words):
+      print "getting bigrams..."
       bcf = BigramCollocationFinder.from_words(words)
       print bcf.nbest(BigramAssocMeasures.likelihood_ratio, 10)
 
