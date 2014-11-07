@@ -13,10 +13,17 @@ import enchant
 from nltk.tokenize import RegexpTokenizer
 from nltk.tokenize import PunktSentenceTokenizer
 from nltk.corpus import stopwords
+
+#ngrams
 from nltk.collocations import BigramCollocationFinder
 from nltk.metrics import BigramAssocMeasures
 from nltk.collocations import TrigramCollocationFinder
 from nltk.metrics import TrigramAssocMeasures
+
+# stemming and lemmatizing
+from nltk.stem.porter import PorterStemmer
+from nltk.stem.snowball import SnowballStemmer
+from nltk.stem.wordnet import WordNetLemmatizer
 
 class SubmissionsHandler:
 
@@ -61,7 +68,7 @@ class SubmissionsHandler:
 			reflections += self.get_reflection(i)
 		return reflections
 
-class NoiseReducer:
+class TextCleaner:
 
 	_english_stops = []
 	_enchant_dict = enchant.Dict
@@ -71,28 +78,11 @@ class NoiseReducer:
 		self._enchant_dict = enchant.Dict("en_US")
 		# print self.correct_spelling(self.tokenize_words(self.normalize_text(text)))
 		# self.get_bigrams(text)
-		self.get_trigrams(text)
+		# self.get_trigrams(text)
+		print self.stem_words(self.tokenize_words(self.normalize_text(text)))
 
 	def set_stopwords(self):
 		self._english_stops = set(stopwords.words('english'))
-
-	def get_bigrams(self, full_text):
-		"""
-		cached the top 10 because this function takes several minutes to run
-		"""
-		# words = self.tokenize_words(self.normalize_text(full_text))
-		# bcf = BigramCollocationFinder.from_words(words)
-		# print bcf.nbest(BigramAssocMeasures.likelihood_ratio, 10)
-		return [('risk', 'management'), ('played', 'game'), ('real', 'life'), ('role', 'risk'), ('new', 'version'), ('protection', 'insurance'), ('first', 'time'), ('risk', 'horizon'), ('main', 'things'), ('long', 'term')]
-
-	def get_trigrams(self, full_text):
-		"""
-		cached the top 10 because this function takes several minutes to run
-		"""
-		# words = self.tokenize_words(self.normalize_text(full_text))
-		# tcf = TrigramCollocationFinder.from_words(words)
-		# print tcf.nbest(TrigramAssocMeasures.likelihood_ratio, 10)
-		return [('role', 'risk', 'management'), ('preparation', 'risk', 'management'), ('risk', 'management', 'game'), ('represent', 'risk', 'management'), ('manage', 'risk', 'management'), ('risk', 'management', 'choices'), ('aspects', 'risk', 'management'), ('effective', 'risk', 'management'), ('risk', 'management', 'imagine'), ('preparing', 'risk', 'management')]
 
 	def normalize_text(self, text, to_lowercase=True, remove_digits=True, remove_punction=True):
 		if to_lowercase:
@@ -129,9 +119,33 @@ class NoiseReducer:
 					correct_words.append(word)
 		return correct_words
 
-submissions = SubmissionsHandler()
-# noise_reducer = NoiseReducer(submissions.get_random_reflection())
-# noise_reducer = NoiseReducer(submissions.get_reflection(0))
-noise_reducer = NoiseReducer(submissions.get_full_corpora())
+	def get_bigrams(self, full_text):
+		# words = self.tokenize_words(self.normalize_text(full_text))
+		# bcf = BigramCollocationFinder.from_words(words)
+		# print bcf.nbest(BigramAssocMeasures.likelihood_ratio, 10)
+		""" cached the top 10 because this function takes several minutes to run """
+		return [('risk', 'management'), ('played', 'game'), ('real', 'life'), ('role', 'risk'), ('new', 'version'), ('protection', 'insurance'), ('first', 'time'), ('risk', 'horizon'), ('main', 'things'), ('long', 'term')]
 
+	def get_trigrams(self, full_text):
+		# words = self.tokenize_words(self.normalize_text(full_text))
+		# tcf = TrigramCollocationFinder.from_words(words)
+		# print tcf.nbest(TrigramAssocMeasures.likelihood_ratio, 10)
+		""" cached the top 10 because this function takes several minutes to run """
+		return [('role', 'risk', 'management'), ('preparation', 'risk', 'management'), ('risk', 'management', 'game'), ('represent', 'risk', 'management'), ('manage', 'risk', 'management'), ('risk', 'management', 'choices'), ('aspects', 'risk', 'management'), ('effective', 'risk', 'management'), ('risk', 'management', 'imagine'), ('preparing', 'risk', 'management')]
+
+	def stem_words(self, text):
+		porter = PorterStemmer()
+		snowball = SnowballStemmer('english')
+		wordnet = WordNetLemmatizer()
+		stemmed_text = []
+		for word in text:
+			stemmed_text.append(porter.stem(word))
+			# stemmed_text.append(snowball.stem(word))
+			# stemmed_text.append(wordnet.lemmatize(word))
+		return stemmed_text
+
+submissions = SubmissionsHandler()
+# text_cleaner = TextCleaner(submissions.get_random_reflection())
+text_cleaner = TextCleaner(submissions.get_reflection(0))
+# text_cleaner = TextCleaner(submissions.get_full_corpora())
 
