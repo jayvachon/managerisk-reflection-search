@@ -90,7 +90,7 @@ def splitWordsWithStops(text):
 
 def createReader():
 	# params: root, fileids, re extracts cat name 
-	reader = CategorizedPlaintextCorpusReader('.', r'effective_.*\.txt', cat_pattern=r'effective_(\w+)\.txt')
+	reader = CategorizedPlaintextCorpusReader('.', r'corpora/effective_.*\.txt', cat_pattern=r'corpora/effective_(\w+)\.txt')
 	return reader;
 
 def createClassifier(reader):
