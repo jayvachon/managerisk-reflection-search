@@ -6,8 +6,8 @@ import random
 import string
 
 # spell-check
-# TODO: use aspell instead of pyenchant
 import enchant
+from subprocess import Popen, PIPE, STDOUT
 
 # nltk
 from nltk.tokenize import RegexpTokenizer
@@ -24,6 +24,7 @@ from nltk.metrics import TrigramAssocMeasures
 from nltk.stem.porter import PorterStemmer
 from nltk.stem.snowball import SnowballStemmer
 from nltk.stem.wordnet import WordNetLemmatizer
+
 
 class SubmissionsHandler:
 
@@ -76,10 +77,11 @@ class TextCleaner:
 	def __init__(self, text):
 		self.set_stopwords()
 		self._enchant_dict = enchant.Dict("en_US")
-		# print self.correct_spelling(self.tokenize_words(self.normalize_text(text)))
+		print self.correct_spelling(self.tokenize_words(self.normalize_text(text)))
+		print self.correct_spelling_aspell(self.tokenize_words(self.normalize_text(text)))
 		# self.get_bigrams(text)
 		# self.get_trigrams(text)
-		print self.stem_words(self.tokenize_words(self.normalize_text(text)))
+		# print self.stem_words(self.tokenize_words(self.normalize_text(text)))
 
 	def set_stopwords(self):
 		self._english_stops = set(stopwords.words('english'))
@@ -106,6 +108,7 @@ class TextCleaner:
 		sent_tokenizer = PunktSentenceTokenizer(text)
 		return sent_tokenizer.tokenize(text)
 
+	# uses enchant
 	def correct_spelling(self, words):
 		correct_words = []
 		for word in words:
@@ -118,6 +121,24 @@ class TextCleaner:
 				else:
 					correct_words.append(word)
 		return correct_words
+
+	# uses aspell (probably better than enchant)
+	def correct_spelling_aspell(self, words):
+		correct_words = []
+		for word in words:
+			correct_words.append(self.apply_external(word))
+		return correct_words
+
+	def apply_external(self, msg):
+		proc = Popen(
+			['ruby', 'spell-correct.rb'],
+			stdout=PIPE,
+			stdin=PIPE,
+			stderr=STDOUT)
+		proc.stdin.write(msg)
+		proc.stdin.close()
+		result = proc.stdout.read()
+		return(result)
 
 	def get_bigrams(self, full_text):
 		# words = self.tokenize_words(self.normalize_text(full_text))
