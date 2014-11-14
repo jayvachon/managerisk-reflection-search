@@ -1,10 +1,10 @@
 managerisk-reflection-search
 ============================
 
-Takes the assessments written about Risk Horizon and organizes them into a JSON file so that we can search for terms.
 
-Must install NLTK:
+
+Must install NLTK for sentiment analysis:
 https://github.com/nltk/nltk
 
-And ffi-aspell:
+And ffi-aspell for spell correction:
 https://github.com/YorickPeterse/ffi-aspell

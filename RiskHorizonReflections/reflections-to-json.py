@@ -3,9 +3,11 @@
 # and reflections and organizes them into a JSON file
 # 
 
+import re
 import os
 import HTMLParser
 import json
+import csv
 
 # Navigate the directory to find the submissions and evaluations
 def getSubmissions(root):
@@ -59,6 +61,24 @@ def getEvaluations(submission):
 			evals.append(submission[f] + '/' + infile)
 	return evals
 
+# Get the IP addresses (contained in a separate csv)
+def get_ips():
+	ips = []
+	with open('user_ids_ips.csv', 'rb') as csvfile:
+		reader = csv.reader(csvfile)
+		for row in reader:
+			ips.append(row)
+	return ips
+
+def get_user_ip(ips, user_id):
+	for ip in ips:
+		if ip[0] == user_id:
+			return ip[1]
+	return None
+
+def get_id_from_title(title):
+	return re.search('id: (.*), session', title).group(1)
+
 # Parse the content
 class ReflectionParser(HTMLParser.HTMLParser):
 	def __init__(self):
@@ -108,7 +128,7 @@ class EvaluationParser(HTMLParser.HTMLParser):
 		if self.recording:
 			self.data.append(data)
 
-def FormatSubmissionToJSON(submission):
+def FormatSubmissionToJSON(submission, ips):
 
 	data = {}
 
@@ -122,7 +142,12 @@ def FormatSubmissionToJSON(submission):
 	parser.feed(p)
 	parserDataCount = len(parser.data)
 
+	# title
 	data["title"] = parser.data[0]
+
+	# user id & ip
+	data["user_id"] = get_id_from_title(parser.data[0])
+	data["ip"] = get_user_ip(ips, data["user_id"])
 
 	text = ""
 	if parserDataCount < 2:
@@ -164,10 +189,11 @@ def FormatSubmissionToJSON(submission):
 	data["evaluations"] = evalsData
 	return data
 
+ips = get_ips()
 arr = []
 submissions = getSubmissions('assessment3/')
 for s in submissions:
-	arr.append(FormatSubmissionToJSON(s))
+	arr.append(FormatSubmissionToJSON(s, ips))
 
 data = {}
 data["submissions"] = arr
