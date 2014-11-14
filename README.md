@@ -1,8 +1,6 @@
 managerisk-reflection-search
 ============================
 
-
-
 Must install NLTK for sentiment analysis:
 https://github.com/nltk/nltk
 

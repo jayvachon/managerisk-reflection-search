@@ -1,4 +1,6 @@
 
+import re
+import os
 import json
 import random
 import string
@@ -12,7 +14,7 @@ from nltk.tokenize import RegexpTokenizer
 from nltk.tokenize import PunktSentenceTokenizer
 from nltk.corpus import stopwords
 
-#ngrams
+# ngrams
 from nltk.collocations import BigramCollocationFinder
 from nltk.metrics import BigramAssocMeasures
 from nltk.collocations import TrigramCollocationFinder
@@ -26,7 +28,7 @@ from nltk.stem.wordnet import WordNetLemmatizer
 from nltk.corpus.reader import CategorizedPlaintextCorpusReader
 from nltk.tag import DefaultTagger
 from nltk.corpus import treebank
-
+from nltk.tag import UnigramTagger
 
 class SubmissionsHandler:
 
@@ -107,6 +109,10 @@ class TextHandler:
 		words = word_tokenizer.tokenize(text)
 		if ignore_stopwords:
 			words = [word for word in words if word not in self._english_stops]
+		w = []
+		for word in words:
+			w.append(unicode(word))
+		words = w
 		return words
 	
 	def tokenize_sentences(self, text):
@@ -188,24 +194,40 @@ class TextHandler:
 			words = self.stem_words(words)
 		return words
 
-	def get_sentences(self, text):
-		return self.tokenize_sentences(text)
+	def get_sentences(self, text, split_words=True):
+		if split_words:
+			sents = self.tokenize_sentences(text)
+			split_sents = []
+			for sent in sents:
+				split_sents.append(self.get_words(sent))
+			print split_sents
+			return split_sents
+		else:
+			return self.tokenize_sentences(text)
 
 class Chunker:
 
 	_tagger = DefaultTagger
 	
-	def __init__(self, words):
+	def __init__(self, words, sents):
 		self._tagger = DefaultTagger('NN')
-		self.tag_words(words)
+		self.tag_words(words, sents)
 
-	def tag_words(self, words):
-		print self._tagger.tag(words)
+	def tag_words(self, words, sents):
+		train_sents = treebank.tagged_sents()
+		tagger = UnigramTagger(train_sents)
+		test_sents = tagger.tag(sents[0])
+		# test_sents = treebank.tagged_sents()[3000:]
+		# print treebank.tagged_sents()[1:]
+		# print "accuracy: " + str(self._tagger.evaluate(test_sents))
+		# print self._tagger.tag(words)
+		# print test_sents
+		print tagger.evaluate(test_sents)
 
 	def get_accuracy(self, sentences=[]):
 
 		if sentences == []:
-			test_sents = treebank.tagged_sents()[3000:]
+			test_sents = treebank.tagged_sents()[6000:]
 		else:
 			test_sents = sentences
 		print self._tagger.evaluate(test_sents)
@@ -228,18 +250,44 @@ class CorporaHandler:
 		return nb_classifier
 
 	def categorizeText(words, classifier):
-      return classifier.classify(bag_of_non_stopwords(words))
+		return classifier.classify(bag_of_non_stopwords(words))
 
 submissions = SubmissionsHandler()
 text_handler = TextHandler()
 corpora_handler = CorporaHandler()
 
-
 # text_handler = TextHandler(submissions.get_random_reflection())
-# text_handler = TextHandler(submissions.get_reflection(0))
+text_handler = TextHandler(submissions.get_reflection(0))
 # text_handler = TextHandler(submissions.get_full_corpora())
 
 # print text_handler.get_sentences(submissions.get_reflection(0))
-# chunker = Chunker(text_handler.get_words(submissions.get_reflection(0), spell_correct=False, stem=False))
+text = submissions.get_reflection(0)
+chunker = Chunker(text_handler.get_words(text, spell_correct=False, stem=False), text_handler.get_sentences(text))
 # chunker.get_accuracy(text_handler.get_sentences(submissions.get_reflection(0)))
 
+"""
+30% of ips in reflections match ips in data :(
+
+game_data = open('../../RiskHorizonData/json_parser/data/risk_horizon.json')
+game_data_json = json.load(game_data)
+
+reflections_data = open('../submissions.json')
+reflections_data_json = json.load(reflections_data)
+reflections = reflections_data_json['submissions']
+
+reflection_ips = []
+for reflection in reflections:
+	reflection_ips.append(reflection['ip'])
+
+game_ips = []
+for i in range(len(game_data_json)):
+	ip = game_data_json[i]['ipv4']
+	ip = re.match(r'[^,]*', ip).group(0)
+	game_ips.append(ip)
+
+matches = 0
+for i in range(len(reflection_ips)):
+	if reflection_ips[i] in game_ips:
+		matches += 1
+print str(matches) + ' of ' + str(len(reflection_ips))
+"""
