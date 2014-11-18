@@ -1,0 +1,63 @@
+
+how to read 'rh-reflections-and-data.csv'
+
+each row is a unique player
+
+column breakdown:
+
+'ip': ip address 
+
+'games_played': number of games played
+
+'highest_level': highest level the player reached
+
+'minutes_played': total amount of time, in minutes, that the player spent playing the game
+
+'research_time1-6': (in seconds) deviation from the average time that the player spent researching comets. for example, the first player listed spent an average of 15 seconds longer researching during level 1 than all other players
+
+'protection_percent1-6': deviation from the average % that the player bought protection. for example, the first player listed had an average of 17% more protection at the end of level 1 than all other players
+
+'insurance_level1-6': deviation from the average % that the player bought insurances 1, 2, 3. for example, in level 1 the first player listed was 15% more likely to buy insurance #1 than all other players. s/he was also 17% less likely to buy insurance #2, and 34% less likely to buy insurance #3
+
+'reflection': the reflection that the player wrote at the end of the game
+
+average research time:
+level 1: 38 seconds
+level 2: 47 seconds
+level 3: 52 seconds
+level 4: 56 seconds
+level 5: 60 seconds
+level 6: 67 seconds
+
+average protection %:
+level 1: 28%
+level 2: 37%
+level 3: 50%
+level 4: 58%
+level 5: 57%
+level 6: 53%
+
+% of players who bought each insurance:
+level 1: 45%, 57%, 74%
+level 2: 55%, 66%, 77%
+level 3: 58%, 69%, 75%
+level 4: 59%, 69%, 69%
+level 5: 57%, 66%, 64%
+level 6: 55%, 61%, 64%
+
+quintiles:
+games played: [0, 2.0, 3.0, 6.0, 10.0, 66]
+highest level: [0, 2.0, 3.0, 4.0, 5.0, 6]
+minutes played: [0, 15.0, 24.0, 42.0, 69.0, 435]
+research time level 1: [-38, -27, -11, 8, 29, 62]
+research time level 2: [-47, -33, -11, 12, 345, 53]
+research time level 3: [-52, -37, -13, 17, 38, 48]
+research time level 4: [-56, -40, -13, 17, 35, 44]
+research time level 5: [-60, -39, -2, 17, 36, 40]
+research time level 6: [-63, -36, 1, 17, 30, 33]
+protection % level1: [-28, -15, 1, 12, 22, 68]
+protection % level2: [-37, -13, 3, 13, 23, 54]
+protection % level3: [-50, -14, -2, 6, 14, 49]
+protection % level4: [-41, -14, -4, 2, 11, 38]
+protection % level5: [-32, -12, -5, 2, 12, 37]
+protection % level6: [-38, -13, -3, 3, 11, 46]
