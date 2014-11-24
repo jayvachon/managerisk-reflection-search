@@ -1,4 +1,6 @@
 
+# Deprecated. Go to ReflectionsAndData directory
+
 from __future__ import division
 import re, json, sys
 import unicodecsv as csv
