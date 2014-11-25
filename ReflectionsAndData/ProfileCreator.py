@@ -1,9 +1,12 @@
 
+# ProfileCreator.py
+
 import json
 import unicodecsv as csv
 import GameDataHandler as gdh
 import ReflectionDataHandler as rdh
 
+########## DEPRECATED ##########
 def create_csv(name):
 	f = open(name, 'wt') 
 	w = csv.writer(f, encoding='utf-8')
@@ -63,13 +66,13 @@ def write_profile_to_csv(profile, csv_writer):
 		profile['highest_level'],
 		profile['minutes_played']
 		)
-	research = cleanup_research_time(profile['research_time'])
+	research = cleanup_research_time(profile['research_time_level'])
 	for r in research:
 		row = row + (r,)
-	protection = cleanup_protection(profile['protection_percent'])
+	protection = cleanup_protection(profile['protection_percent_level'])
 	for p in protection:
 		row = row + (p,)
-	insurances = cleanup_insurances(profile['insurances'])
+	insurances = cleanup_insurances(profile['insurances_level'])
 	for i in insurances:
 		row = row + (i,)
 	row = row + (cleanup_reflection(profile['reflection']),)

@@ -1,4 +1,7 @@
 
+# QuintileCreator.py
+
+from __future__ import division
 import numpy as np
 
 def create_quintiles(profiles):
@@ -48,11 +51,19 @@ def get_key_arr_at_index(profiles, key, index):
 	return arr
 
 def create_quintile(data_arr):
+	return create_quantile(data_arr, 5)
+
+def create_tertile(data_arr):
+	return create_quantile(data_arr, 3)
+
+def create_quantile(data_arr, q):
 	arr = np.array(data_arr)
-	q = []
-	for i in range(6):
-		q.append(np.percentile(arr, i * 20))
-	return q
+	quantile_arr = []
+	quantile_arr.append(np.amin(arr))
+	p = 100 / q
+	for i in range(q):
+		quantile_arr.append(np.percentile(arr, (i+1) * p))
+	return quantile_arr
 
 def write_quintile_to_profile(profiles, key, index=-1):
 	for p in range(len(profiles)):
@@ -74,6 +85,7 @@ def write_insurance_quintile_to_profile(profiles, level):
 			profiles[p]['insurances'][level][i] = group_data_in_quintile('insurance_level' + str(level), val)
 			# print profiles[p]['insurances'][level][i]
 
+########### DEPRECATED ##########
 def group_data_in_quintile(key, data):
 	group = ""
 	quintile = _quintiles[key]
@@ -92,6 +104,57 @@ def group_data_in_quintile(key, data):
 	if group == "":
 		print "ERROR!!!!!", data, quintile
 	return group
+
+def range_in_quintile(quintile, data, round_vals=True, percentage=False):
+	
+	qlen = len(quintile)
+	from_val = 0
+	to_val = 0
+
+	for i in range(qlen):
+		if data <= quintile[i] and i > 0:
+			from_val = quintile[i-1]
+			to_val = quintile[i]
+			break
+
+	if from_val == 0 and to_val == 0:
+		print "data point doesn't fit within the quintile", data, quintile
+		return 'n/a'
+
+	if percentage:
+		from_val *= 100
+		to_val *= 100
+
+	if round_vals:
+		from_val = round(from_val)
+		to_val = round(to_val)
+
+	fv_str = str(from_val)
+	tv_str = str(to_val)
+
+	fv_str = fv_str[:-2]
+	tv_str = tv_str[:-2]
+
+	label = fv_str + " to " + tv_str
+	return label
+
+def position_in_quintile(quintile, data, percentage=False):
+
+	position = -1
+	qlen = len(quintile)
+	
+	for i in range(qlen):
+		if data <= quintile[i] and i > 0:
+			position = i
+			break
+
+	if position == -1:
+		print "data point doesn't fit within the quintile", data, quintile
+		return 'n/a'
+
+	# percentile = position * 20
+
+	return str(percentile)
 
 def get_insurance_vals(profiles, level):
 	arr = []
