@@ -52,21 +52,15 @@ def write_profile_to_csv(profile):
 
 	for level in range(6):
 		label = profile['research_time_level' + str(level)]
-		if label != 'n/a':
-			label += ' seconds'
 		row = row + (label,)
 
 	for level in range(6):
 		label = profile['protection_percent_level' + str(level)]
-		if label != 'n/a':
-			label += '%'
 		row = row + (label,)
 
 	for level in range(6):
 		for i in range(8):
 			label = profile['insurances_level' + str(level) + str(insurance_types[i])]
-			if label != 'n/a':
-				label += '%'
 			row = row + (label,)
 
 	row = row + (profile['reflection'],)
@@ -83,4 +77,4 @@ insurance_types = [
 	'abc'  # BUY ALL THE PLANS!!!
 ]
 
-csv_writer = create_csv('csv/reflections-and-data.csv')
+csv_writer = create_csv('csv/reflections-and-data-rank.csv')

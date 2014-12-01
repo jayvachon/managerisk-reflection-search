@@ -4,31 +4,6 @@
 from __future__ import division
 import numpy as np
 
-def create_quintiles(profiles):
-	
-	quints = {}
-	quints['games_played'] = create_quintile_from_key(profiles, 'games_played')
-	quints['highest_level'] = create_quintile_from_key(profiles, 'highest_level')
-	quints['minutes_played'] = create_quintile_from_key(profiles, 'minutes_played')
-	
-	for level in range(6):
-		quints['research_time' + str(level)] = create_quintile_from_key(profiles, 'research_time', level)
-	
-	for level in range(6):
-		quints['protection_percent' + str(level)] = create_quintile_from_key(profiles, 'protection_percent', level)
-	
-	"""
-	for level in range(6):
-		arr = []
-		for insurance in range(3):
-			arr.append(create_quintile(get_insurance_vals(level)[insurance]))
-		quints['insurance_level' + str(level)] = arr
-	"""
-	"""
-	print quints['games_played'], quints['highest_level'], quints['minutes_played'], quints['research_time1'], quints['research_time2'], quints['research_time3'], quints['research_time4'], quints['research_time5'], quints['protection_percent0'], quints['protection_percent1'], quints['protection_percent2'], quints['protection_percent3'], quints['protection_percent4'], quints['protection_percent5']
-	"""
-	return quints
-
 def create_quintile_from_key(profiles, key, index=-1):
 	if index > -1:
 		arr = get_key_arr_at_index(profiles, key, index)
@@ -85,37 +60,33 @@ def write_insurance_quintile_to_profile(profiles, level):
 			profiles[p]['insurances'][level][i] = group_data_in_quintile('insurance_level' + str(level), val)
 			# print profiles[p]['insurances'][level][i]
 
-########### DEPRECATED ##########
-def group_data_in_quintile(key, data):
-	group = ""
-	quintile = _quintiles[key]
-	qlen = len(quintile)
-	for i in range(qlen):
-		if data < quintile[i] or i == qlen-1:
-			from_val = quintile[i-1]
-			to_val = quintile[i]
-			if key.find('protection_percent') == False:
-				from_val *= 100
-				to_val *= 100
-			from_val = round(from_val)
-			to_val = round(to_val)
-			group = str(from_val) + " to " + str(to_val)
-			break
-	if group == "":
-		print "ERROR!!!!!", data, quintile
-	return group
-
 def range_in_quintile(quintile, data, round_vals=True, percentage=False):
 	
 	qlen = len(quintile)
 	from_val = 0
 	to_val = 0
+	rank = 0
 
 	for i in range(qlen):
-		if data <= quintile[i] and i > 0:
+		if i == 0:
+			continue
+		if data <= quintile[i]:
 			from_val = quintile[i-1]
 			to_val = quintile[i]
+			rank = i
 			break
+		# if i == qlen-1:
+		# 	from_val = quintile[i-1]
+		# 	to_val = quintile[i]
+		# 	rank = i
+		# 	break
+		# if i == 0:
+		# 	continue
+		# if data < quintile[i]:
+		# 	from_val = quintile[i-1]
+		# 	to_val = quintile[i]
+		# 	rank = i
+		# 	break
 
 	if from_val == 0 and to_val == 0:
 		print "data point doesn't fit within the quintile", data, quintile
@@ -135,7 +106,10 @@ def range_in_quintile(quintile, data, round_vals=True, percentage=False):
 	fv_str = fv_str[:-2]
 	tv_str = tv_str[:-2]
 
-	label = fv_str + " to " + tv_str
+	# range
+	# label = '=("' + fv_str + '-' + tv_str + '")'
+	# rank
+	label = str(rank)
 	return label
 
 def position_in_quintile(quintile, data, percentage=False):

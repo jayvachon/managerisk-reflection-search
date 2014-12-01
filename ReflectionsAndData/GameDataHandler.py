@@ -54,25 +54,6 @@ def get_level_average_insurance(level_number, ip='n/a'):
 
 	return average_insurances
 
-	"""
-	total_insurances = [0,0,0]
-	average_insurances = [0,0,0]
-	level_count = 0
-	levels = get_levels(ip, level_number)
-	for level in levels:
-		insurances = level['insurances']
-		for insurance in range(len(total_insurances)):
-			if insurances[insurance]:
-				total_insurances[insurance] += 1
-		level_count += 1
-	
-	if level_count == 0:
-		return 'n/a'
-	for insurance in range(len(total_insurances)):
-		average_insurances[insurance] = total_insurances[insurance] / level_count
-	return average_insurances
-	"""
-
 def get_levels_average_insurance(ip='n/a'):
 	insurances = {}
 	for i in range(6):
@@ -111,19 +92,6 @@ def get_level_insurance_deviations(ip):
 			deviations[level][d] = i-a
 
 	return deviations
-
-	"""
-	total_insurances = _average_attributes['insurances']
-	deviations = []
-	for l in range(6):
-		if insurances[l] == 'n/a':
-			deviations.append('n/a')
-			continue
-		deviations.append([0,0,0])
-		for i in range(3):
-			deviations[l][i] = insurances[l][i] - total_insurances[l][i]
-	return deviations
-	"""
 
 def get_ips():
 	ips = []
@@ -230,7 +198,8 @@ def get_time_played_from_ip(ip):
 data_file = open('../RiskHorizonData/json_parser/data/risk_horizon.json')
 _data = json.load(data_file)
 
-_average_attributes = json.load(open('json/average-attributes.json'))
+# attribute averages generated from all available data (not just ip matches)
+_average_attributes = json.load(open('json/attribute-averages.json'))
 
 """
 _average_attributes = {}

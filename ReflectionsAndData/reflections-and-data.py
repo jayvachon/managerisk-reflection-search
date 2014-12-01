@@ -6,7 +6,8 @@ import ReflectionDataHandler as rdh
 import QuintileCreator as qc
 import ProfileWriter as pw
 
-def get_quintiles():
+# only need to run this function once to generate the quintile-ranges json file
+def write_quintiles_to_json():
 
 	profiles_arr = profiles['profiles']
 
@@ -25,8 +26,9 @@ def get_quintiles():
 		for i in range(8):
 			arr = create_insurance_array(profiles_arr, level, i)
 			quints['insurances_level'+ str(level) + insurance_types[i]] = qc.create_quintile(arr)
-			
-	return quints
+
+	with open(quintiles_ranges_filename, 'w') as f:
+		json.dump(quints, f, ensure_ascii=False, indent=4)
 
 def create_insurance_array(profiles_arr, level, insurance_type):
 	arr = []
@@ -35,6 +37,7 @@ def create_insurance_array(profiles_arr, level, insurance_type):
 	return arr
 
 def write_quintile_profile(profile):
+	
 	quint_profile = {}
 	quint_profile['ip'] = profile['ip']
 	quint_profile['games_played'] = qc.range_in_quintile(quintiles['games_played'], profile['games_played'])
@@ -66,45 +69,21 @@ def write_quintile_profile(profile):
 			else:
 				quint_profile[key] = qc.range_in_quintile(quintiles[key], ins[i], percentage=True)
 
-	quint_profile['reflection'] = profile['reflection']
-
-	pw.write_profile_to_csv(quint_profile)
+	if profile['reflection'] is None:
+		profile['reflection'] = ""
+	else:
+		quint_profile['reflection'] = profile['reflection'].encode('utf-8')
+	# pw.write_profile_to_csv(quint_profile)
+	
+	return quint_profile
 
 def write_quintile_profiles():
+	quint_profiles = {}
+	quint_profiles['profiles'] = []
 	for p in profiles['profiles']:
-		write_quintile_profile(p)
-
-def write_quintiles_to_json():
-
-	profiles_arr = profiles['profiles']
-
-	quints = {}
-	quints['games_played'] = qc.create_quintile_from_key(profiles_arr, 'games_played')
-	quints['highest_level'] = qc.create_quintile_from_key(profiles_arr, 'highest_level')
-	quints['minutes_played'] = qc.create_quintile_from_key(profiles_arr, 'minutes_played')
-	
-	research_time = []
-	for level in range(6):
-		research_time.append(qc.create_quintile_from_key(profiles_arr, 'research_time', level))
-	quints['research_time'] = research_time
-	
-	protection_percent = []
-	for level in range(6):
-		protection_percent.append(qc.create_quintile_from_key(profiles_arr, 'protection_percent', level))
-	quints['protection_percent'] = protection_percent
-
-	insurances = {}
-	for level in range(6):
-		insurance_level = {}
-		for i in range(8):
-			arr = create_insurance_array(profiles_arr, level, i)
-			insurance_level[insurance_types[i]] = qc.create_quintile(arr)
-		insurances['level ' + str(level+1)] = insurance_level
-
-	quints['insurances'] = insurances
-			
-	with open('json/quintiles.json', 'w') as f:
-		json.dump(quints, f, ensure_ascii=False, indent=4)
+		quint_profiles['profiles'].append (write_quintile_profile(p))
+	with open(quintile_profiles_filename, 'w') as f:
+		json.dump(quint_profiles, f, ensure_ascii=False, indent=4)
 
 insurance_types = [
 	'nil', # didn't buy any insurance
@@ -117,9 +96,23 @@ insurance_types = [
 	'abc'  # BUY ALL THE PLANS!!!
 ]
 
-profiles = json.load(open('json/profiles.json'))
-quintiles = get_quintiles()
+use_matches = False
+raw_profiles_filename = ''
+quintiles_ranges_filename = ''
+quintile_profiles_filename = ''
+if use_matches == True:
+	raw_profiles_filename = 'json/raw-profiles.json'
+	quintiles_ranges_filename = 'json/quintile-ranges.json'
+	quintile_profiles_filename = 'json/quintile-profiles.json'
+else:
+	raw_profiles_filename = 'json/raw-profiles-all.json'
+	quintiles_ranges_filename = 'json/quintile-ranges-all.json'
+	quintile_profiles_filename = 'json/quintile-profiles-all.json'
+
+profiles = json.load(open(raw_profiles_filename))
+
+# write_quintiles_to_json()
+quintiles = json.load(open(quintiles_ranges_filename))
 
 write_quintile_profiles()
-# write_quintiles_to_json()
 
