@@ -1,0 +1,20 @@
+5482996
+
+The essence of the game is simple.  
+There is a planet filled with water. There is a platform (of the land), which is the base of the Earthmen. The base consists of factories that produce the resource. On planet fall of the comet, which cause a tsunami.
+Each round you must produce more resources than the last, and for this we need to build and improve factory. It is also possible to lift the platform above the water, to reduce the damage from the tsunami; to build a radio beacon to reduce the damage
+from the tsunami, if you did this happen; to explore each comet separately in order to have more tools (time) on the mitigation already happened risk. The role of risk management in the game:  
+1. Context. The game sets a fairly simple context. A player
+is only in the choice of plantations development strategy and protection from comets strategies. Of course, both strategies are interdependent. 
+2. Identification Is not necessary, the game itself has identified risks (comets, the probability of their
+functioning and the possible consequences). undefined uncertainty in the game does not exist. 
+3. Analisys The game uses tri-colour scale for the probability and consequences of the risks and protective measures. Given that the time for a detailed quantitative
+risk analysis is very small, this display helps to make a decision on risk management strategies (protection, study, or insurance). 
+4. 3 strategys: 1. We can protect our plantations from the tsunami, increase the height of the platform. This effectively
+always and for all comets. But, then we spend the money and stop the development of plantations. 2. We can "insure" factory, but it costs a lot, comparable with significant improvement factory, and we can't know in advance the efficiency of it (threat
+of comets and protection affect it) 3. We can study each comet separately. It is now for the most dangerous comets. MY RISK MANAGEMENT PLAN: Support protection on an average level (Up to red line). The study of the most dangerous comets (my risk matrix 3x3, dangerous - all comets have and the likelihood and consequences of more than 4 lines, the most dangerous - with red rank, to examine in the first place). Insure only in case, if you see at the beginning of round lot of dangerous comets (more than
+3). 
+Q2
+RMP helps me to rich level 5. I played the game 2 times. 1 time - tutorial. 2 time - just got to level 5. The difference in tactics was only one thing in the real game I used the insurance. Especially after 3 levels - it has become too expensive.Q3
+To improve the game: 1. In the game you could add the second type of risk, which could be correlated with comets. For example, social risk (the revolt of the workers). This will complicate the game, but then the player will have to make a definitive strategy
+and clearly it follow that the most reveals risk management. 2. The possibilities. And what if our project will allocate more money (Gold comet) or will come unexpected cold (it can comes with Ice comet), which will freeze the water (reduce the tsunami)?...

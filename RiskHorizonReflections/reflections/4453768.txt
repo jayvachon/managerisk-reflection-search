@@ -1,0 +1,38 @@
+4453768
+
+GAME ON
+RISK MANAGEMENT. Asignment
+
+1.       The role of risk management is to confront
+natural risks in order to prosper. In the game, one needs to take investment
+and risk management decisions trading off higher project investments with
+upfront costly strategies that help prevent or smooth/lessen damages overtime.
+Decisions involve weighting benefits and costs of i) research to improve our
+knowledge on how to better deal with the risk, ii) infrastructure related risks
+that lessen damages and, iii) insurance that lessen private net costs of a
+given damage. Well suited strategies may help players to achieve development
+goals. They can smooth revenue-wealth realizations over time, allow to sustain
+investments requirements and, thus, increase net benefits growth and chances of
+survival. 
+
+2.       If I played the game only once, in
+the second trial I would invest more in knowledge and research in order to be more
+acquainted on the pros and cons of the different combinations of feasible
+strategies. I would also try to be more rigorous deciding on the level of
+insurance per type of risk. As I played it repeatedly, in addition to improve
+upon the previous issues, I tried to better understand the link between
+investment – risk – returns – speed of growth. I think the main insights from
+the game are i) it helps differentiate conceptually the different components of
+the environment (events, risks, investments, growth, risk management
+strategies), ii) it helps trying to figure out how to incorporate components
+interactions and interdependency dynamically, within financial and time
+constraints, and without mixing each components’ contribution. 
+
+3.       What would I change/add to the game?
+It was not clear to me what was behind each causal relation. The link between research
+and costs/benefits, the relationship between elevation and disaster prevention,
+and contracts clauses in the insurance markets. So probably as you move on, I
+would add a general advisor that could answer a couple of questions, or give
+you few tips and structural information.
+
+ 

@@ -1,0 +1,67 @@
+6962372
+
+Initial reflection: The aim of the game was to build
+a sustainable and lasting Alora community in a region that is exposed to many
+systemic risks. This is a very real-life scenario, and reminded me particularly
+of countries that are prone to imposed systemic risks such as volcano eruptions
+or regions that suffer intense storms, cyclone or hurricane seasons. Of course,
+in real life, some people might be able to move away from such high-risk
+regions, but most cannot just leave everything behind. 
+
+Playing the game: I played twice, reached level 3 at
+my first try and level 5 at my second attempt. My game version was handicapped,
+because I played on Windows XP and have not been able to increase protection
+more than 3 or 4 bars. To raise protection even by one bar took about 15 to 20
+seconds, so I played with very low protection throughout the game. The ‘not
+enough resources sign’ kept blinking throughout the game, even if I had sufficient
+money left. I hope that future versions of the game will take such technical
+issues into account. 
+
+While of course strategizing and balancing different
+activities was key to reaching higher levels, I think that a certain amount of
+luck was essential, as several comet strikes over a short amount of time made
+it more difficult to be everywhere at once. Then again, one could argue that
+luck is also an essential component of our real life and unfortunately even
+with skill and if we do everything right, sometimes we lose. 
+
+First attempt: In the first attempt I did not really
+know what I was doing. From the lecture material, I assumed that the game was
+about risk (the possibility of loss – in this case damage to buildings and the destruction
+of Alora) and opportunity (the possibility of gain – building a sustainable beautiful
+Alora). I was aware that I would need to balance preventive measures (research
+and protection), and coping with the consequences of particularly severe comet
+hits (insurance). I also assumed it would be in my best interest to keep the community
+small at the beginning, focusing on a few pods, but upgrading them as fast as
+possible. I lost at level 3. 
+
+Second attempt:  Following my loss, I considered what I may
+have done wrong and how to change my strategy. I gambled a bit excessively on
+insurance, trying to leave it to the last minute and sometimes I did not manage
+to buy it before the comet hit. This resulted in high reconstruction costs and
+slowed my progress. Additionally, my community may have been too small,
+reducing the number of possible community links and thus decreasing resilience
+in Alora. 
+
+Therefore, during my second attempt, I focused on 
+
+-         
+balancing my construction efforts more equally
+between pods, 
+
+-         
+on buying insurance when I saw several comets
+arriving (paying particular attention not to the likelihood of the hit, but to
+its severity)
+
+-         
+building immediately when I had money in the
+bank, to make Alora into a beautiful community. 
+
+Additional ideas for future game development: I think
+once technical weaknesses have been addressed, an interactive version of the
+game would be interesting. Right now, the player takes all the decisions and
+can decide unilaterally what to do. However, in real life decisions are rarely
+taken unilaterally anymore and each decision-process involves a lot of
+negotiation. Negotiation is time-consuming and may actually increase risks for
+a particular community if no agreement can be reached. I think an interactive version
+would be quite interesting to see how different players act together. 

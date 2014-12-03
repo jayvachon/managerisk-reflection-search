@@ -1,0 +1,82 @@
+5571530
+
+
+
+
+
+Role of risk management in the game:
+
+The game
+has two underlying risks which have to be managed simultaneously. The risk of
+the city being flooded due to the comet impacting the water, and the risk that
+the required city development is not reached. The aim was to manage city growth
+vs city protection.
+
+Choices made and trade-offs confronted:
+
+Choices had
+to be made regarding the allocation of funds and time towards constructing
+buildings, choosing insurance, increasing city protection and increasing comet research.
+
+The main tradeoffs
+were as follows:
+
+·        
+Increasing
+construction would decrease available funds, and it would temporarily stop development
+at the factory, however after construction the development from the factory
+would be increased;
+
+·        
+Increased
+insurance would decrease the potential loss should a comet strike, while
+decreasing available funds for other uses;
+
+·        
+Increased
+city protection improves the probability that the city can successfully defend
+against comets with a higher severity, while decreasing available funds for
+other uses and stopping the development from all factories during the time that
+protection is being increased
+
+·        
+Increased
+research assists with identifying the most threatening comets with the highest
+chance of hitting, as well as increasing the time available to the city to
+defend against potential floods, however it is only possible to research one
+comet at a time and the city protection cannot be increased while a comet is
+being researched
+
+Effect of risk management on development:
+
+Ineffective
+risk management would lead to a flood which would immediately reduce development.
+
+Increased factory
+development would immediately halt all development at the one factory. 
+
+Increased
+city protection would immediately halt development at all factories.
+
+Increased research
+would decrease the time available to increase factory development. 
+
+Increased
+insurance would not effect development immediately, but it would decrease the
+funds available to increase development in the future.
+
+What changed after playing the game the first
+time and what were the main things learnt:
+
+The main
+change was that I used research to more effectively allocate the available time
+to comets that posed the greatest threat to the city, based on the severity and
+chance of hitting. This then also increased the time available to defend
+against the comet once it had hit. 
+
+Proposed game changes:
+
+The water
+level could rise continuously due to the effects of global warming. More ‘green’
+factories could be constructed to slow the rise in the water level.
+

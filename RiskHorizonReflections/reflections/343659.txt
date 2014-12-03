@@ -1,0 +1,36 @@
+343659
+
+Objective: Development of the community.
+
+Risks: Comets
+
+Controls: Research, Protection, Insurance.
+
+My role as risk management was making a
+balance between the developments of the community, with protecting against
+comets, to achieve the objective.
+
+I played the game more than once. Although
+I bought the insurance as the first option, and did the research, and hold the
+protection, sometimes the damage was more than 50%, but the cost of repair was
+lowest than without protection.
+
+The game is interesting because I had to
+take decisions about what to do first, and looking to the horizon for the risk
+of turn up a new comet, and make new decisions respecting the severity and
+chance of hit.  When I had time, I could
+repair the pods, but some impacts are at the final, so it’s difficult to
+achieve the objective.
+
+I couldn’t past the third level, but I tried
+to implement different strategies, like investing more in research if the
+severity and chance of hit was low, or changing for protection, if the severity
+and chance of hit was higher.
+
+About the third part, the explanation of
+the impact for me is not clear, so I suggest the evaluation of other ways to do
+it, in future versions.
+
+Thanks,
+
+Paulino

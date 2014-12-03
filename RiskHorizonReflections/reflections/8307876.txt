@@ -1,0 +1,129 @@
+8307876
+
+1)   
+The role of risk management followed by me
+during the game was from the following details:
+
+Risk management is the identification, assessment, and
+prioritization of risks (defined in ISO 31000 as the
+effect of uncertainty on objectives) followed by coordinated and economical
+application of resources to minimize, monitor, and control the probability
+and/or impact of unfortunate events[1] or to maximize the realization of
+opportunities. Risks can come from uncertainty in financial markets, threats
+from project failures (at any phase in design, development, production, or
+sustainment life-cycles), legal liabilities, credit risk, accidents, natural causes
+and disasters as well
+as deliberate attack from an adversary, or events of uncertain or unpredictable root-cause.
+Several risk management standards have
+been developed including the Project Management Institute, the National Institute of Standards and
+Technology, actuarial societies, and ISO standards.[2][3] Methods, definitions and goals vary
+widely according to whether the risk management method is in the context of
+project management, security, engineering, industrial processes,
+financial portfolios, actuarial assessments, or public health and safety.
+
+The
+strategies to manage threats (uncertainties with negative consequences)
+typically include transferring the threat to another party, avoiding the
+threat, reducing the negative effect or probability of the threat, or even
+accepting some or all of the potential or actual consequences of a particular
+threat, and the opposites for opportunities (uncertain future states with
+benefits).
+
+Certain
+aspects of many of the risk management standards have come under criticism for
+having no measurable improvement on risk, whether the confidence in estimates
+and decisions seem to increase.[1] For example, it has been shown that
+one in six IT projects becomes a 'Black Swan', with cost overruns of 200% on
+average, and schedule overruns of 70%.[4]
+
+ 
+
+2)     
+If I had to play the game i would use the
+following strategy:
+
+For the most part, these methods
+consist of the following elements, performed, more or less, in the following
+order.
+
+1.   identify,
+characterize threats in game
+
+2.   assess the vulnerability of critical assets to specific threats
+
+3.   determine the risk (i.e. the expected likelihood and
+consequences of specific types of attacks on specific assets)
+
+4.   identify ways to
+reduce those risks
+
+5.   prioritize risk reduction measures based on a
+strategy
+
+create value – resources expended to mitigate
+     risk should be less than the consequence of inaction, or (as in value engineering),
+     the gain should exceed the pain
+ be
+     an integral part of organizational processes
+ be
+     part of decision making process
+ explicitly
+     address uncertainty and assumptions
+ be
+     systematic and structured process
+ be
+     based on the best available information
+ be tailor
+     able
+ take
+     human factors into account
+ be
+     transparent and inclusive manner.
+ be
+     dynamic, iterative and responsive to change
+ be
+     capable of continual improvement and enhancement
+ be
+     continually or periodically re-assessed
+3)    The change which i
+would propose for better risk management choices would be as follows:
+
+It involves:
+
+1.   identification of
+risk in as a fully selected domain of interest.
+
+2.   planning the
+remainder of the process of the game
+
+3.   mapping out the
+following:
+
+·        
+the social scope of risk management is as follows:
+
+·        
+the identity and objectives of stakeholders and players
+of the game.
+
+·        
+the basis upon which risks will be evaluated constraints.
+
+4.   defining a
+framework for the activity and an agenda for identification
+
+5.   developing an
+analysis of risks involved in the process.
+
+6.   Mitigation or
+solution of risks using available technological, human and organizational
+resources.
+
+When either source or problem is
+known, the events that a source may trigger or the events that can lead to a
+problem can be investigated for example: confidential information may be stolen
+by employees.
+
+ 
+
+ 

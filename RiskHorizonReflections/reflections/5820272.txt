@@ -1,0 +1,16 @@
+5820272
+
+1. What
+ was the role of risk management in the game? What choices did you make 
+and what trade-offs did you confront in terms of knowledge, protection, 
+and insurance? In what ways did preparation for risk affect development 
+(immediately, or after some time)?The role of risk management in the game was i) to reduce the volatility of possible development in the game about its trend ii) to help maximize the expected trend of development and iii) to help insure and ensure the path of development. My main choice was not to over-invest in information (just estimating risk from the comet's color), but to protect the development using land protection, and before a likely imminent comet strike by buying  extra insurance. I also tried to channel production and savings as fast as possible into new development and to repair distaster damage as fast as possible.Preparation for risk affected development in 2 ways. Most obviously it diverted some time and resources from development. However more subtlely it also changes the background for development and what further development would be possible and prudent given residual resources.2. If
+ you played the game only once, what would you do differently if you 
+were to play it again? Alternatively, if you played the game more than 
+once, what did you do differently after the first time? What were the 
+main things you learned from the game?I played the game twice and second time watched the comets more closely and tried to accelerate the rate of development, other factors being equal and to run a lower average cash reserve. This strategy got me from level 2 to level 3.The main things I learnt from the game were: i) the need to press ahead with development, ii) the need to expect and be ready for constant external shocks (the impact of disasters on development having been a surprising discovery earlier in the course), iii) the need to bounce back from shocks as quickly and effectively as possible and iv) most critically the vital importance of risk management for developing markets and v) the need to counteract risk-management market-failures in developing markets.3. The
+ game captures, in a simplified way, some aspects of risk management. 
+Imagine you are tasked with developing a new version of the game, which 
+allows you to change or add one simple thing. What change would you 
+propose to better represent the risk management choices that matter in 
+the place you live?Recommended upgrades to the game to reflect more realistic choices are:i) adding additional different classes of riskii) adding risks with broader range of possible effects and broader range of remediation and non-remediationiii) adding unknown, unanticipated risksiv) adding more idiosyncratic risksv) adding families as agentsvi) adding network risksvii) adding more geographical factorsviii) adding both short and long term shocksix) adding political shocks

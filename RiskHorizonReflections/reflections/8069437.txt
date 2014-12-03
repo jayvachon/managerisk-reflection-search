@@ -1,0 +1,51 @@
+8069437
+
+ 
+
+The game is based in a city of
+Alora and we have to develop the city while taking in account certain risks
+which may damage the city.
+
+Alora is a victim to falling
+comets. These comets careen into water and causes waves that hinder
+development. Our goal is to balance the growth of city and also minimize the
+potential risk from the comets which may cause severe damage to the city.
+
+The risk management tools
+available are research, protection, and insurance. Each of this tool has its
+own cost.
+
+Research: Using this tool we can look into space
+and learn about the chance of the comet hitting, the time remaining until
+impact, and the     severity of the comet if it strikes.Protection: Using this tool we can raise our
+island so that we can prevent our pods from damage due to the severity of
+comets.Insurance: This tool helps to rebuild the pods
+damaged from flooding quickly at a cheaper price. Insurance also recovers lost
+development time after the pods are recovered The preparation for risk hinders the
+development immediately but in a long run we realise that actually preparation
+for risk beforehand has us saved from lots of cost that may incurred due to the
+damages otherwise.
+
+To do well in the game you have
+to think strategically i.e to keep balance between risk preparation and
+investment in developing the community.
+
+When I first played the game I put
+too much emphasis on insurance and developing the community which cost me when
+a comet struck and damaged all the pods and I was not able to progress past the
+second level. Then I realised that it not enough to rely on insurance and that I
+should also invest in protection against the comets and also learn about their
+severity through research. Doing this I was able to get past through level 3
+easily. 
+
+The game gives a perfect example
+of how the policy makers of the state with limited resources are struck between
+spending money up front on risk management or to spend in the development of
+state, communities and other facilities.
+
+Apart from that given a choice to
+make changes in the game I will do the following things
+
+Avail certain pods at higher cost that may not
+get damaged by the comet.Some attacking tool to destroy the cometsWhenever we lose a level the game begins from
+the start, there should be option to restart the game at the same level itself.  

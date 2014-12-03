@@ -1,0 +1,45 @@
+6429035
+
+Game
+Reflection Essay
+
+ Risk Horizon allowed me to utilize risk management in the
+following ways:  
+
+I began building in level 1, bought
+50% loss insurance and then lifted the island up by at least three bars. I
+scanned the sky for comets, while building better structures. I adjusted the
+island lift as necessary to ensure resource growth. 
+
+In level 2 and 3, my first priority
+was 75% loss insurance. This resulted in lower damage costs. I then proceeded
+to build better structures, keeping an eye out for comets. I researched comets
+more and raised the island higher in these levels than in level 1.   
+
+My trade-offs were in allocating
+resources towards protection and insurance early in the level, and having
+resource production and knowledge compensate for it by the end of the level. To
+ensure smooth transition from one level to the next, all buildings had to be
+completed (or repaired) prior to ending a level. That allowed optimal money
+generation rate.  
+
+The first time I played the game, I
+had no clue on how to use research, and did not generate enough resources to
+progress past level 1. I played the game numerous times and my above-stated
+strategy reflected my optimal choices. 
+
+ I learned to allow for build and repair time, as that was an
+inconvenient variable in the game. Higher game levels produced more risk of
+loss, so crutches like insurance, comet research (community building) and
+raising the island were balanced with resource production to progress through
+the game. 
+
+If I were tasked with developing a
+new version of the game, I would reduce the build time (or make it the same
+time for all structures), as it resulted in more losses than comet hits. The
+build time is a voluntary but necessary risk to progress through the game, and
+seemed to be more important than the involuntary risks from comet hits. If I
+were to tailor the game to my current environment, I would let the lower levels
+last 4 minutes, and make the higher levels last for progressively shorter
+periods. If the strategy were not optimized by then, the player would lose.   
+

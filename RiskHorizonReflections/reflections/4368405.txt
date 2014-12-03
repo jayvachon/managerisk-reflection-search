@@ -1,0 +1,140 @@
+4368405
+
+After playing the game Risk Horizon. I learned the significance that I should
+retain its balance and should adjust level of the protection and the insurance
+while developing. What was the role of risk
+management in the game? I am as a player and a developer.I have adjusted the protection especially. If you played the game only once,
+what would you do differently if you were to play it again? At first, I did not know how I played
+because I am Japanese and I could not the explanation of game.After I played three times or four, I can’t
+only take level 1 score.I felt that this game was so difficult.But, I found some key facts. The first is the damage when it happens a
+disaster.If I played the game without insurance, the
+damage was too big for me. The second is the indicator in left of
+screen.If I used too high of the protection, the
+color changed to orange. So, I have adjusted to use the insurance
+and the protection while developing my structures.It is so important to the balance.Although the speed of developing is
+important, we should prepare for what is happened. The third is the knowledge.I wrote above my experience.Those are my knowledge of the game or the
+developing. What change would you propose to
+better represent the risk management choices that matter in the place you live? I understood that I should have an
+experience and I should collect the knowledge from everything.If we work on a development project, I
+propose that  we must have a management
+system or organization.The system should have four important teams.The first is having a planning team.Generally, it is no good to start work on a
+project blindly.The team will plan the project while considering
+cost, term, stakeholders and others.The second is the implementation team.I believe that the brain and the body, the
+implementation team and the other, should be kept apart because the
+implementation team is working hard and therefore is not able to judge property
+at times.The third is the monitoring team.They supervise everything about the project.The fourth is the analyzing team.The project needs specialists to analyze
+it.The most important thing for a project is
+feedback and improvement.When accidents or disasters happen during
+the development term, they can be analyzed with detail. Analyzers will find many issues / problems.They will see clearly from the issues what
+we should improve on.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+If you can build a functional system or
+organization, the project will be a successful.

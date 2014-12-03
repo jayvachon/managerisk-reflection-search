@@ -1,0 +1,33 @@
+1161846
+
+The purpose of the game – Risk Horizon – is to develop a
+community of Alora by building and upgrading pods. The community faces a
+constant risk – comets. These comets can destroy pods. The risk can be managed
+in several ways – by obtaining insurance to cover some of the losses incurred,
+by researching comets and building connections within the community, and by
+increasing protection (the slider bar). All these methods have certain monetary
+cost (for example insurance costs certain amount of money), cost related to forfeited
+opportunities (for example when a player is engaged in research he or she
+cannot engage in other activities), or a combination of the two costs (for
+example increasing protection with the slide bar costs money and results in
+temporary forfeiture of development opportunities). 
+
+I played the game multiple times and tested various risk
+management strategies. First, I tried playing without any risk management, but
+concentrated on building and upgrading pods only. This very quickly led to a
+loss in the game. Then, I tried to employ one of the risk management tools at
+the time (knowledge, insurance, or protection). This usually led to a loss in
+levels 1 or 2. Therefore, I realized that in order to succeed in the game, all
+risk management strategies had to be employed and balanced at the same time. By
+doing so I was able to reach level 4 of the game. It is also worth mentioning that the first few times I played the game, I did not feel comfortable enough to employ all risk management strategies at the same time. In particular, I struggled to understand the importance of comet research. 
+
+While the game was really good at capturing, in a simplified
+way, various aspects of risk management, it suffered from one deficiency, in my
+opinion. Based on my experience with the game, it seems that it does not
+promote savings in any way. I was actually more successful when I fully used
+all the money at my disposal, as soon as it became available. I feel like
+having savings in the face of a serious risk is actually good, and provides a
+safety cushion, which allows for a better recovery. Therefore, it would
+actually be nice to allow users to set some money aside so that it can be used
+to deal with the damage caused by comets. This would actually make it a little more realistic. 
+

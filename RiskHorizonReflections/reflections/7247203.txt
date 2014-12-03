@@ -1,0 +1,35 @@
+7247203
+
+I reached level 5 after several
+attempts, here is what i learned from this game :
+- The role of the game is to better
+understand the different components of risk management (knowledge,
+protection and insurance) and the way they interact. Since the game
+provide you with only limited resources for your development you have
+to balance between the different component. The preparation for risk
+has a direct effect : decreasing your financial resources and a long
+term effect
+-  providing information to make
+appropriate choice ( knowledge),
+- protecting your development and
+decreasing impact (protection)
+- helping you to cope with the impact
+(insurance)
+
+- After the first attempt, I realized
+that you can not protect yourself against all risks (it cost to much
+time and resources to have a full protection so being insure is a
+must,
+Nevertheless protection is very useful
+and you can not be insure for everything without lowering the number
+of impact without damage in addition some of the protection you
+establish in one level can be kept for the next level,  finally
+knowledge help you make the appropriate mix between investment (new
+plot, and protection). 
+
+
+- If I had to add simple elements to
+the game I will add the behavior element, by adding a population (how
+much to you educate them, how to you manage them ( evacuation for
+example- cost money but save life and you don't have to educate them
+again)

@@ -1,0 +1,44 @@
+6668186
+
+My Reflections about Risk Horizon gameRisk Horizon is
+an online game which can be played on Pc with a simple web browser. The
+Creators made this Game in order to illustrate the basic mechanism of risk
+management.In the game the
+player is a governor of a small city which is located on a planet and he’s main
+quest is to save the city from natural disasters (In this case this disaster is
+an asteroid which can hit the surface and if that happened the nearby river can
+flood the city and hurt the buildings) and increase the city’s economy.The player cannot do both, because of
+limited resources, so the player must choose.To save the city the player can investigate
+the asteroids (which do not have a direct impact on economy) which do not cost
+any money, but it take time, so if you scan the object you cannot do anything.
+You can also build Protection (Which reduce growing immediately), but this is
+not cheap, so you cannot buy or improve pods. Thirdly, you can use some
+insurance, but this is not prevent any crises, it cost a lot of money, you have
+to spend a lot of time to rebuild your pods and the insurance does not fulfill
+the whole cost, so it has an impact on your economy when you buy the insurance
+and when the disaster happen and you have to rebuild your economy.            I
+have played the game for several times. The first attempt was not a long run,
+because I did not understand the main mechanism of the game and because of that
+I did not spend time with scanning and the impact of the asteroids were
+especially huge. The second and the third run was far better than the first and
+I have reached the maximum point for two times and I believe that the best
+tactic for risk management in this game to avoid insurance at any cost.I think that if you spend money to prevent
+these problems by improving protections and collecting knowledge then the
+actual risk of a natural disaster is relatively low and in this case you still
+have money to improve your pods, so your economy will work. I do not say that
+insurance is useless, but if you play this game as I did than you should act
+like me.I believe the most important thing I have
+learned from this game is that everything has a price and you must know that no
+matter how hard you fight against something there will be sacrifices and the
+only think you can do is to lower it’ effect as low as possible.           First
+of all, if I can make some improvements for this game then I would make a
+mobile app for this game, because it’s much easier to access to a game through
+smart phones and if we do that then more people will understand the importance
+of risk management.Secondly, we all know that If there is
+place which is threatened by natural disasters for a long time then the effect
+of a disaster is the highest when its happened for the first time, because
+after the first crisis most of the people will know how should they act in a situation
+like this.I know that if we introduce this function then
+this game will be easier and easier every turn, so if we want to prevent this then
+we should introduce more types of natural disaster.I have
+written down my opinion about this browser based game and I hope all of you have enjoyed my reading  

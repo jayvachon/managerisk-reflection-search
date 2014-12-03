@@ -1,0 +1,39 @@
+8319602
+
+1)    Put aside all the technical glitches I do
+believe this is a great game and yet simple that stimulate the brain to look at
+risk management as a portfolio analysis. Unfortunately because of the technical difficulties that many
+of us encountered at the beginning of the game, some of the intentionally built
+in functionality such as diminishing return when increasing protection were
+lost and were confused with technical glitches.
+The
+role of risk management in the game was to show us how to strategically
+leverage knowledge, protection, and insurance when undertaking risk management.
+In other words how to use a multivariate approach to risk management. Winning
+any level entails thinking fast and making quick decision based on information
+provided by knowledge gained through research and choosing an appropriate level of protection. There is a level beyond
+which there is a diminishing return with increasing protection. I chose to
+conduct some preliminary research when comets are approaching but did not spend too
+much time doing that. Given the outcome of the research I tried to buy
+protection with a safety factor by raising the protection level of the island one or two
+notches above the incoming hazard level indicated by the result of the research. I bought insurance for 75% protection. So my main focus was on protection. In terms of knowledge, the trade-off I confronted was to not spend too much
+time by researching all incoming comets but rather rely on existing information.
+2) This question is kind of
+hard to answer because of the technical glitches encountered. I played the game
+about 7 times. The first three times were on a computer that was not responsive
+to the protection level interface radio knob. I could only reach level 2. Then
+I changed computer to a faster computer and was able to reach level three
+though the protection interface was responding but slower. A new version of the
+game "Unity" was posted on Thursday. I tried that version with the latter computer and I was able to reach level four on the first shot. My
+success what characterized by the fact that I was able to use the protection
+interface knob and therefore buy appropriate protection with a margin of safety following outcome of research result. As I tried to
+reach level 5, I noticed that the protection level was not very helpful. I will attempt to play again at my leisure time if I am granted access to the game beyond the course.
+
+3) If I
+were tasked with
+developing a new version of the game, which allows me to change or add one
+simple thing, I will change the sliding protection knob to a simple table of
+protection levels with associated cost showing choices that pops up with a simple mouse click allowing me to pick a choice for a
+given level of protection rather than trying to hold down the mouse on the
+radio knob -which is time consuming- to increase the protection level. This will allow me to devote more
+time to research. Indeed, throughout the game I wanted to spend more time doing research which I realized will inform a better decision, but I was not able to do so because I believe the protection interface was not very effective. It could also be that I missed some concept embedded in the game or that there are other technical glitches preventing a proper functioning of the protection level knob.

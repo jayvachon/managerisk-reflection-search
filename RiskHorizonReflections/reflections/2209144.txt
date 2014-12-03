@@ -1,0 +1,42 @@
+2209144
+
+In the game,
+all elements of effective risk management were included. These are knowledge,
+protection, insurance and coping. First, (after getting used to the settings of
+the game) it was important to gain knowledge on both the risks and
+opportunities. Risks were mainly reflected by the asteroids threatening damages
+(in different magnitudes and with different probabilities of a hit), while
+opportunities lay within the development of buildings. Second, one could
+protect oneself against the asteroids by either building up “resistance”
+and/or, third, buying insurances that covered different levels of damages and
+repair costs. Lastly, when an asteroid hit, it was time for coping by
+re-building infrastructure and protection, in part relying on the community. As
+a player, I had to balance all my resources. For instance, it took a while to
+obtain the resources necessary to buy insurance, whereas effects of protection
+building were more imminent right away. Then again, some asteroids did not even
+hit the planet or caused only limited damages.
+
+At my first
+try, I invested too much resources into both protection and especially
+insurance – buying coverage of 75% in all levels. However, this resulted in
+slow development of the buildings, which caused slow income growth. More over,
+building protection hindered growth further. However, some of the risks did not
+materialize, because some asteroids did not hit the planet or caused only
+limited damages. Therefore, I could not reach higher levels. Thus, I had to
+change strategies by only relying on low-coverage insurance in the first two
+levels, while capacity building for protection and repairing was still fairly
+cheap, and to step up insurance in later levels. This allowed for better growth
+overall. 
+
+The game
+was well-structured and captured elements of risk management in a great way.
+Although I would have liked to see a more detailed tutorial, the main thing I
+would change is another one. As we have learned in the second week, there are
+several obstacles risk managers are usually facing. So although there is
+appropriate knowledge, sometimes actors lack financial capacity or are hindered
+by behaviour biases. Whereas the latter aspect is hard to properly implement in
+a game, the lack of resources (and maybe even incentives) can be built in more
+easily. For instance, next to the insurance option, there could be social and
+political programs available to the player at certain prices. They could lower
+the impact of an asteroid hit on some portion of “society”, say by lowering
+costs for the rapid prop-up of buildings in an early development stage.

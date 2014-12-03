@@ -1,0 +1,28 @@
+937783
+
+There were two scarce
+resources in the game: time and money, and there were several alternative
+measurements, so the player should make decisions and suffer from trade-offs.
+For example, one should make researches but in the same time on cannot increase
+protection, and so on. One can be successful in this game if he/she can apply
+the risk management framework to this given situation. The player should find a
+sustainable and manageable balance between building (give up some money now to
+earn more later), prevention (research, increasing protection, insurance) and
+cure (repairing). There was a serious problem that made choices and decisions
+harder: the time lag between decision and effect, also contaminated with uncertainty.
+
+
+In the first round I
+tried to apply an old economic golden rule: specialization. I only increased
+protection and did not pay attention to research or insurance. This old golden
+rule failed: I reached the fourth level but not the fifth. Then I changed my tactic
+and tried another one: gain knowledge, then increase protection, and if it is
+necessary, get an insurance shortly before the shock. It was successful, I
+could finish the game.
+
+If I should change one
+thing my choice would be the alteration of uncertainty, I would increase it. I
+am of the opinion that the player has too much information about the shocks, I
+wouldn’t give (or make it more and faster varying in time) information about
+the chance of hit or the severity. 
+

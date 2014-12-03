@@ -1,0 +1,52 @@
+8288850
+
+ 
+
+Risk management plays an important role in passing levels of
+this game. The key point here is to balance amount between developing
+facilities and making insurance. In my way, I usually pay attention to all
+figures of meteoroids including research, severity, probability of hitting to
+my facilities and speed. For preparation for risk, I buy insurance for loss and
+prepare budget to cover loss. However, I do not buy insurance immediately when meteoroids
+appear. The time and amount for purchase insurance is different depending on
+speed of meteoroids, severity and probability of hitting. In my point of view,
+choosing time buy insurance is very important in order to utilize my budget. Sometimes,
+I must trade off between high severity with low probability hitting and development
+to save amount to upgrade pods. 
+
+At the first time I play this game, although I have read
+already about guideline, I still do not understand the figures of forecasting
+risk, buying insurance and how to pass level. Therefore, I do not pass level 1.
+However, at second time, I passed level 3 and lost in level 4. I believe that
+my ability for risk management is better: choosing suitable time to buy
+insurance, trading off between development and loss and utilizing my budget. The
+main things I learned from this game: (1) Forecasting loss and time of
+disaster, (2) We shouldn’t focus on developing community without risk
+management from disaster, (3) preparing all resources including financial factor,
+technology for protection and insurance to cover loss when disaster happens and
+(4) allocating budget reasonably for community development and risk management.
+
+Because it is simple game to manage risk, we should not put
+many complicated functions in it. It takes a long time. However, if I were game
+maker, I would give some simple points to improve risk management ability. Some
+my solutions are:
+
+              + Making more clearly some explanation how to pass
+level for game players because I feel a bit confused when playing at the first
+time
+
+              + The criteria should be given particularly such
+as: number of pods has to be built in level 1, number of pods needs to be
+upgraded in level 2, level 3… Basing on that, the game players will have good
+plan to use budget.
+
+              + Now, the players have to make sense two key
+problems: risk of disaster and building pot. We can put human factor to game
+for some reasons. First, the players cannot generate income. All expense is up
+to default budget.  It restricts ability
+of players in creating income and using income. It will bring more interest to
+the game. Second, if we put this factor to game, it requires players have to
+balance among three problems: creating income actively, using income suitably
+and reducing loss. Third, we will Improve new standards to pass each level such
+as minimizing number of people died  and cost
+for insurance, number of people lived after disaster…

@@ -1,0 +1,48 @@
+5771261
+
+1. As an illuminator of Alora, I had to balance development, protection, research and insurance to achieve milestones within a stipulated time indicated by the progress bar while saving pods from falling comets. Role of risk management is to design a suitable dynamic strategy for efficient allocation of available resources to achieve milestones with time limitation. I chose to research about falling comets before their impact well in advance and chose protection over insurance early in the game. I got protection to 3 levels before substantial development. I research falling comets with more severity than the protection I had. Then I tried to build communities after impact of comets to minimize their impact of development and progress bar. Preparation for risk consumes resources which otherwise could have been used for development immediately but protects harm imposes by comets later. Therefore, a find balance is needed between protection and development.2. First time I played the game I gave too much emphasis on insurance and did not use protection. But after a few trials and learning from tutorial, I came to know the importance of protection. In first few trials, I was not aware about community development after impact of comets, which I realized later on while playing the tutorial. It has improved my chances of success in the game substantially. Due to lack of time, I could successfully complete level 2 of the game. I also noticed that time for each level was substantially less and even after building all pods, progress bar could not go to desired levels. The main thing I learned from the game was that in real life situations when external factors change dynamically, it is tougher to take decisions to achieve progress milestones with limited resources and time. I understood the dilemma our leaders may be facing while deciding economic policies in a uncertain environment. 3. I would like to change one simple thing, i.e. , allowing less time to have more protection by lifting the island easily and in less time. That will reduce the impact of most comets damaging the development on the island. This feature should be changed since before the strike of higher severity comets, there is no time available to have enough protection level to counter their impact. In my place, luckily there are no such plenty of damaging things like falling comets or restricting things or person. A person should be allowed to protect himself against the calamity he is supposed to face within a limited time.The statistics of impact of falling comets for the game I played is as under: - 
+ 
+ Comet No
+  1
+  2
+  3
+  4
+  5
+ Severity
+  3
+  8
+  4
+  2
+  2
+ Chance of
+  hits 
+  2
+  8
+  7
+  3
+  4
+ Research
+  0
+  10
+  0
+  1
+  0
+ Protection 
+  3
+  3
+  3
+  3
+  3
+ Damage
+  0
+  35%
+  9%
+  0
+  0
+ Insurance paid
+  0
+  0
+  0
+  0
+  0
+ 

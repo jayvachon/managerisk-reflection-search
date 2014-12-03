@@ -1,0 +1,69 @@
+6086826
+
+After playing the game, I have understood the following
+concepts about risk management. I played the game more than once and each time,
+I tried to use what I learnt from the previous time. I can summarize the
+learnings as below points.
+
+A.     
+Protection without development is waste of
+resources
+
+1.      
+Insurance is valid only after development is
+equal to or more than amount insured.
+
+2.      
+Raising the ground level useful only when there
+are enough pods to protect.
+
+B.     
+Research gives a better understanding of the risk
+situation and helps take better steps to avert the risk or protect against it.
+
+C.     
+Continued research helps understand the risk
+better about its both occurrence and severity. The damage caused always is
+dependent on the level of occurrence and severity.
+
+D.     
+Research on the risk without adequate
+development is not healthy/ useful.
+
+E.      
+Risk management and development should take
+place simultaneously.
+
+F.      
+High occurrence with reduced severity causes
+lesser damage like high severity and low occurrence. 
+
+G.    
+Risk is multiplication of severity and
+occurrence levels.
+
+H.     
+After basic protection against risk, the development
+should limit the level of risk, severity and occurrence to be concerned about. 
+
+I.       
+Development without risk analysis is very
+expensive.
+
+J.       
+Damage from high risk takes much longer to reach
+back the same level of development.
+
+K.     
+Resource available (money) should be used wisely
+for both development and protection.L. The higher the development phase or level (level 3, 4, 5, 6) the more time it takes to recover from the risk induced damage. It also costs a lot higher.
+
+I suggest allocating a constant monitoring pod in the game
+which is responsible for constantly monitoring the risk caused by each comet
+strike. The task of this pod is to check each of the risk posed by comets and
+verify against the available resources for protection. In case the risk is
+higher, then raise an alarm for immediate action. In that way, the development
+and research can happen simultaneously.
+
+ 
+

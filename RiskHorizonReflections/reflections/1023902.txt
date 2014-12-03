@@ -1,0 +1,49 @@
+1023902
+
+Development is Risk Horizon's ultimate
+objective. To reach optimized development, however, one needs to manage risks
+effectively. In Risk Horizon, the mechanics of development is quite easy - you
+build, and you get more money to build more. The risk management aspect, on the
+other hand, is more interesting. Risks (the comets) come apparently in random
+intervals and in varied speed, probability, and magnitude. The first trade-off
+for me is to prioritize and schedule risk management - I may choose to ignore
+some risks, to focus on single risk, or to spread my attention across multiple
+risks. After choosing the risks to manage, I had to balance how much to time to
+spend to learn about each risk, how much resources to spend on protection, and
+what kind of insurance to purchase. Generally, good knowledge about a risk plus
+good protection level eliminates the need for insurance. Insurance is helpful
+when risks come too quickly that there was not enough time to learn about it
+and to protect myself against it. Resources spent on risk management will delay
+development. The benefits come when we are able to cope with shocks either
+without loss or with minimal loss - otherwise I would have to spend significant
+resources and time to recover from losses. 
+Risk
+Horizon did a good job in abstracting real life risk management into a fun and
+engaging game. It teaches that the balancing of risk management and growth
+leads to maximized development. An optimal balance of prioritization, learning,
+protection, and insurance leads to effective risk management. 
+When I
+first played Risk Horizon, I tended to focus on growth. I failed to reach level
+6 as I was subsequently hit by a few comets and sustained damages that deterred
+my development. In my second try, I became defensive. I coped with all damages
+well, but I failed reaching my development goal. I tried the game a few more
+times (approximately 2 hours) with different strategies before finally
+completing level 6. Over these trials, I 1) learned to prioritize based on the
+speed and magnitude of risks, 2) learned the relationship between learning, the
+time for community connection, and their bolstering effect to protection, 3)
+learned the effect of insurance, and 4) learned that risk preparedness takes
+practice - e.g. the more I played, the faster I am able to connect communities.
+In my final trial where I completed level 6, I found that during the last 1.5
+minutes, I had more resources than I could spend on developments. I was able to
+buy the highest level of insurance and bolster into maximum protection. Still,
+I had more resources to spend. In this respect, Risk Horizon reflects that
+well-developed countries are in a virtuous cycle of better risk management and
+accelerated development. If I
+am to add one simple thing to Risk Horizon, I will add variety to the mechanics
+of development. The game will offer development types with different properties
+like cost, profit/return horizon, rate of return, and comet damages tolerance.
+Risk Horizon already does a great job in modeling risks. Adding variety to
+development lets it model opportunities more realistically. I think this addition is
+appropriate - in the context of our course's (World Bank's) definition, where
+risk management manages risks to decrease losses and manages opportunities to
+increase benefits.

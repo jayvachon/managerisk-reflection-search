@@ -1,0 +1,4 @@
+4934498
+
+Repair Costs and Risks are two sides of coin. One need to make decision of only one at a time. Repair costs can help the infrastructure/product to withstand risk either by no damage or by some less amount of repair cost.
+So its better that before the risk occurs, one should pay attention and develop the product/infrastructure to withstand risks.

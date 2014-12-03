@@ -1,0 +1,14 @@
+3972502
+
+Game ReflectionRole of Risk Management in the game:I started off playing the game very conservatively-I built only 3 pods, and tried to increase protection of the land more, and went for the most expensive insurance package. I quickly understood that this wasn't the best way to go, and I needed to manage risk (severity of incoming comets) more carefully. Spending too much money on insurance and keeping too much money in hand is not a good guarantee for risk management. Finally I understood that the point of the
+game is, much like in real life, the balance between investing in development (by
+building and upgrading pods) and preparing for risk (by obtaining insurance,
+protection of and and spending time to research about the comets). To pass each level I needed to get
+this balance right - for instance, when I spent too
+much on preparation for risk, as I was doing initially, I did not generate
+enough growth through building and upgrading pods, to pass each level. And when I went to the reverse strategy, that of spending more on development, I was not fully prepared when shocks hit, and I suffered big damages (almost 70% in one hit!).Things I learnt from the game:I, of course, played the game several times, and as mentioned above, I learnt to adjust my strategy to balance investing in development and preparing for risk. Sometimes, I couldn't avoid taking a hit from a comet whose severity was so high that it couldn't be matched in time by raising the protection of the land. In such cases, a combination of resources (research + insurance) helped me to ward off the damage from shocks. I also learnt how to make progress in the game. I noticed that when I researched a comet (keeping a comet focused with the
+telescope window visible) the progress meter on the left turned green and began to go up. But when I focused on protection of the land, the meter immediately turned red, and it reduced my chances of completing the level. This also happened when I got hit by a high-severity comet, even when I was moderately prepared for the shock. Although I wasn't clear first, I understood what research meant. The more
+luminated blocks in your research meter, the more time there is to make
+community connections, and the more
+protection I provide to the pods. Also, I understood that I
+can boost the protection level when I make community connections.Feedback:Though I am happy that this week's assessment was not a multiple-choice quiz, I felt that the game still lacked a bit of clarity in its gameplay. The tutorials didn't provide more information than describe what each element of the game did, and the comments at the end of the game were somewhat cryptic. There was also an element of luck involved, and this usually happened when a high-severity comet hit right before the time ended on a level. 

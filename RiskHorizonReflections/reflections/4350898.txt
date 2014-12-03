@@ -1,0 +1,60 @@
+4350898
+
+In
+the Risk Horizon game, I played the part of the government, and fully
+controlled all of the investments that were made in the safety and development
+of a certain community, in terms of 1) investments in research that bought us
+more time right before shocks to build community relationships, 2) protection
+from the shocks; 3) insurance for damages caused by the shocks. I definitely
+felt the trade-off between investing in the different types of protection and
+developing the community, because the resources were never quite enough to do
+everything I wanted to do in the time that I was able to have between the
+shocks.
+
+At first, my
+strategy was to always have the best insurance policy. This was the “easy”
+choice because it could be done immediately right before the shock, while I was
+busy developing my community to the maximum and investing in research when the
+resources ran out. I didn’t invest at all in protection, because it took too
+long to develop and I could never get past two bars. I always tried to keep my
+research to the maximum for comets that were highly likely to hit and/or were
+particularly strong. 
+
+What I realized
+later is that it was not worth investing so much in insurance, and with the
+money I paid “upfront” for this, I could use to develop my pods quicker, and
+use the extra resources that came from them to increase my protection. Then, I
+started to try to increase research and protection as much as possible (after
+my pods were developed to point where the bar to the left was green) and only
+invested in insurance when I had extra resources left right before a potential
+shock.
+
+One doubt I had
+during the game was: is it better to have few well-developed pods or several
+basic-level pods in terms of gaining greater resources?  I’m sure that the ambiguity is also
+part of the game, but if I were to add something to the game, it would be that
+you could have a clearer idea of your return on investment for your choices. Of
+course, in real life it is not like this, however there is the empirical
+evidence that certain smaller well-developed nations (example: countries in the
+European Union) currently are more prosperous than larger emerging countries
+(example: BRICS).
+
+In this respect, I started to ask myself: How much do natural disasters influence economic prosperity and
+development of nations? So I found rankings online for risk of natural
+disasters (World Risk Report 2013) and compared them to ranking for economic
+development, and I noticed a strong negative correlation between these factors.
+The developed nations tend to have a much lower risk of natural disasters
+(especially those in Europe and the Middle East), BRICS and developing nations
+tend to have moderate levels of risk, and mostly underdeveloped nations (with
+exceptions like Japan) tend to have high levels of risk. Of course, this was
+more of an observation than a scientific fact, and it would be interesting to validate
+this through the use of regressions to figure out just how much historic risk
+of natural disasters affect country development today, and how much specific
+cases of natural disasters and their respective levels of preparation set back
+economic development on a year-to-year or short-term basis.Overall,
+I think that that the game teaches us some very important lessons in a fun way.
+Of course, there has been some criticism in the discussion boards, but one has
+to recognize the difficulty of simulating real-world situations with great
+detail and that things have to be simplified for the sake of learning and
+universal applicability (which the game does very well, by the way, by having this
+be set in an “alien” location).

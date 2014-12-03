@@ -1,0 +1,43 @@
+6392807
+
+In the game it was my role to manage the risk
+from meteorites crashing down on a village. Therewith they destroyed the houses
+that had been built and cumulatively represented the wealth of the society. In
+more detail, I had to balance the tradeoff between advancing as a society
+through upgrading houses and therewith increasing wealth, versus losing this
+acquired wealth through meteorites crashing down on them. Two major tools were
+available to manage the risk and prepare for the consequences, with another
+tool being available to forecast the probabilities of occurrence. The first one
+was the ability to raise the level of the entire and city thus making it less
+receptive to the flooding that occurred along with the meteor crash. Doing so
+was at the expense of a lower income as a result of having to pay for
+increasing the level. It also came at the expense of not being able to observe
+the incoming meteorites and consequently making it more difficult to assess the
+potential damages. Concluding, tool number one gave protection in case the
+meteorite crashed down, whereas it took the possibility to acquire knowledge on
+the severity of it’s impact. Tool number two gave the chance of insurance
+against the repairing costs in case of a meteorite impact. Unlike tool number
+one, it was a responsive tool, and not a preventive. It would allow for players
+to take risk and try to keep the damages as low as possible, whereas tool
+number one would allow players to try to prevent damages through risk taking.
+The third tool allowed for acquiring knowledge on the severity and likelihood
+of the meteorites crash through observation. Observation however, would prevent
+the player from taking measures to manage the risk. Thus, there was a tradeoff
+between knowledge and information against preparedness and possibility to cope
+with the disaster. It is worth mentioning though, that there were no monetary
+implications in observing the meteorite, thus not diminishing the society’s
+wealth.
+
+In reviewing the first game, I decided to not
+buy insurance in my second game, but instead invest in preventive measures in
+the first place. This strategy played out better and led me to achieve a higher
+level. I also changed my strategy as to only observing meteorites where the
+probability of an impact was greater or equal to fifty percent. In summary, I
+learned that a mixture of preventive and responsive measure had not been very
+effective. Instead, focusing on preventing the major meteorites from dealing
+damage through raising the city’s level proved to be more efficient.
+
+In a next version of the game I would try to
+include that before a building can be upgraded, all others would have to be
+repaired again. This could represent, that a standard level of development or a
+baseline was not to be given up after devastating catastrophes.

@@ -1,0 +1,74 @@
+8398661
+
+The aim of
+the game is to develop island in a certain amount of time and with a certain
+amount of money. In order to be successful, I also have to take in consideration
+the risk of damages caused by the comets that may crash on the island. I can
+study this risk through a tool that
+allows me to analyse comets’ trend,
+in order to decide how to use my
+resources (time and money) to reaching the highest level of development.
+
+Through this
+window, I am able to know the ‘Chance of hit’ and the ‘Severity’ of the impact
+of the nearby comets and to take a strategic protection:
+
+- in case of a low ‘Chance of
+hit’ and ‘Severity’ I spend money to develop
+the island, saving time;
+
+- in case of high ‘Chance of
+hit’ or ‘Severity’ I spend time to monitor
+the situation, saving money in order to buy an insurance and cope with the
+consequences of the impact, i.e. restoration. Moreover, in this way I was able
+to decrease the loss of time through the accumulation of “extra time” provided
+to reduce damages.
+
+Since the
+time is not enough to both develop and monitor the risk, I need to balance
+these two actions. The first time I played, I mainly focused on quick expansion
+and, so, I was not successful because I invested all the money in developing
+instead of saving some of them for protection scope. 
+
+These
+experiences led me to efficiently trade-off
+between monitoring and developing. In particular, I followed a via
+media:
+
+- I did not developed the buildings too quick
+in order to have money for insurance and for lifting the island, but on the
+other hand
+
+- I tried not to over-use insurance, leaving money
+for the development and the lifting of the island and, in the meantime, 
+
+- I tried not to over-lift the island, in order to
+save money and earn time to monitor comets’ trend.
+
+While in the
+first round I used to invest most of my resources in developing, with
+unsuccessfully results, in the second round I decided to invest a higher part
+of it also in insurance. In fact, I
+understood that only a long-term
+strategy can lead me to the goal, because the short-term approach gave me non-lasting
+results.
+
+In this
+view, when I was satisfied by the development I didn’t risk everything keeping
+on building, but I stop the expansion to focus on the protection: I spent time
+in monitoring comets and I spent
+money in lifting the island as well. 
+
+ 
+
+Thanks to
+these different attempts, I have learnt that it is not important to obtain fast
+successful results, if they will easily vanish later. As consequence, when I want
+to reach a goal I have to know which
+are the risks and monitor them,
+to find the right trade-off able
+to lead me to success.   
+
+Since a lot of real risks are
+unexpected, I would supplement the game with a tsunami, in order to teach how to organise resources to be always ready to cope with the consequences
+of also unpredictable events.

@@ -1,0 +1,53 @@
+1062475
+
+Refleciton on Risk Horizon gameRisk management is to
+protect the community (i.e. pods) from damages by the comets, thus helping the
+community to grow sustainably.   The game offers three choices for risk management, including Protection, Insurance, and Knowledge (i.e. Research).  Protection and Insurance are money-costly and I normally need to trade-off one for the other.  Knowledge is time costly.   To successfully manage the risk of comets hit which causes waves, I used the following priority order: Protection, Knowledge and Insurance.   Using the above three choices may
+affect development in both way (i.e. immediately or after some time).  For example, protection and insurance are costly, which may slow down the development
+progress.  Obtaining knowledge on the comets may help to avoid, or reduce the damage if the risks realize (i.e. the comet hit causing waves)
+in the future.  I changed my strategy
+several times until I get to the level 6 of the game.  The first times I played (from 1st  to 4th times), I focused on developing the community
+first, then doing the risk management (i.e. protection, research and insurance).  Normally I passed level 1 and failed at level
+2 after getting 1 or 2 damages caused by the comet hits. I changed my strategies after
+that.  I kept the number of pods in
+the community at 3 or 4 at the first two levels, while using the bank and the time I have to do more preparation for risk
+management (i.e. improve protection, do more research or buy insurance).  Later on, when the bank grew up, I invested more in the pods and did more preparation for risk management simultaneously.  After getting to level 6 (which I failed at the latest attempt), I have learned the following main points from the game:  To develop, we need to
+take risks (no pods, no damage). Resources for risk
+management are limited, we may need the trade-offs among the different types of the resources.    Utilise time to learn
+about the risk will help to improve protection significantly. Risk management is the
+key component of developments. For sustainable development,
+we need to balance the development level of the community and risk
+management.   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+If I can change or add one simple thing in this wonderful game, I would add the function "Differentiation of the Position of the Pods".  In the game, the locations of
+the Pods are not really important.  All pods are located in the same place, contributing the same level of development to the community, and getting the same damage if the comets hit and cause waves.  Thus, I would
+like to add the above-mentioned function to choose the location for the Pods.  For example, the pods located at higher place (e.g. a mountain) shall get less damages by the comets hit, while their costs are higher.  In addition, the money they bring up may higher while the costs for protecting them may also higher.    In this regard, the player may have a choice of where
+to locate the pods, what position should be better protected, and in an extreme case, the player may choose to abandon an individual location of pods when the comets come, for the development of the whole community. 
+
+
+
+I believe risk
+management choices should also include what region (in the community) to be
+protected, and the level of protection as well.  Thus I
+believe the above function will better reflect risk management in the real
+community.

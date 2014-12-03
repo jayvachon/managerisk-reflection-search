@@ -1,0 +1,54 @@
+1213407
+
+Combined Response to Question 1 and 2The role of risk management in the game
+was to prevent AURORA from being hit by comets that were threatening
+both its survival and further development. In order to limit the losses caused by the falling comets (ex-ante risk management), I was responsible for
+making a series of decisions concerning knowledge, protection and insurance. In
+doing so, I observed three main things.
+
+ First, the criteria informing my
+decision-making evolved in the course of the game. At first, I was spending
+most resources on insurance (I would normally go for the most expensive insurance covering 75% of
+damages) and I was completely ignoring protection (I had not read the
+instructions carefully and I was oblivious of the fact that raising the level
+of Aurora would be a perfect complement to my insurance efforts). Once again,
+as in some many other aspects of life, information was key for a successful completion of the exercise.
+
+Second, based on the available description of
+comets’ severity, my immediate understanding (or rather failed assumption) was that red comets
+were generally the most severe ones. Therefore, as I soon as I saw one
+approaching Aurora, I would automatically increase my spending on insurance and
+protection. However, I was not really taking into account that each comet had a different chance
+of hitting Aurora. Therefore, I understood that
+knowing the severity of a given shock is not sufficient in and of itself. What
+is also needed is an updated knowledge (and strategic use of it) on the actual risk
+that any given shock will affect you. That having been said, I am aware that
+one is not always in a privileged position to foresee both the magnitude of the
+risk and the likelihood that it will hit you (and at what time). Therefore, a
+constant vigilance is required (as effectively demonstrated by my continued
+going back and forth with my mouse across the different areas for protection,
+knowledge and insurance in response to both the severity of the each individual
+falling comet and the needs for upgrading the already existing pods).
+
+Third, it is misleading to believe that
+investing in the best possible insurance available will spare you from risks,
+as I had initially thought. First, although it is tempting to go for more risks
+(as you are aware that the effects of failures derived from your own actions
+will be mitigated by the insurance provider), I understood that you might put
+yourself more at risk this way. In particular, investing a vast amount of resources on
+insurance (besides discouraging any parallel research and protection efforts
+for which you would not have any money) might also detract resources from other
+expenses that are necessary to foster development processes (e.g., through the construction
+of effective infrastructures- the same ones that risk management is tasked with
+protecting from shocks; and the provision of services of public utility).
+
+Overall, I understood that for
+effective risk management to take place, one must be adaptive, realistic and
+flexible in combining adequate and timely knowledge with tailored insurance packages and opportunistic protection measures.
+
+Response
+to Question 3: While I find the allegory of the falling comets as
+external shocks quite interesting, I believe that it might be worth
+including some more development-related scenarios in
+the future versions of this game. Also, I
+wonder whether it would be possible to simplify the language used in the the game and provide more specific instructions directly on the Course homepage so that users will have a better idea of what it is expected of them before they start the game.

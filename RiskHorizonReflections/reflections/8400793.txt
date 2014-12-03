@@ -1,0 +1,46 @@
+8400793
+
+The role of risk management in
+this game was fairly clear. The player of the game was asked to balance between
+development and the safety concerns of this virtual community. In order to pass
+each level of the game, the game asked that the players to reach a certain
+level of development goal. If this goal was not reached, the player lost the
+game. Likewise, if the buildings faced damage due to falling asteroids, the
+players also lost the game. In terms of knowledge, the players were given the
+option to research the planet by clicking on the planet. Through this, the
+players were able to assess the level of damage and the probability of the
+asteroid hitting the planet. Through this, the players were able to set up a
+method of protection or insurance by either raising the platform that the
+cities were placed on or by purchasing insurance plans that covered parts of
+the repair. However, protection and insurance did take a toll, meaning that it
+did affect the rate of development. This meant that if the player played too
+cautiously and did not effectively allocate the fund, the player would not be
+able to reach the development goal in order to pass the level. 
+
+ 
+
+I played the game twice in order
+to reach level four. For me, the second trial needed me to try and properly
+manage the funds between protection and development. When a devastating
+asteroid was about to impact on our planet, I purchased to heavily on the
+insurance plan in order to make sure that I will be able to cover the repair
+cost. However, this method proved to be unsuccessful by the third level as the
+game’s difficulty increased. The high investment in insurance plans did not
+seem to be cost efficient as the impact of some asteroids resulted in no
+damage. Also, this hindered my development process, causing me to ultimately
+lose the game. 
+
+ 
+
+I was in charge of modifying the
+game in order to raise the difficulty and make it seem more realistic, I would
+add new feature, where the users need to deal with unforeseen problems of the
+development such as construction delays or natural disasters. These problems
+will help the users fully understand the difficulty of risk management and help
+the game be more realistic in order to help the users to be more prepared for
+real world situations. This addition can really help to reflect the situation
+of my country, South Korea, where there have recently been frequent cases of
+disasters such as the recent Seowol Ferry incident where many Koreans perished.
+Other incidents have happened such as Seowol, which have not only cost to
+innocent lives, but also have claimed the national economy by slowing down
+incident related services. 

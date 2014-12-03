@@ -1,0 +1,33 @@
+2859015
+
+The Risk
+Horizon Game allows the player to experience risk management on a simple model.
+While building and developing pods you have to deal with the danger of colliding
+comets, that can destroy your settlement. 
+It is possible to prepare for this danger by insuring pods, raising
+protection or observing the comets. At the same time, these actions can be costly
+or slow down your development. 
+
+The most
+effective way of avoiding danger from the comets was rising protection, but it
+also meant spending money and halting the development of the pods. By spending
+too much on it, you risked not completing the level in time. Insuring your pods
+was costly and didn't offer protection from damage – it only lessened the costs
+of repairs. At the same time it didn't halt the building process. Observing the
+comets was helpful when it came to dealing with the damage, but wasn't as
+effective as the other 2 options. In other words, the most effective way of
+preparing for risk (rising protection), was the most damaging in the long run
+by negatively affecting development. Observing the comets didn't cost anything, but could only lessen the damage. Insurance didn't protect from damage, it helped with coping with it. These two options didn't affect development in the long run, but where not as good with protecting form the imminent destruction.
+
+After
+playing I several times I learnt to first focus on the development and only after
+that on preparing for possible crises. If I spent too much time on protecting
+my pods at the beginning, I wasn't able to complete the level on time. The
+second part of my strategy was balancing the observation of comets with a rising level of protection. I usually focused on this in the last minute of every
+level, when I was sure I would reach the development goal. I spent my leftover resources on rising of protection, which better prepared me for the next level. In addition, careful observation of the comets allowed me to maintain a high level of protection throughout the game. In this way, even if I received damage, it was minimal. When I balanced these 3 elements properly (development, protection and knowledge), I didn't have to spend money on insurance.
+
+The one
+thing I would add, to make the game resemble real-life risk management, would
+be a way to benefit from taking risks. For example, some of the comets could
+provide additional income when they collided. Thanks to this improvement, every
+risk could be a danger or an opportunity. The player would have to decide, if he is in a situation where he can risk a collision of a comet that could prove beneficial.

@@ -1,0 +1,54 @@
+3856837
+
+P { margin-bottom: 0.21cm; }
+
+
+The Game assumes that there are known
+risks and unknown one, and that the effects of the risks on the
+player condition are almost random, depending on the number, “size”
+and trajectory of the comets incoming.
+While the size of a comet (influencing
+the impact effect on the Risk Horizon planet) is almost perfectly
+know when it approaches, the probability that it will hit or not the
+planet is by definition a level of random factor.
+Of course the more you observe the
+comet the more knowledge and information you gain, so the level of
+confidence about the comet info rise, but you never know for sure if
+it will hit or not.
+
+So an important strategy I've found is
+to always cover as much of possible and as soon as possible the risks
+with an insurance, the bigger the better.
+I even tried to understand if it was
+more convenient to have mani simple “houses” or few very advanced
+one, but I've not discovered the tradeoff even if I tried to play the
+game more times.
+After a few match I found important to
+manage the priorities, for example not spending too much in “houses”
+building and improving before having bought an insurance, or keeping
+the focus on comet observation to increase the time for the post
+impact networking.
+But the main problem are the increasing
+expectation for each level, that soon
+
+The preparation for risk (in the game
+the rising of the village platform) is important too, since it can
+mitigate the effects of the impact of the comets, but it's less clear
+than the insurance because you do not know in advance how much it
+will cost to rise it of one level, and it keep you busy instead of
+executing other tasks as observing and studying the incoming comets.
+
+I've played the game with two different
+machine, a Mac and a Linux, and I have seen some differences in the
+two environment: with the Mac I've been able to reach the 4th
+level, while with the Linux one never got after the 2nd.
+I've read on the forum of the course that other students have
+experienced similar differences, somebody should investigate in order
+not to “discriminate” some students because of  their different
+computers.
+
+A way to improve the game would be to
+add at least an other kind of risk, like for example hart-shakes,
+that would push the player to balance the investments for risk
+management on multiple priorities.
+

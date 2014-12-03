@@ -1,0 +1,8 @@
+4112622
+
+The role of risk management in the game was deciding weather to allocate resources to building more infrastructure, protecting them or buying insurance in case of a disaster. This is the same that happens in real life. Countries have a limited budget that they need to decide where to spend do they build hospitals and roads and invest in education or do they protect the infrastructures they already have like creating barriers against floods or buying insurance in case of a disaster. 
+
+I played the game more than once  , the first time I started to develop just a pair of ‘’houses’’ while It is true that they reached the higher level faster I only managed to get to level two. On the second time I decided to spread the development homogeneously so building in all of the spaces and only moving to the next level of development once all of the houses had reached them. I do not know if the game actually contemplated this but it is true that when developing a country inequalities create tension so it is better to try not to leave some areas completely unattended. 
+
+
+Finally, if I were to change some things in a new version of the game I would make evident that the less developed areas (the poorer areas) are more damaged and take longer to go back to normality than wealthier areas when a disaster happens. I think this would make the game a bit more realistic.

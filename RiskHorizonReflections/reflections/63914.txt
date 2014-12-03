@@ -1,0 +1,67 @@
+63914
+
+What
+was the role of risk management in the game? What choices did you make and what
+trade-offs did you confront in terms of knowledge, protection, and insurance?
+In what ways did preparation for risk affect development (immediately, or after
+some time)?
+
+ 
+
+The role of risk management in the game was to use different
+strategies to mitigate risk. The user had various options to manage risk he/she
+could take insurance or can do more research about future outcomes.
+I chose protection initially raising 2-3 bars at each level and maintaining it,
+at higher stages level 4 and above I chose insurance also because the stakes
+were high and cost of repair was much greater.
+Preparation for risk affected in many ways. I had to manage raising protection
+at each level while also balancing the green indicator to ensure that I
+complete the level in time and also have sufficient protection from comets.
+I took protection somewhere in between the level so that the green indicator
+was at least half full and as the assets for given level rose I raised the
+protection accordingly.
+
+ 
+
+2
+
+If you
+played the game only once, what would you do differently if you were to play it
+again? Alternatively, if you played the game more than once, what did you do
+differently after the first time? What were the main things you learned from
+the game?I played the game over and over again till I reached level 5, 
+If I were to play it again after playing just once I will try to use a
+different strategy than I used in previous attempt so I get an idea which strategy
+is better.
+
+If I had played the game more than once I would have tried to
+use different combination of strategies and in different permutation till I
+reach an optimal solution for a given level.
+I have learned the importance of risk pooling from this game, ie at a given
+level I used to have different types of pods at different stages all of them
+had different rate of money return, thus money earned from one pod can be used
+to upgrade a smaller pod in meantime. Also in the event of comet strike repair
+of small pods was quick and cheap that gave some juice to the green indicator
+while other pods where repaired.
+I also learned about diversification of assets and using different strategies
+for different levels.
+
+3
+
+The
+game captures, in a simplified way, some aspects of risk management. Imagine
+you are tasked with developing a new version of the game, which allows you to
+change or add one simple thing. What change would you propose to better
+represent the risk management choices that matter in the place you live?
+
+ 
+
+If am given a chance
+to enhance the game I would like to add a feature of immediate protection
+because when I used Research strategy even though I was aware of chance of
+strike and severity of impact I could do nothing about it in 5 seconds,
+Protection was to slow and insurance required a huge sum of money.
+at least add a variable insurance model, wherein even if a user has $20 he can
+but some portion of insurance and does not have to wait till his money reaches
+$50.
+And please turn off or change the background music its annoying after sometime.

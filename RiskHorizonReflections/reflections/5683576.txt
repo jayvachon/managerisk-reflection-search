@@ -1,0 +1,58 @@
+5683576
+
+Role of risk
+management
+
+I have to admit the game was very interesting, and
+challenging. To me, it provided an appropriate (though simplified) theatre to
+experiment with investments in managing risk versus encouraging growth. It provided
+an interesting application of the key tools/processes discussed in the report
+
+Knowledge: increased research about the comet provided
+a greater understanding of severity and likelihood of hittingProtection: investing in basic protection helped
+weather the negative effects of comet strikes, even in the absence of insuranceInsurance: provided a significant buffer against
+the costs of risk, and allowed greater redirection of funds towards growth of
+pods. On occasion, I chose to take a small amount of damage since I knew I had
+insurance coverageCoping: The implementation of community connections
+as a means of resisting the impact of risk was quite interesting, especially as
+it was directly linked to knowledge/researchI eventually found that having a reasonable amount of insurance
+or risk protection helped, but putting too much into it severely hampered my
+ability to invest in building pods in the early part of the game. On the other
+hand, having some early risk protection (50% insurance) ensured enough funds regeneration
+to invest in pods, with the occasional break from investing to manage
+individual risk events.
+
+ 
+
+Repeated plays
+
+The biggest change in strategy between my first attempt and
+later ones were the extent and timing of risk protection. I am, in general,
+risk averse. As a result, I initially spent heavily on protecting the downside
+of risks through building protection and buying insurance; the idea being that
+this would leave me more risk-free to pursue growth. This was clearly not the
+most balanced use of resources, and was something I changed in later
+iterations.
+
+ 
+
+Refining the game
+
+I would introduce two changes to future versions of this
+game.
+
+Predictability of impact: In real life, while
+research does help predict the severity of risks such as natural disasters and prepare
+the community to cope with it, the actual impact can often be very different.
+For example, Hurricane Sandy’s direction and scale of impact were different
+from what US weather monitors predicted (Source: http://www.nhc.noaa.gov/archive/2012/al18/al182012.discus.012.shtml?).
+I would therefore include a randomized change in the severity of the impact in
+the game. While this might seem unfair to some gamers, a carefully bound
+randomization (say, +/- 20% of declared severity at 100% research) will be realisticAlternate risk: Risk management is often a
+trade-off between different types of risk. For example, a country might have to
+allocate spending between spending on healthcare and food distribution. Both
+are important issues and pose high risk to citizens, but resources are limited.
+A country might also have to make decisions between fiscally prudent action and
+social obligations. Introducing an additional risk (say, a potential monetary
+collapse) that does not affect the pods but affects the amount of money the
+player has would make it even more challenging

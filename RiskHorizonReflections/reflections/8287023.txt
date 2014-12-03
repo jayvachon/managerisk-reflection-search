@@ -1,0 +1,25 @@
+8287023
+
+Risk management is quite important in this game. You need to balance
+your research, protection and insurance. Research plays an important role which
+helps you to access the severity and the chance that the comets hit and damage
+your pods, then you will decide whether you need to either increase the
+protection level or buy insurance to mitigate the risks. I normally chose to increase
+the protection level first before taking the insurance. I did not pay much attention to research work in my first time play so I
+wasted the resources of protection and insurance for the comets which had only
+small chance of hitting my pods or the severity level is very low. From the second
+time, I pay more attention to research work and balance the protection level
+with the severity and chance of hitting. What I learnt from this game is to do
+research, have better understanding of the risk so that we can better mitigate those
+risks.  I also need to consider the factors that assist me in the risk management process, such as: cost, timeliness and preparation for the risks. 
+
+If I am tasked to develop a new version of this game, I
+would add the function that allows the capacity buidling function
+for risk management. This means the capacity of the community to confront the risk and to
+mitigate the risks. The community also need to understand about the risks and train
+to prepare to take risk and learn how to mitigate the risks. For example, for a community who is living near the coastal area, it is not a good idea just build the infrastructre, because the infrastructure will be washed out by a tsunami, the fund should be spent on a soft side of risk management, such as: better forecasting system, better training for the community how to confront with the risks and how to better mitigate the risks when it happen. 
+
+
+
+
+

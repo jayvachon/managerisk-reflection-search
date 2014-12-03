@@ -1,0 +1,45 @@
+7779409
+
+In the game "Risk
+Horizon", risk management is the key principle of the game in that you
+need to identify and plan for risk, mitigate the long-term impact of the risk,
+and acknowledge that there is a balance in mitigation of risk while embracing opportunities.
+ When looking at how to balance knowledge (aka research), protection and
+insurance it was important to recognize that improvements in some areas;
+delayed development, had higher financial costs and took different amounts of
+time.
+
+Protection was gained
+in the game via lifting the entire city – the act of lifting the city reduced
+the amount of damage that any impact could cause, however lifting the city
+prevented any other activity from taking place while the city was actively
+being lifter.  Additionally, an impact
+reduced the level to which the city was lifted even when no damage was
+registered to buildings.
+
+Insurance was
+purchased in the game for various dollar amounts that reduced the cost of
+repair by varied amounts (25%, 50% or 75%). 
+Though the insurance reduced the cost of repairs, it offered no real
+protection from damage from an impact of any size. Additionally the insurance
+protection did not persist between levels and in the game was of limited necessity
+depending on other risk avoidance strategies that were employed.
+
+Research of the comets
+seemed to provide no protection either, however it did provide insight into the
+probability and cost of the risk that could be used to determine a calculated risk
+– ie the cost in damage x the probability of impact. This gained knowledge
+helped to reveal the value of protection and insurance as part of a complete
+risk management plan. 
+After playing the game several times, I
+recognized the value of "protection".  Focusing on avoiding
+damage proved to be more valuable than dealing with risk post-hoc via
+insurance.  Looking at the balance of knowledge, protection and insurance -
+the main thing I learned from the game is that it is necessary to apply an
+appropriate amount of resources in all areas while not neglecting the
+importance of advancing development and avoiding potential for lost
+opportunity.If I were to redesign the game, I would make
+investments made in previous levels persist as the game advances - for example
+insurance purchased in earlier levels would simply need to be upgraded vs
+purchased anew.  Additionally research would be cumulative across all
+comets researched as a global research value.

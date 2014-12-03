@@ -1,0 +1,55 @@
+2933283
+
+The game is a relatively good way of experiencing the concepts explained in class.The cost
+of risk management, both in money (for protection and insurance) and
+time (for research), is well represented. Investments in risk management tend to slow development down, diverting resources
+from the activities with direct return on investment (building and upgrading
+pods) towards activities with no direct monetary gains (protection, insurance...).
+
+However, risk
+management, if correctly implemented, supports development on the long term, by
+protecting resources and reducing losses.
+
+There is a first
+trade-off to be made in terms of resource allocation: what should be allocated
+to development ? What should be invested in risk management?
+
+A second trade-off
+resides in the allocation of resources between the three areas of risk
+management.
+
+The choices are made
+even more difficult by the uncertainty of the threat: insurance, that is to say
+the transfer of resources from good to bad times, is only valuable if bad times
+do come! When the investment in insurance prove "useless" once, I found myself quite reluctant to buy insurance for the next games, fearing that the money spent would be lost.
+
+ 
+
+I played the game 3
+times, and my strategy did evolve significantly. At first, I was
+overly cautious. I invested a lot in protection,  to reduce at its
+minimum the magnitude of the loss, as the probability was impossible to change.
+I lost the game quickly because of a lack of development. I understood that damage could not always be entirely avoided, and that a reasonnable level of risk needed to be accepted in order to develop.On my second attempt,
+I balanced the need for protection and insurance better with the need to develop.
+However, I neglected research and did not adjust my actions to the
+characteristics of the threats, and the resources invested prematurely in
+protection and insurance were lost for development. This was a good example of the importance of knowledge in effective decision making.On my third and final
+attempt, I used research to gain knowledge on the risk and on the possible
+outcomes, and adjusted the timing of my investments. I invested in protection
+and insurance when research indicated they were needed, avoiding to freeze
+resources that could increase development. All in all, I found
+the game emphasized that timing is key in managing risks, and that risks and
+damages should be accepted to a certain extent, but mitigated as much as possible.
+
+ 
+
+If I were to develop a
+new version of the game, I would probably add a feature highlighting opportunities. For example, the meteors could
+contains valuable metals, or the increase in research could make protection
+more efficient. Everysource of risk is also a source of opportunity. If you cannot eliminate
+that source, use it at your advantage !
+
+I live in Hamburg, and
+one of the major risks here is flood. However, the abundance of water is also
+the strength of the city and the key to its development, as one of the biggest
+harbours in Europe and in the world.

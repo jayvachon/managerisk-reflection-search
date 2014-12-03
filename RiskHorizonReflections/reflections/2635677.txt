@@ -1,0 +1,30 @@
+2635677
+
+1- What was the role of risk management in the game? 
+Once the community develops, the care for keeping it intact started. The role of risk management allows keeping the community flourish and putting support network in case of any disaster. There were many type of disaster occurrence some at high impact and some with little impact. 
+The tradeoff between the coverage and protection allows a good risk manager to choose the best possible option. Risk management allows planning and strategizing the long-term future for the newly created community. 
+
+What choices did you make and what trade-offs did you confront in terms of knowledge, protection, and insurance?
+
+The balance between the multiple choices was quite difficult. However, with the information on resources and cash in-hand allows to do the trade-offs. The knowledge on in-coming risk had provided support to protect while raising the ground 40% and give 60% towards insuring the assets. The other option to increase the strength of houses been used as an alternate strategy in risk management.
+
+In what ways did preparation for risk affect development (immediately, or after some time)?
+
+The recovery was swiftly handle accordingly with insurance coverage. The strong structure of the upgraded building enabled to re-build and update the damage impact. The increase frequency of disaster were handle promptly as recovery time was shorten with more resources on ground. The communication networks also contribute due to the closely built housing with-in the community. However using multiple level upgrades near the housing circles also reduced the impact.
+
+2 -If you played the game only once, what would you do differently if you were to play it again? Alternatively, if you played the game more than once, what did you do differently after the first time? What were the main things you learned from the game?
+
+I selected between raising the ground and paying the insurance coverage. The repetitive game playing allowed me to be precise in balancing between both options. Furthermore, investing in upgrading the building infrastructure is also very crucial role to handle disasters. Overall three type of support available during the game and they are categorize as follows:
+
+1-	Pre-disaster approach -Upgrading the building structure and buying the insurance coverage
+2-	During the Incident - raising the ground to higher levels
+3-	Post event recovery – rebuilt and recover losses through insurance payments
+
+I learned that proper planning with a better knowledge of incoming events could provide fruitful future for the community. The awareness and publicity campaign must well planned as people have short memories of the past events. The trade-off between long-term and short-term objectives brought up-front with the community to build consensus. Handling natural disaster requires joint effort from neighbors and external organizations.
+
+3 - The game captures, in a simplified way, some aspects of risk management. Imagine you are tasked with developing a new version of the game, which allows you to change or add one simple thing. What change would you propose to better represent the risk management choices that matter in the place you live?
+
+I will select to show the past trends about the events happened, the dashboard will clearly show the frequency chart along with calculated impact on resources spend. The dashboard approach will be active to send alert and updates to the player. The prediction mechanism will work to generate upcoming events and with recommendation approach to balance between the available support and protection. Timeline dimension will provide strong capability to enforce strategically for the future incidents.
+
+A recommendation dashboard to protect for the future risk will be fun thing to have. Dashboard with multiple gauges and dialer showing temperature, pressures, season of the year.
+

@@ -1,0 +1,53 @@
+915227
+
+The game risk
+horizon is about the city of Alora which is prone to being hit by river waves
+created due to comets which careen into the water on the shores of the city. As
+a Luminator, our job was to develop the city and in the process manage the risk
+of hindered development of the city due to it being hit by ocean waves. The
+game very interestingly combined the different aspects of risk management i.e.
+Research and Knowledge, Protection and Insurance in order to help understand
+the concepts even better. It is very much a simulation of a real world situation
+where the risk is that comets will hit the ocean and destroy the city. So the
+citizens need to plan and prepare for the risk, protect themselves before the
+situation strikes and make sure that they are financially able to cope up with
+the losses if such a situation comes up. There is some amount of wealth
+allocated for development of the city which is directly a factor of time; hence
+the more time we have the more wealth is generated to be spent for the city’s
+development. Also, in order to protect the city from the waves, the city
+platform can be raised up to certain height, however this requires resources. There
+is a research lab which investigates the probability and severity with which a
+comet can hit the waters. However since the research takes time, a decision
+needs to be made if by we need to protect the city by investing our resources
+in raising the city platform or by buying insurance. So, a lot of trade off had
+to be made into making this decision. For example, a low severity and low probability
+event could be mitigated by raising the platform but for a high severity and
+high probability event, a combination of buying insurance and raising the
+platform will be a more effective strategy in terms of utilization of minimum
+resources. But the preparation of risk management did come at a cost, i.e.
+development was stalled because the resource i.e. both time and money had to be
+diverted towards it. But the cost benefit of investing in managing the risks proved
+to be of immense value.
+
+The game
+teaches the central idea of how risk management is essential for development by
+introducing a real world problem simulated in form of an interesting game. If I
+would play the game again then I would make sure that development is taken on
+at a fast rate initially when the risks are very less and be prepared for the
+worst case. For example, there must be some wealth which should be kept aside
+in case of unforeseen circumstances like sudden appearance of a high severity
+comet. Also, a combination of protection and insurance should be used in a more
+efficient way so as to minimise the utilization of resources. Also, research
+should be done more comprehensively to determine the actual risk that is being
+faced currently or in the future. One of key lessons that I took away was how
+important it was to manage and prepare for the risk of future damages in a very
+early stage.
+
+If I were
+given a choice to upgrade the game and include some different features then I
+would try to give the user the option to check how resource he actually used
+and the minimum he could have used. I would also give option to customize rules
+based on the number and severity of comets hitting at one particular time.
+Also, I would include features of catastrophe events where rebuilding is not
+possible and people need to relocate. Also the pods destruction level could be
+dependent on its distance from the ocean.

@@ -1,0 +1,19 @@
+529257
+
+The choices trade-off was between the level of development achieved (time),versus research spend on
+comet attacks in order to undestand patterns if any, insurance to reduce repair costs and protection to reduce the impact of shocks in amount spent in dollars. 
+I did not reach a level of success in the game to utilize the community connection advantage.
+
+In terms of development, I tried to vary the number of pods developed in multiple tries, and did not really see a difference to the success rate.in the alloted time. I tried the option of developing only 2 pods and upgrading them instead of all possible pods. However I found that in the given time the best I could reach was level 1 of sucess. So obviously it was not the best method, although cost was lower.
+
+Higher insurance coverage did reduce the damage repair costs. I tried all 3 levels and found that optimization is possible once the comet hit pattern
+is better understood and coverage is managed accordingly.
+
+The most impact from damage was provided by the protection %. However this was the most expensive as well. In some of the tries, I ran out of wealth resources using too much protection.
+Progressively,the reserach on the comets, helped to vary the protection percent based on the chance of hit. This freed up resources for devloping the pods. I was also able to better utilize the level of insurance and reduce the repair cost.
+
+In summary, juggling between these multiple parameters to optimize development requires many iterations to gain knowledge. A balance between resources available and their optimum usage helps to increase the success rate.
+
+If I had to redesign the game, I would enable an option to vary the number of pods to be developed. This will enable greater development of each
+individual pod in the alloted time while saving resources for insurance and protection.
+ 

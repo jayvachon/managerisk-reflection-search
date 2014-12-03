@@ -1,0 +1,37 @@
+2919366
+
+The game
+shows how a decision maker in risk management has to perform in a very simple
+way.  You can learn how your decisions affects
+the development. Sometimes you take decisions that are better than others at
+the time you make them but in the long run they perform poor than others. In
+explanation, you can spend money in the insurance and protection in a very
+early stage, the risk will have a very low impact or none, but your development
+will grow less and in the long run you are not going to have develop enough. Making
+decisions always comes with a trade-off, you have to aim for the perfect.
+
+At the first
+time I played the game, I was playing very conservative. I was taking the 75%
+insurance as soon as possible. Also was maxing protection more than I should.
+My development was suffering because of this and at the end I was not able to
+make it in the final levels. I have learnt that playing very conservative,
+maxing protection and insurance from the very beginning, comes with a trade-off,
+poor investment. But develop my buildings with minimal protection and a low
+insurance was not performing better. At the end I have learnt that you have to
+take enough knowledge to reduce the needed cost of protection and insurance to
+be able to invest more effective.
+
+In the
+current implementation of the game I feel that the community is not very well
+represented. Right now the community support is based on how quick you can click
+at the right area in your screen. I think this is not a good representation. Community
+support not relies on how quick communities can interconnect between them but
+also how strong are the links, how big are this communities, how prepared are
+them for the kind of risk, etc. Definitely, this is something I would change.In relation
+with the changes to represent better the risk management choices that matter in
+the place I live, I think that the current game already represents the different
+aspects of risk management like knowledge, investment, protection and
+mitigation. Is true that I have little knowledge about how risk management is
+performed in my area, but thanks to this course I’m starting to learn a lot
+about it. Then, in the future I might change my mind about this.
+

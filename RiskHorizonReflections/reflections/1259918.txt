@@ -1,0 +1,21 @@
+1259918
+
+The game shows that risk management is dynamic. It is necessary an optimum resource application. Even with a good strategy, time is a very important issue. You can´t focus on a rapid development without taking care mainly of your protection. There was a
+clear trade-off situation between development and protection (competing for
+time) and also between development (either in upgrading or building new plots) and
+insurance. During the investment in protection development freezes, so it is
+necessary to invest in the right time. I´ve chosen for maintaining a high level
+of protection (around 6 bars after level 2), keeping only a 33% level of
+insurance and trying to upgrade the plots and observing the comets all the
+time. After I´ve reached the wealth needed for the next level I started
+investing in protection. The first time I´ve invested in lots of plots right
+from the beginning, 50% of insurance and not much in protection (around 4
+bars). After 2 or 3 times, I´ve started investing more in protection, upgrading
+the plots and ‘researching’ more to get more time for the connections. I´ve
+learned that repair is expensive (both in time and money), research is ‘cheap’
+and development must be smooth.
+
+I´d add a social aspect, giving one more
+investment option (e.g. infrastructure and health) to force the player thinking
+both in internal and external issues. I´d also change the research aspect, it
+should be cumulative to reinforce that education is a long-term investment.

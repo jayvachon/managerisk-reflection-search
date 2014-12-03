@@ -1,0 +1,77 @@
+4949573
+
+In the proposed game, the player has to
+develop a community while being exposed to comets impacts. At the end of the game, the player is given an ID. If the game
+was successful, the player is granted access to the next level, else he is
+invited to restart.
+
+The community level of development is
+displayed using a vertical progression bar and color codes (red to green)  to indicate instantly whether the currently undertaken actions would allow to reach the minimum required development
+level. To develop and have revenues, the player must
+build and upgrade units. These units may be subject to degradations when a
+comets crashes leading to repair costs and affecting the productivity level of
+the community.
+
+1)     
+Role of Risk
+Management
+
+To protect the assets, the player has
+different options: knowledge development (research), protection (preventive
+action with physical levitation of the community) and transfer (insurance with
+3 possible rates)
+
+Knowledge development is performed by
+following a given comet and having its information displayed. It has an influence
+on its impact probability and severity; it also provides more time to react
+after the risk has occurred. However, while research is undertaken on a comet,
+other actions may not be performed and operations are simply going on.
+Knowledge is a long process with no immediate consequences besides the
+initial guess of characteristics of a given comet. On the long run, probability
+and severity are reduced while available response time is increasing.
+
+Protection is developed progressively. It is quite time consuming and allows protecting
+from consequences of some impacts.
+Investments for protection do not have an immediate perceptible consequence;
+many small investments must be performed to reach an upper level of protection.
+However, once reached, the level is immediately effective. Impacts may have
+consequences on it and further investments may be required on the long run to
+restore a given protection level or improve it.
+
+Insurance is an excellent way to have consequences of an impact supported by a third party (the insurance
+company). Coverage never reaches 100% and costs increase as the game level
+increases. However, a good rate allows having repair costs supported by the
+community drastically reduced. Insurance investment is important and
+immediately effective. On the long run, as the number of impacts and damages
+increases, the invested money is rapidly recovered.
+
+2)     
+Lessons learned
+
+Different attempts were undertaken in
+order to better catch the game rules and to reach at least the third level.
+
+Insurance has been acquired early with
+the highest possible rate in order to take advantage of it as early as possible
+for the entire game.
+
+Buildings have been built and upgraded
+progressively. Upgrade has been privileged over construction because of lower costs and reduced reparation costs in case of
+impacts (fewer buildings leading to less degradation). However, sufficient
+buildings have been implemented in order to ensure a sufficient production.
+
+Research was used first to get an initial
+idea of the probability and severity of an impact for a given comet. Whenever
+necessary (high values), researches were continued, else a second evaluations of
+the values was performed as the comet was approaching. As time invested in
+research was spent, the extra time available to react after an impact could be
+observed, however the consequence of the undertaken actions were and are still
+unclear to me (clicks on the stars clouds that appear).
+
+3)     
+Changes to the game
+
+To be more locally
+relevant, I would suggest considering earthquakes or industrial risks
+(power plants, chemical industry …). Insurance costs should be linked to the
+buildings and costs should be reviewed over time.

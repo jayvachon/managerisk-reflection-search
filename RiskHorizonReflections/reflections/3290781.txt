@@ -1,0 +1,58 @@
+3290781
+
+1
+
+What was the role of risk management in the game? What
+choices did you make and what trade-offs did you confront in terms of
+knowledge, protection, and insurance? In what ways did preparation for risk
+affect development (immediately, or after some time)?
+
+ The
+game was about making a choice of the level or insurance, protection and
+information gathering. In the beginning I was trying to maximise the insurance and
+the protection and paid little attention to the information regarding the probability
+and the impact of the risk, and I could not complete level 3,as insurance just
+minimised the financial impact of destructions but did not reduce their
+occurrence. Then I realised that I should start developing protection and in
+parallel obtain the information, in order to decide on my actions. I used
+insurance in a couple of times when the impact was very high and the
+probability of occurrence more than 40%, and in parallel I tried to increase
+the level of protection with one additional point for risk minimisation. I did
+not take any action for risks with impact less then 3 or risks with medium
+impact and low probability.
+
+ 2
+
+If you played the game only once, what would you do
+differently if you were to play it again? Alternatively, if you played the game
+more than once, what did you do differently after the first time? What were the
+main things you learned from the game?
+
+ As mentioned above I played the game numerous times
+until I managed to reach level 5. In the beginning I was focusing on obtaining
+insurance, the build protection and paid little attention to the information.
+Then I realised that I should start building basic protection and then analyse
+the information before taking any action. In general the primary goal was to
+increase protection in order to deal with the impact of the risk, and add
+insurance in the cases of very high impact. Therefore I learned that
+information is key and we need to find the right balance between protection and
+insurance.
+
+ 3
+
+The game captures, in a simplified way, some aspects
+of risk management. Imagine you are tasked with developing a new version of the
+game, which allows you to change or add one simple thing. What change would you
+propose to better represent the risk management choices that matter in the
+place you live?
+
+ In general the game provides the opportunity to trade
+off between protection, insurance and information. What is not very clear is
+the financial resources increase. There is no rule or at least a clear one on
+how the money available is increased over time and sometimes it seems that they
+are infinite. Living in southern Europe the last 5 years made me realise that
+resources and more particular financial resources are not unlimited. Therefore,
+if I could change something in the game would be the way that resources are
+available and are increased over time.
+
+ 

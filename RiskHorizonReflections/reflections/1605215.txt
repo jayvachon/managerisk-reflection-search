@@ -1,0 +1,41 @@
+1605215
+
+1.      
+This game, a reflection of the course so far,
+shows risk management in the context of development (spending money to build
+pods) and allows the player to decide on the purchase of investing in insurance
+(reducing the price of rebuilding pods AFTER a disaster), protection (against
+the tsunami caused by the comet) and the power of research (that allows you to
+create community connections before the comet hits).  There was a constant trade-off between
+investing in more and more substantial pods (development) and preparing for the
+on-coming comet (disaster).   
+
+2.      
+I first played the game without watching the
+tutorial – and my results were miserable. 
+I could not win the first level because I did not understand the cause
+and effect of my actions.  Once I watched
+the tutorial, I starting watching the colored meter on the left.   The concept that research and knowledge
+could affect the preparedness of the inhabitants – and prevent damage from
+incoming comets – was made clearer by this game.  
+
+3.      
+If I were to design a Risk Management game, I
+would start with a real-world case study from a significantly-improved disaster
+location such as the Bangladesh typhoon preparedness (1970 to 2007) or the food
+insecurity program in Ethiopia (1999 to 2005). 
+I would allow players to allocate both a federal and local budget across
+several realistic options such as : 
+research (such as a predictive system for the expected disaaster),
+public knowledge (early warning systems and children and adult education),  protection (actions/physical preparations),
+insurance (to pay for damage after the disaster), and set-aside for disaster
+recovery.   After each budget allocation,
+the disaster would occur – incurring some level of damage and cost – and
+another budget would then be allocated in preparation for the next.  To make the situation even more realistic, I
+would have multiple players play the game together as teams so that they would
+have to agree on their allocation of resources before each disaster – requiring
+them to debate various scenarios in an attempt to predict the outcome.  Teams would be required to state their
+strategy and rationale for each round of play. 
+Teams results could be compared to determine who has most effectively
+handled the risk management resource allocations through a series of 6 to 8
+disasters.  

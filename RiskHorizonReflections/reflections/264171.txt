@@ -1,0 +1,40 @@
+264171
+
+Risk management within the game was
+designed around safeguarding a targeted revenue stream, whilst trying to
+protect the assets required to generate the revenue. My initial approach was to
+try to evenly balance between knowledge, protection and insurance, however
+after a several attempts it became apparent that this was not feasible.
+
+As a result of the first few attempts, it
+appeared that knowledge was best applied against the most catastrophic events,
+reflecting that enhanced knowledge of a likely occurrence and subsequent level
+of preparedness allowed adequate time to react to and to cope with the shock,
+thereby reducing the impact to much more manageable levels, in some instances
+even down to zero impact.
+
+Focusing knowledge in this way, allowed me
+to quickly identify and categorise the various levels of risk to be faced in
+the foreseeable future, which subsequently freed up resources to deal with
+“routine” shocks through the use of protection and insurance.
+
+The mechanics of the game clearly
+highlighted to me the importance of using knowledge, protection and insurance as
+a comprehensive toolkit in managing risk, and that to try to use one, or even
+two, without the other would result in failure.
+
+Having identified these issues, I changed
+my approach to then ensure that I provided the highest level of insurance
+allowed, together with the highest level of protection I could afford without
+compromising my ability to meet the financial target, and then focussed
+knowledge collection on the most catastrophic level of events in the
+foreseeable horizon. This allowed me to progress to the higher levels
+consistently on several attempts as I refined the methodology. Unfortunately
+their was a glitch in the simulation, and the game reported a null error on
+level six several times.
+
+The modified approach above allowed me to
+progress development relatively evenly and consistently with minimal impact
+from the inevitable shocks.
+
+The simplicity of the game allowed it to deliver a powerful message and demonstrate the key principles of Risk Management, however given the opportunity to make one change in the game I would introduce a more defined risk vs reward mechanism. Currently the game allows a facility to be built which can then be subsequently upgraded. The cost of each upgrade becomes increasingly expensive. Given the financial target that has to be achieved you have no choice but to upgrade as there is limited space to build basic facilities. In my version of the game, I would provide a large enough playing field that the player could conceivably meet the financial target for at least the first few levels. A level 1 building would of course have restricted income, low resilience against shocks and limited insurance availability which would reflect a traditional income in some regards. If the player then chooses to upgrade, the player would be rewarded with better insurance, exponentially better income and higher resilience allowing faster (and cheaper) recovery after sustaining a loss. This would help demonstrate the individuals ability to contribute towards his/her own protection through managing risk at the personal level. 

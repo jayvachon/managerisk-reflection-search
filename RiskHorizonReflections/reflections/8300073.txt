@@ -1,0 +1,32 @@
+8300073
+
+The game did a good (albeit simplified) attempt at
+representing risk management. You acquired knowledge by studying the meteors
+and also looking at the post disaster effect on protection and made sure that it was not falling too low. You took insurance when you felt the
+disaster would be large enough to warrant it. There was a fine balance between
+preparation and development and you had to make sure not to put in too much of
+your resources in preparation or development would lag behind. I would put
+resources in protection over time by clicking on protection frequently and this helped slow down the impact it had
+on development. Once the development was
+ahead of the goal for the stage, I would alternatively develop and increase my protection making sure that I was adequately prepared for the next stage.
+
+I played the game twice, once reaching failing at level 5
+and the second time completing the game. The main thing I did differently was
+not put any of my resources in insurance and instead just managed my protection
+and development. I would research meteors with larger damage potential and made
+sure my protection was at least up to (or just below) the severity of the
+damage as displayed by my research. I spent a while researching to make sure I
+had adequate time post disaster to ensure no damage was done to my pods. This
+tactic helped me survive without any damage being done and development well
+ahead of schedule in all stages of the game. 
+
+If I were to design the game, I would increase the role
+insurance plays in risk management. I was able to sidestep insurance completely
+in my final attempt and finished the game without using it.  I would program a disaster like terrorism
+which sometimes cannot be predicted and planned for (at least the first time it
+happens.) There are a lot of examples in the modern world where acts of
+terrorism were not predicted at all because they happened in places where they
+have never happened before and consequently caught the country off guard. As terrorism plays a large role in my home country, I feel it would have been an interesting addition to the game. An unpredictable, infrequent disaster on which you would have to spend time planning for but you would never know when it would strike. 
+
+ 
+

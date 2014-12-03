@@ -1,0 +1,5 @@
+740801
+
+The game is easy, but interesting. It was neccessary to balance between development of the pods and saving some money for insurance and repair. One had to assess clearly what was the risk from comets and how to manage this risk. Stating from level 5 it was not so easy to find a compromise between upgrading and insurance. In the first 3 levels I decided not to buy expensive insurance and put most of the money in building, but afterwards I was forced to change that strategy. The most cost effective preparation was protection construction.
+After the first time I discovered two things: first is that one could upgrade pods more than once, second is that it is not always neccessary to buy insurance, because most of the comets miss the target. The maain thing I\ve learned is that one should think before managing the risk, that is to assess what measures are most cost effective.
+I would propose addding some feature that counts money earned. Because it's important not only to survive, but to maintain a certain level of income in order not to become a bancrupt.

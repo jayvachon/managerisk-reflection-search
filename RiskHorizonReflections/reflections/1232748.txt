@@ -1,0 +1,38 @@
+1232748
+
+This game is about
+finding the right balance between spending resources on development and
+spending resources to protect the development using risk management tools
+provided on the game. There are three way to manage risk  on this game (1) The Power of Research
+(2)The  Power to Protection (3) The Power
+of Insurance. Timing also play a critical part in the game as recourses are accumulated
+with time and development also took time to complete. Power of research and
+Power of protection also took time and resources.At my
+first try, I used all three methods and realized that cost of Insurance
+increase rapidly as I progress to higher levels; however cost of The Power of
+Research and The Power of Protection remain same and low compare to cost of
+insurance.  Maximum insurance coverage
+available is 50% of loss thus this risk management option is may not very
+effective. On my second attempt, I only used The Power of Research and The
+Power of Protection risk management method. It turned out that these two risk
+management methods are far less expensive and able to protect the pods 100% of
+times from any damage caused by meteoroid. By employing these two risk management,
+I won all four levels.  It appear, that
+one could win all four levels just with The Power of Protection; If I were to play
+the game again, I will try the play the game with only The Power of The Protection
+risk management to test my hypothesis. 
+
+
+
+Present
+version of game while capture the essence of risk management, it may be too simplified
+from real life risk management problems. In the present version of game, there
+is only one type of risk (Meteoroids).  In
+real life, almost all the situation has multiple types of risks and managing
+one risk effectively adversely affect management of other risks.  In the current version, only risk management choices
+user makes is that how much of each of risk management tools to use. It would
+be more realistic if game also offers multiple types of risks. I only used  “The Power of Research” and “The  Power to Protection” risk management options
+and able to avoid any losses during my 4 level of game. I believe this is not a
+realistic as in real world no risk management tool offer 100% protection.  I believe that this game could be future
+enhanced by introducing multiple types of risks and making no risk management tool
+offer 100% protection. 

@@ -1,0 +1,37 @@
+7722285
+
+(1./2.) The game Risk Horizon simulates some of the difficulties in balancing community development with preparing for potential  negative shocks through risk-management. In the process, it highlights the importance of finding a sustainable equilibrium of
+risk management measures in relation internal conditions of a community and the external environment it is confronted with. As such, it provided a good learning experience in addition to the course material. It exemplified some of the flaws of one-dimensional 'fixes', and increased my awareness of the (cost-benefit) trade-offs that are to be confronted in sustainable risk management. Additionally, it highlighted the importance of an aspect of risk management that I had not fully taken into account.When I started out the
+game, I had the idea that the best manner to let this digital community flourish was
+to cancel outthe threats stemming from the comets. Fully focussing on 'preparation' would allow me to limit the impact of shocks. In the long run, this would allow me to develop my community. Therefore, I enhanced knowledge
+by researching all the comets, increased protection by raising the land, and
+invested heavily to gain full insurance. However,
+this strategy of cancelling out risk rather than managing it turned out to be prohibitively costly and unsustainable. Continuously  implementing (inefficient) measures in order to avoid sequential shocks depleted my financial means, in turn, I failed to capitalize on opportunities to develop the community.  Subsequent attempts, I tried to find a sustainable and (cost-)efficient approach by
+making some trade-offs. I aimed to limit the cost of risk management measures by: taking the lowest insurance; focussing research on comets of which
+the chance of impact was high; and raising land to correspond with the threat
+levels of comets whilst simultaneously taking in account a feedback
+effect (e.g. the land-lowering effect an impact in relation to the potential effect of subsequent comets).
+This enabled me to free up more money to invest in community
+expansion and development, which, in turn, allowed me to generate more financial means to implement risk management measures. Initially, this strategy seemed effective. However, in the end I only managed to get to level 3 as I had not fully managed to minimize the 'development setbacks' as a result of shock damages. Interestingly
+enough, this pointed me towards the importance of the community linkages (in this case in relation to coping with the effects of a shock). Until then, I had not taken in account this in-game option that emphasises one of collective aspect of risk management. Taking it in account, I managed to reduce damages, which enabled me to further improve the community. This enabled me to reach
+level 4. 
+
+
+
+(3.) If I would have to create
+a version of the game that is more related to the environment I
+live in (the Netherlands), I would focus on Flood Risk management.  The
+Netherlands has a particularly long tradition of  protecting its population and land area from continuing
+threat of sea and rivers floods. This obviously means altering the
+type of shock the digital community in the game is facing. Furthermore, I would
+alter (the operationalization of) some of the risk management components of preparation. To better reflect the national context, acquiring ‘knowledge’ in the game could for instance focus on developing flood
+information, forecasting and warning systems, and new standards of
+flood defence. ‘Protection’ could be operationalized in: managing waterways, water defences; and building houses that
+are better equipped to withstand floods etc. In addition, I would suggest bringing in an element of 'uncertainty', in terms of the effect of global warming on the sea level. 
+
+ 
+
+ 
+
+ 
+

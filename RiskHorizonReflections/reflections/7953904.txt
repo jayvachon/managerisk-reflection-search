@@ -1,0 +1,45 @@
+7953904
+
+The role of
+risk management in the game was to reduce the drawbacks caused by shocks when
+the planet was hit by comets. The idea behind the game required the player to
+pay attention to both its land development while at the same time preparing for
+possible losses through insurance and protection. The concept of risk
+management behind the game meant finding the right balance between investing in
+development, gaining knowledge and paying for protection and insurance. Paying for
+insurance and/or protection involved some drawback in terms of development in
+the short run, but benefits were seen later in the game. At the beginning of
+each level the choice of investing either in development or in preparation for
+risk had to be taken. By investing in development, I was able to lock in bigger
+gains both in money and in development level, but I was uncovered if risks occurred.
+If I chose to prepare for risk, I had to spend my money on insurance and
+protection and hold off on upgrading and building. In the early levels, when
+risks were smaller, a good insurance acquired in the beginning made sure that I
+finished the level, but later on, it became insufficient. 
+
+I played
+the game twice, but managed to reach only level 4 on both tries. I learned that
+decisions have to be made quickly and that a balance between development and
+preparation for risk has to be found. Analyzing the two separately is not
+enough when possible risks are greater, even if it might work in more laid back
+conditions. I also learned that when risks can be greater, both insurance and
+protection are required, especially the optimal use of the two. If I were to
+play the game again I would try to think faster, make decisions quicker, and focus
+more on protection, not just on acquiring an expensive insurance, but I would
+also keep the insurance. In terms of development, if the damages were reduced,
+I think it would be enough to advance to new levels.
+
+As a new
+implementation in the game, I would make available the cost of protection, as
+it is stated for the different types of insurance. In this way, players could
+make the decision in a calculated matter, and not randomly. In terms of
+choosing the right path when pursuing risk management I thing calculating the
+estimated return is important when making choices and in a real environment I think
+there would be time for some calculus when choosing the right balance between development,
+knowledge, protection and insurance. Because the cost of recovering from shocks
+can not be estimated in other way than by looking at past events and history
+never repeats identically, I consider it important to have a clear
+understanding of costs when it comes to preparing for risk. We cannot know the cost of recovering from shocks, but we can keep under control the costs of risk management. Besides that,
+calculating the risk reward of paying for different type of preparation for
+risk comes in handy when adapting a certain risk management path. We need to
+know the short term drawbacks of every strategy and its long term benefits. 

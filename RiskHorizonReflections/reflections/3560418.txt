@@ -1,0 +1,60 @@
+3560418
+
+I think the role of risk management in the game was fairly
+straightforward, as the key to success was balancing the development of the
+community against mitigating the effects of disasters.  Of course, this could be done in three ways: 
+
+Knowledge: Researching comets to learn more
+about the likelihood and potential impact of the coming disaster to better
+prepare accordingly.  It also effectively
+acts as a form of insurance in which the player is transferring their time from
+good situations to bad.Protection: Building up the community’s defenses
+to reduce the impact of disasters after they hit.  
+
+Insurance: Transferring financial resources from
+good times to bad in order to more quickly get the community functioning after
+a disaster has struck.  Essentially, one had to develop the community in order to
+keep the bar moving and win, but the player also had to be prepared for possible
+setbacks by investing resources, which could otherwise go towards development,
+into knowledge, protection, and insurance. 
+Of course, transferring resources towards disaster mitigation negatively
+impacted development in the short-run.  
+
+If I could play the game over again I probably would not do
+it, because there does not seem to be much of a way of actually winning.  The first few times I played through I generally
+tried a mitigation-maximizing strategy, on the assumption that a game about
+risk management would encourage minimizing risks.  However, that did not work, and I figured it
+was probably because risk management is about also seeking, and taking
+advantage of, opportunity.  Therefore, I
+next tried more development-based strategy, which did not do very well
+either.  
+
+Since high-risk, low-risk, and balanced attempts all did not
+work very well, I figured I needed to get smarter about how I balanced my
+risk.  At that point I figured that
+because risk management is generally about transferring resources from good times
+to bad, and because we can transfer both financial and time resources, I needed
+to do a better job of balancing how I distributing my money and time.  Therefore, I figured that since in the early
+game financial resources are relatively scarce, and time resources are
+relatively abundant, I would focus on using my time to mitigate risks by researching
+comets, and focusing my financial resources on development.  As the game went on, and my financial
+resources became more abundant, relative to time, I would focus more of my
+disaster-mitigation efforts on resource-dependent methods, such as insurance
+and protection.  To me this strategy
+seems to best represent real-world risk management and explain why developed
+countries, such as the Netherlands, focus their disaster mitigation efforts on
+resource-dependent strategies, such as building dykes, whereas developing
+countries focus disaster mitigation on time-dependent methods, such as building
+community support.  Of course, in the
+game this strategy did not work either.  
+
+As for improving the game, the biggest aspect that could
+change is just making it a little easier, as there does not seem to be a
+consistently viable strategy of winning. 
+Also, I would change how the insurance system works.  At present, the best strategy with insurance
+is to wait until the last instant before the comet hits before buying it, which
+of course is extraordinarily stupid in the real world, because the point of
+insurance is that people do not know when disaster will strike and the system
+depends on people paying-in during good times. 
+
+

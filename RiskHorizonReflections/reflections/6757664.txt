@@ -1,0 +1,34 @@
+6757664
+
+The risk management in
+the game is about keeping a good balance between the wealth and expenditure.
+Due to limits for resources growth and availability, a good player is
+supposed to spend the money very wisely. While developing the community is the main goal, protecting the pods from the devastating effects of the meteors is essential. Both of these two tasks cost money, time, and attention for the
+player. The player should make calculated moves in terms of building new pod and/
+or developing the existing ones. Keeping the wealth for emergency spending,
+i.e. repairing comes at the price of missing your developmental goal. Also,
+even though spending time on watching the celestial bodies is essential for the
+recovery, it keeps you away from developing the village. This is also true
+about raising the land level. The cost for the research and raising the land
+level were negligible and both activities seemed to be very helpful. However,
+the main drawback is devoting your attention fully to these tasks, keeps you
+away from taking the game to the next stage. The other risk that the player
+need to take is expansion timing. It is best to avoid spending the wealth
+before the strike of a meteor with high hitting probability. In one incident,
+despite the fact that the bar was above the level goal, a late hit, brought the
+development level below the level goal and caused failure, Thus, a deadly hit
+towards the end of stage can be too costly. I think, using the insurance is
+only feasible towards the end of level when a comet with high chance of hit and
+predicted severity. 
+
+The other thing that
+I noticed is that the game levels are not disconnected which makes sense. The
+over-achievements from previous levels as well as the land level are
+transferrable to the following levels. In fact, it seems that completing the
+higher levels without surpassing the earlier levels milestones is unlikely.
+
+I will add a feature
+that expedites the creation of wealth. Aside from and level protection and
+buying insurance, I did not notice any option for increasing your assets. I
+will also make the development cost variable. For example, developing a pod
+next to a more developed pod more expensive and more rewarding.  

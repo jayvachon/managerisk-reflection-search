@@ -1,0 +1,37 @@
+6715673
+
+1.      
+With
+the aim of developing the community, the role of risk management in the game
+was to combine the capacity to prepare in advance for possible shocks (comets
+hitting Alora) and the ability to cope with the effects of them (waves
+affecting the pods). 
+
+Due to limited time and resources, the
+risk manager had to choose between investing in research in order to diminish
+uncertainty, investing in protection in order to be prepared in case of risk
+occurs, or contracting an insurance to make easier the recovery, in terms of
+economic resources.
+
+As proved in the game, preparation
+for risk has a great effect on development. Thanks to the investment in
+research, the risk manager is able to diminish uncertainty on the direction of
+the comets and being able to prepare a response. If the population is protected
+against the risk, that is, the land is elevated, the shock of the comet has a
+lower effect on the buildings. At last, the insurance diminishes the effort needed
+for a quick recovery. 
+
+2.      
+The
+second time I played the game I took more into account the importance of
+knowledge. I discovered it is an important tool to optimize the use of limited
+resources. By knowing the probability of getting hit, the decision between
+investing in protection or investing in new development/buildings can be made
+according to forecasts.
+
+3.      
+If
+I had the opportunity to add new features to the game, I would introduce the
+role of incentives. This could be done by including more than one agent in the
+game, for example, a lobby of Fishermen who do not want to elevate the land
+level. The Fishermen would be a new agent with new objectives and will also be powerful to influence the Public Agent. The Public Agent would be in charge of risk management and would have to treat with the loby of Fishermen and at the same time seek for development and try to diminish risks of comet shocks. 

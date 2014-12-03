@@ -1,0 +1,59 @@
+8285104
+
+The
+role of risk management in the game is to avert damages caused by comets and to
+prevent development to set backs in the region.
+
+In
+this game there are elements we can control and they are pods built, insurance
+expenses and protection purchase. In addition there are elements we cannot
+control and they include the frequency of the comet, the chance of hit and the
+severity of the comet.
+
+ Before the comets threat appear I used all my resource
+for building and upgrading and when the threat of comets appeared I prepare for
+this risk by analyzing the knowledge I have according to the severity degree,
+the chance of hit and the research that gives us the degree of certainty about
+these information.
+
+Therefore,
+when the research gives us high probability of high severity with high chance
+of hit that means high probability of larger damage I increase the protection
+purchase to high level to minimize the damage caused and make it easier to repair.
+However when the research gives us high probability of low severity and low
+chance of hit that means a low probability of damage I use more resources in
+upgrading than in protection 
+
+In
+addition when the research gives us high probability of low severity with high
+chance of hit that means high probability of smaller damage so I purchase
+insurances to repair this damage.  
+
+ 
+
+As a
+result, preparation for the risk affect development immediately because it alleviate
+the losses and improve the benefits which lead to more building and upgrading.
+
+When
+I repeated the game I focused more on protection and the degree of severity of
+the risk as I increase the protection to high level from the beginning of the
+game when the severity is high.
+
+I
+learn from the game that knowledge about the risk determine the protection
+level needed and mitigate the losses.
+
+ Also use resources simultaneously on
+protection and development and purchase insurances when the damage is not
+large.
+
+If
+my task is to develop a new version of the game I will add the possibility of
+updating knowledge by assessing the new situation after the risk of comets has
+materialized and then implementing necessary and available responses in order
+to cope. 
+
+ 
+
+ 

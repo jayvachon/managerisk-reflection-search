@@ -1,0 +1,53 @@
+7855388
+
+In the game Risk Horizon, the
+player must create an ocean-side settlement by building pods, and from there build
+up the settlement via upgrading. Reaching a certain level of development called
+milestones during a time limit means that the level has been beaten, with six
+levels in total, each increasing in difficulty. Meteors serve as a danger to
+the settlement, with each one having the capacity to crash into the ocean,
+causing harm to the settlement. Each meteor has a meter for severity, chance of
+hit, and research. A meteor may or may not hit, and may or may not cause harm. Methods
+of damage control include research and elevation. By clicking an individual
+meteor, it is “researched” as time progresses, and can only be research one at
+a time, demanding full attention. More research allows the player to connect
+each pod in a random-lit order during a longer time limit after a meteor
+strikes. The more connections made, the more damage is mitigated, with the
+possibility of no damage. Elevation, like researching, will demand all of your
+attention. But unlike researching, which is initiated with a small fee, elevation
+costs money in short, regular intervals. The benefit of elevation is that it
+provides protection from water damage for a series of meteors, while research
+doesn’t. Research, however, provides a chance of no damage, while elevation
+will simply moderate damage broadly. The last element of the game is insurance
+for pod damages, which comes in three plans, and increase in cost each level.
+
+The tutorial provided me the
+knowledge to defend and expand my settlement. I learned that upgrading pods
+increases the rate of development, and that research and elevation provided
+protection to reduce the magnitude of harm from meteor waves, while insurance
+provided a great reduction in cost during time of need, when the civilization
+was crippled. During game play, my settlement was never in harm. However,
+because of my focus on protection and insurance, my settlement didn’t grow in
+time, and so my first few attempts ended in failure.  I was forced to reassess my situation. Risk
+Management in this game meant I had to balance protection with growth, and had
+to take necessary risks for needed expansion. This meant reactive protection,
+which was cost effective, allowing me to allocate funds to growth and expansion.
+The reactive “sword and shield” defense proved to be more successful, allowing
+me to reach level five my fourth and fifth attempt. 
+
+            Considering
+changes comes as a challenge to me. Living in New England, the only risks that
+come to mind are minor civil disputes, financial instability and floods, the
+latter which is well covered already. Perhaps give a choice of what kind of
+building the player wants to build, covering power plant, residential, R and D
+center, education, and bank. At the end of each round, a report is given that
+includes either setback or growths in each sector, with a ranking report,
+ranging from one to twenty, representing the status of the settlement, from
+impoverished to stable and thriving development. Each choice in building and
+upgrade affects that field, and each field interacts with one another, building
+up the settlement and leading to consequences related to protection and
+expansion. Poor maintenance of any of the fields can lead to danger for the
+settlement as a whole. These additions make sense in my case because the risks
+where I live are pretty much as the changes I described. When one of these
+areas are effected, the others react, leaving the population to deal with it,
+prepared or not. Great assignment, had fun. 

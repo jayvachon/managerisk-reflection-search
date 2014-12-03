@@ -1,0 +1,55 @@
+8301159
+
+As all
+games, the Horizon Game has an objective to be achieved, some facilitators to
+do it and also some constrains to make it difficult. In this particular game,
+the objective is to build or construct a village and to make sure that it develops
+successfully. The constrains in the realization are some meteors that impact
+close to the village and create damage. As the meteors can easily be seen
+before their impact, they transform in to potential risks, so managing them is
+the clue of the game success. The game offers to the player some tools to
+confront the risks in terms of knowledge, protection and insurance. The knowledge
+of the meteor  (risk) is exemplified by doing
+research on it, which gives the player not only more knowledge about (in terms
+of the damage that will create or severity and the possibility of impact or
+chance of hit), but also gives to the player more time to make connections once
+the meteor has already hit. Connections reduce the damage that the meteor does
+to the village. In terms of protection, the game provides a tool that protect
+in a long term way the village by rising from the see level. For insurance,
+three types of insurance plans are proposed, each more expensive and with a
+higher coverage than the other. All that tools help to mitigate the damage of
+the meteor, but none of them makes it completely disappear. In terms of
+development, there is no tool that help in a short term way. In turn, buying insurance
+can have some long term benefits for the development, because it provides a
+faster reconstruction of the buildings and also help the development bar to
+return to the level it had before the impact. 
+
+Before
+starting to talk about my game experience, I need to clarify that there is a
+huge difference in the game performance between playing using Google Chrome and
+Firefox. With Chrome, the levels of protection are extremely difficult to rise,
+so any meteor damage is really high. With Firefox instead, the player has the
+chance to increase the protection bar and the damages are easily mitigated,
+also with the help of the research.
+
+After playing
+more than once at this game using Chrome, I have made a clear change in my initial
+strategy: buying the highest insurance. At the first play attempts I only
+bought insurance in case of a really damaging meteor was coming. After some attempts,
+I started to take the insurance ( the highest one) not only if a very damaging
+meteor was coming, but also a medium damaging one. The big learn I have made
+during this activity was that insures can be useful even if the damage is not
+so high, because they help you to recover sooner from a bad event, and that is always
+helpful in terms of the development recovering. 
+
+Using Firefox,
+the need of buying insurance is not that big, because the protection and the
+research are effective. Even thought, having insurance is always helpful in
+case of a risk of great damage. 
+
+Thinking a
+better way to present risk management in the game, I think the Chrome version
+should be taking in consideration. With this version, some risks (meteors) are
+not possibly mitigated by the player, no matter how many research or protection
+he has tried to get. I think this is not a good representation of the reality,
+and does not exemplify the reality. 

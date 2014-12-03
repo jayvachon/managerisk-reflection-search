@@ -1,0 +1,40 @@
+3720932
+
+The purpose
+of the game is simple, yet compelling and put it in a very entertaining way:
+choose between development, knowledge, protection and insurance; hence, make a
+simple risk management plan. There were some obvious trade-off between this
+variables, and some a little bit trickier to find, but overall it required a
+lot of fast clicking in order to get those houses as big as possible in the
+given time.
+
+I noticed
+that there was a negative effect between keeping the protection bar pressed and
+the development meter. I chose to fast click the protection bar and it seems to
+work (it took me two attempts to catch this feature though). Eventually, when a
+comet appeared, I click on it to gain knowledge, but I almost never had time to
+allow the meter to rise above one or two slots. I focused on development,
+clicking the protection bar just until I gain enough money to upgrade a hose.
+And I left just enough money to buy the 50% insurance in the next round almost immediately.
+
+I’d say
+that in general, it’s a good game and a good representation of the balance and
+trade-off between all four variables. However, there are some deeper
+relationships that one must consider in the real-life applications, I believe.Although
+you must allocate infinite resources between research and protection, the
+knowledge acquired from the risk analysis should provide more efficient, thus
+cheaper, ways to protect yourself from that particular risk. For example, while
+preparing a city from a storm surge, studies can be conducted to determine
+where is more efficient to place barriers and drainage systems, instead of
+building huge dikes throughout the whole beach front.The
+longer you kept the protection sidebar pressed, the more expensive the
+protection gets, like it represents an overprice for material and labor peak demand.
+But sometimes higher demand for a particular technology (LED TVs for example)
+can help push the companies’ RD departments to find cheaper manufacture
+options or to lower the cost due to mass production.Insurance
+price surely depends on development, the more you have, the more the insurance
+cost. But its price also depends on how well prepared and informed are you.
+Insurance companies give lower prices to drives of safer cars or better driving
+record. Perhaps to insure a modest house in a high risk area is more expensive
+than to insure a high-value house in a very low risk zone… But I’m just
+guessing.

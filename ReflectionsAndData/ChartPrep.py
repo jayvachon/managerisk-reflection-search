@@ -1,6 +1,7 @@
 
 from __future__ import division
 import json
+import GameDataHandler as gdh
 
 LEVEL_COUNT = 6
 QUINT_SIZE = 5
@@ -66,6 +67,23 @@ def crosscheck_quints_pq(key1, max_value, key2):
 		crosschecked_quints.append(rank_match_counts_per_quint_pq(key1, v+1, key2))
 	return crosschecked_quints
 
+# so like for example, this would return the average research time in level 1 of players whose highest level was 1
+def get_average_attribute_per_quintile(level, attribute, key, rank):
+	value = 0
+	count = 0
+	for qp in qprofiles:
+		if is_profile_in_quintile(qp, key, rank):
+			v = gdh.get_level_average_attribute(level, attribute, qp['ip'])
+			if v != 'n/a':
+				value += v
+				count += 1
+	if count == 0:
+		return 'n/a'
+	return value/count
+
+def is_profile_in_quintile(qprofile, key, rank):
+	return qprofile[key] == str(rank)
+
 use_matches = False
 if use_matches == False:
 	qprofiles_filename = 'json/quintile-profiles-all.json'
@@ -82,8 +100,17 @@ print "loading raw profiles"
 profiles_json = json.load(open(profiles_filename))
 profiles = profiles_json['profiles']
 
-# print crosscheck_quints('highest_level', 'games_played')
+# print "loading all game data"
+# data = json.load(open('../RiskHorizonData/json_parser/data/risk_horizon.json'))
 
-# print player_has_match_pq(profiles[0], 'highest_level', 6, 'games_played', 3)
 print "crosschecking"
-print crosscheck_quints_pq('highest_level', 6, 'minutes_played')
+# print crosscheck_quints_pq('highest_level', 6, 'research_time_level0')
+# print crosscheck_quints('research_time_level0', 'highest_level')
+
+# print gdh.get_level_average_attribute(1, 'research time', profiles[0]['ip'])
+
+for level in range(LEVEL_COUNT):
+	print "level" + str(level)
+	for q in range(QUINT_SIZE):
+		print get_average_attribute_per_quintile(level+1, 'protection end percent', 'highest_level', q+1)
+

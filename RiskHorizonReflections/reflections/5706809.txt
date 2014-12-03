@@ -1,0 +1,111 @@
+5706809
+
+Answer 1:Risk managementGoal: sustainable development rate Risk ChainShocks – cometsExternal environment
+– AloraInternal conditions
+- time and cash constraint, managing protection, insurance and researchOutcome - development
+barThe previous stocks
+affect protection and skill to manage them so feedback loop is there.Preparation means
+efforts before the shocks.Knowledge means
+research which gives higher time to build community support. Protection means increasing the height.
+Protection mitigates impairment in growth after shocks. Insurance is to take cover. Coping involves
+efforts after the shocks have occurred. This may involve building community
+support, as the risk is systematic and repairing the damaged pods.Obstacles: only
+resource constraint. To overcome the
+obstacles: use community support in coping mechanism and manage cash and
+time. Knowledge, Protection
+and Insurance -- Choice and trade offDefer the insurance as far as I can to improve liquidity or
+use money in some productive work. Insurance can be purchased immediately. But
+I make sure that before any comet hit, I have insurance.For knowledge and protection there is a real trade off. Because either one can be improved at a time. Both
+must to be managed and it’s a challenge.  Effects on growthThough protection slowdown growth and costs more than
+knowledge it’s important because it will reduce impairment significantly after
+comet hit. Knowledge doesn't slowdown the development rate and less costly. But
+if damage occurs it will be huge damage without protection and development will
+suffer.Answer 2:I have first defined variables
+after my first attempt. Cash, Comets: Severity, Chances of hit, Research, Pods: Upgrades,
+Development bar, Protection, Insurance: Cover, Community support. Leanings:Upgrade pods with either protection or research activity to
+make efficient use of time, as they can be parallel.Defer insurance as it will improve liquidity, but take
+before first hit.At the end of stage keep sufficient cash to meet immediate expense
+like insurance in the next level. Sufficient protection and research is more preferable than
+just upgrading pods to have sustainable growth.Manage cash at proper level. Excess cash is of no use.Observe development bar Green increase protection or researchYellow increase pods or upgrade themRed danger, repairPrioritize comets based on the severity, chances of hit and
+speed.  Answer 3:Changes in gameParallel protection and researchBecause we need both and due to their serialized nature it’s
+difficult to manage time constraint. In reality we can do both the things like gaining the knowledge and improve protection. Managing cash is a real world constraint but having cash means resources it should be allowed to have both research and protection simultaneously.Restart Policy
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+After game over, give choice to start from that level or beginning. 

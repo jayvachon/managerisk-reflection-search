@@ -1,0 +1,45 @@
+7298255
+
+The game offers the ability to use the three levers of Risk
+management with Protection, Insurance and Knowledge as well as tool to improve
+the coping phase.
+
+Insurance can be purchased with different levels of coverage
+and is a potent way to reduce impact of unavoidable natural shocks. The
+substantial reduction in cost of repairs on the pods or villages after the
+occurrence of a comet landing makes is a very attractive investment eventhough
+at the onset of the game a player’s first reflex might be to limit this investment
+because of the limited amount of capital available. 
+
+Protection can be built by upgrading all villages to be more
+water resistent in their construction. The direct impact of these upgrades of
+buildings is difficult to evaluate in case of a comet landing but this
+definitely contributes with the number of pods to the speed with which the
+wealth of the community accumulates in the game. 
+
+Finally Knowledge in the form of understanding the
+probability of impact and evaluating severity of comet landings allows to cope
+better with the ex post consequences of a shock by increasing the ability to
+share ressources with other pods so that the coping phase is easier and the longterm
+consequences of shock on development of civilization are limited.
+
+Upon trying the game for the second time I realized that
+strong focus on mitigating the consequences of comet landing had a major impact
+on sustaining the achieved growth levels and was key to go to next level –
+investing time in Knowledge development in the form of observation and
+understanding of the characteristics of the comet provided a practically no
+cost improvement of the coping phase making it a very worthwile investment in
+the game.
+
+ 
+
+If given the opportunity  to change one characteristic of the game I would
+include in the script different types of upgrades that one can build in the pods  reflecting different types of specialization
+and allowing for a more diversified game. Adding for instance an upgrade
+allowing to build a « university » specialization, a "Natural disaster
+management center" or in another one a gold mine exploitation.  This would certainly give
+very different path of development in the game and add to the number of
+potential of pitfalls in which one can fall. One could follow a path of fast
+growth which is unsustainable in case of disaster or opt for a slower growth
+but a higher chance of sustainability by committing ressources to risk
+management and disaster relief preparedness.
