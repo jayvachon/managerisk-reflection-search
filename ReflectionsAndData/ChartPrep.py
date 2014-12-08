@@ -84,6 +84,65 @@ def get_average_attribute_per_quintile(level, attribute, key, rank):
 def is_profile_in_quintile(qprofile, key, rank):
 	return qprofile[key] == str(rank)
 
+def print_protection():
+	"""
+	for level in range(LEVEL_COUNT):
+		print "level" + str(level)
+		for q in range(QUINT_SIZE):
+			print get_average_attribute_per_quintile(level+1, 'protection end percent', 'highest_level', q+1)
+	"""
+	avg_protection = []
+
+	for highest_level in range(LEVEL_COUNT):
+		total_protection = 0
+		profile_count = 0
+		for p in profiles:
+			if p['highest_level'] != highest_level+1:
+				continue
+			for level in range(LEVEL_COUNT):
+				val = gdh.get_level_average_attribute(level+1, "protection end percent", p['ip'])
+				if val != 'n/a':
+					total_protection += val
+					profile_count += 1
+		if profile_count == 0:
+			avg_protection.append(0)
+		else:
+			avg_protection.append(total_protection / profile_count)
+
+	print avg_protection
+
+def print_research():
+	"""
+	for level in range(LEVEL_COUNT):
+		print "level" + str(level)
+		for q in range(QUINT_SIZE):
+			print get_average_attribute_per_quintile(level+1, 'research time', 'highest_level', q+1)
+	"""
+	avg_research = []
+
+	for highest_level in range(LEVEL_COUNT):
+		total_research = 0
+		profile_count = 0
+		for p in profiles:
+			if p['highest_level'] != highest_level+1:
+				continue
+			for level in range(LEVEL_COUNT):
+				val = gdh.get_level_average_attribute(level+1, "research time", p['ip'])
+				if val != 'n/a':
+					total_research += val
+					profile_count += 1
+		if profile_count == 0:
+			avg_research.append(0)
+		else:
+			avg_research.append(total_research / profile_count)
+
+	print avg_research
+
+def print_insurance():
+	for i in range(LEVEL_COUNT):
+		print "level " + str(i) + ":"
+		print gdh.get_level_total_insurance(i+1)
+
 use_matches = False
 if use_matches == False:
 	qprofiles_filename = 'json/quintile-profiles-all.json'
@@ -104,13 +163,6 @@ profiles = profiles_json['profiles']
 # data = json.load(open('../RiskHorizonData/json_parser/data/risk_horizon.json'))
 
 print "crosschecking"
-# print crosscheck_quints_pq('highest_level', 6, 'research_time_level0')
-# print crosscheck_quints('research_time_level0', 'highest_level')
 
-# print gdh.get_level_average_attribute(1, 'research time', profiles[0]['ip'])
-
-for level in range(LEVEL_COUNT):
-	print "level" + str(level)
-	for q in range(QUINT_SIZE):
-		print get_average_attribute_per_quintile(level+1, 'protection end percent', 'highest_level', q+1)
+print_protection()
 

@@ -24,20 +24,25 @@ def get_levels_average_attribute(attribute, ip='n/a'):
 		attributes.append(get_level_average_attribute(i+1, attribute, ip))
 	return attributes
 
+def get_level_total_insurance(level_number, ip='n/a'):
+
+	total_insurances = [0,0,0,0,0,0,0,0]
+	levels = get_levels(ip, level_number)
+	for level in levels:
+		insurances = level['insurances']
+		plans = []
+		for plan in insurances:
+			plans.append(1 if plan else 0)
+		for i in range(len(insurance_types)):
+			if plans == insurance_types[i]:
+				total_insurances[i] += 1
+
+	return total_insurances
+
 def get_level_average_insurance(level_number, ip='n/a'):
 	
 	total_insurances = [0,0,0,0,0,0,0,0]
 	average_insurances = [0,0,0,0,0,0,0,0]
-
-	insurance_types = []
-	insurance_types.append([0,0,0])
-	insurance_types.append([1,0,0])
-	insurance_types.append([0,1,0])
-	insurance_types.append([0,0,1])
-	insurance_types.append([1,1,0])
-	insurance_types.append([1,0,1])
-	insurance_types.append([0,1,1])
-	insurance_types.append([1,1,1])
 
 	levels = get_levels(ip, level_number)
 	level_count = len(levels)
@@ -194,6 +199,16 @@ def get_time_played_from_ip(ip):
 		for l in levels:
 			time += level_duration
 	return time
+
+insurance_types = []
+insurance_types.append([0,0,0]) # nil
+insurance_types.append([1,0,0])	# A
+insurance_types.append([0,1,0])	# B
+insurance_types.append([0,0,1])	# C
+insurance_types.append([1,1,0])	# AB
+insurance_types.append([1,0,1])	# AC
+insurance_types.append([0,1,1])	# BC
+insurance_types.append([1,1,1])	# ABC
 
 data_file = open('../RiskHorizonData/json_parser/data/risk_horizon.json')
 _data = json.load(data_file)
